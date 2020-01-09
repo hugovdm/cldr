@@ -98,10 +98,19 @@
 //supplementalData/measurementData/paperSize[@type="A4"][@territories="(%W)"] ; /measurementData/$1/PaperSize:intvector ; values=297 210
 //supplementalData/measurementData/paperSize[@type="US-Letter"][@territories="(%W)"] ; /measurementData/$1/PaperSize:intvector ; values=279 216
 
-//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"][@scope="small"]/unitPreference[@regions="(%A)"][@alt="informal"] ; /unitPreferenceData/$3/$1-$2-small-informal
-//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"][@scope="small"]/unitPreference[@regions="(%A)"] ; /unitPreferenceData/$3/$1-$2-small
-//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"]/unitPreference[@regions="(%A)"][@alt="informal"] ; /unitPreferenceData/$3/$1-$2-informal
-//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"]/unitPreference[@regions="(%A)"] ; /unitPreferenceData/$3/$1-$2
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"][@scope="small"]/unitPreference[@regions="(%A)"][@unit="(%A)"][@alt="informal"] ; /unitPreferenceData/$3/$1-$2-small-informal ; values=$4
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"][@scope="small"]/unitPreference[@regions="(%A)"][@unit="(%A)"] ; /unitPreferenceData/$3/$1-$2-small ; values=$4
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"][@scope="small"]/unitPreference[@regions="(%A)"][@unit="(%A)"][@geq="(%A)"] ; /unitPreferenceData/$3/$1-$2-small ; values=$4
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"]/unitPreference[@regions="(%A)"][@unit="(%A)"][@alt="informal"] ; /unitPreferenceData/$3/$1-$2-informal ; values=$4
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"]/unitPreference[@regions="(%A)"][@unit="(%A)"] ; /unitPreferenceData/$3/$1-$2 ; values=$4
+# TODO: make multiple values work correctly for both geq and skeleton.
+# TODO: support simultaneous geq and skeleton.
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"]/unitPreference[@regions="(%A)"][@unit="(%A)"][@geq="(%A)"] ; /unitPreferenceData/$3/$1-$2 ; values=$4 $5
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"][@usage="(%A)"]/unitPreference[@regions="(%A)"][@unit="(%A)"][@skeleton="(%A)"] ; /unitPreferenceData/$3/$1-$2 ; values=$4 $5
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"]/unitPreference[@regions="(%A)"][@unit="(%A)"][@alt="informal"] ; /unitPreferenceData/$2/$1-informal ; values=$3
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"]/unitPreference[@regions="(%A)"][@unit="(%A)"] ; /unitPreferenceData/$2/$1 ; values=$3
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"]/unitPreference[@regions="(%A)"][@unit="(%A)"][@geq="(%A)"] ; /unitPreferenceData/$2/$1 ; values=$3 $4
+//supplementalData/unitPreferenceData/unitPreferences[@category="(%W)"]/unitPreference[@regions="(%A)"][@unit="(%A)"][@skeleton="(%A)"] ; /unitPreferenceData/$2/$1 ; values=$3 $4
 
 //supplementalData/territoryInfo/territory[@type="(%W)"][@gdp="(%N)"][@literacyPercent="(%N)"][@population="(%N)"]/languagePopulation[@type="(%W)"][@writingPercent="(%N)"][@populationPercent="(%N)"][@officialStatus="(%W)"]([@references="%W"])?
     ; /territoryInfo/$1/territoryF:intvector ; values=&exp($2) &exp($3,-2) &exp($4) ; base_xpath=//supplementalData/territoryInfo/territory[@type="$1"]
