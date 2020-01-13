@@ -382,9 +382,10 @@ Except as contained in this notice, the name of a copyright holder shall not be 
 	<!--@MATCH:literal/baromtrc, blood-glucose, food, land-agricult, land-commercl, land-residntl, music-track, person, person-age, person-usage, rainfall, road, road-travel, snowfall, tv-program, vehicle, vehicle-fuel, visiblty, weather, wind-->
 <!ATTLIST unitPreferences scope (small) #IMPLIED >
 
-<!ELEMENT unitPreference ( #PCDATA ) >
+<!ELEMENT unitPreference EMPTY >
 <!ATTLIST unitPreference regions NMTOKENS #REQUIRED >
 	<!--@MATCH:set/validity/region-->
+<!ATTLIST unitPreference unit NMTOKENS #REQUIRED >
 <!ATTLIST unitPreference draft (approved | contributed | provisional | unconfirmed) #IMPLIED >
     <!--@METADATA-->
 <!ATTLIST unitPreference references CDATA #IMPLIED >
