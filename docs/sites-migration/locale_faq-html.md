@@ -1,5 +1,7 @@
 # Unicode Locales and CLDR
 
+[TOC]
+
 #### Q. What are Unicode Locales?
 
 A. The Unicode Locale project provides an XML data format (LDML) for

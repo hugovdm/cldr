@@ -11,6 +11,8 @@ No. Date Rel. Note Data Charts Spec Tickets SVN Tag DTD Diffs **29**
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 29 provides an update to the key building blocks for software
 supporting the world's languages. This data is used by all [major software
 systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) for their software
@@ -39,11 +41,11 @@ The [specification](http://www.unicode.org/reports/tr35/tr35-43/tr35.html) and
 
 ### **Summary of data items**
 
-added items 17.70% deleted items\* 3.26% changed items 2.92% *total items*
-702,794
+> added items 17.70% deleted items\* 3.26% changed items 2.92% *total items*
+> 702,794
 
-*\* Sometimes a changed item appears as a deletion+addition. For details, see
-[Delta Data](http://www.unicode.org/cldr/charts/29/delta/index.html).*
+> *\* Sometimes a changed item appears as a deletion+addition. For details, see
+> [Delta Data](http://www.unicode.org/cldr/charts/29/delta/index.html).*
 
 ## Structural additions and changes
 
@@ -131,14 +133,16 @@ added items 17.70% deleted items\* 3.26% changed items 2.92% *total items*
 The following shows the additional coverage in CLDR 28; it will be updated soon
 for CLDR 29.
 
-document.getElementById('form618916791').submit();
+<iframe src="javascript:void(0);" width="800" height="450" allow="fullscreen"
+/>document.getElementById('form735344901').submit();
 
 ## Coverage
 
 The following chart shows the coverage levels in CLDR 28; it will be updated
 soon for CLDR 29.
 
-document.getElementById('form1649201425').submit();
+<iframe src="javascript:void(0);" width="800" height="450" allow="fullscreen"
+/>document.getElementById('form444172397').submit();
 
 ## JSON data
 

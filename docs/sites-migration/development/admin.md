@@ -1,5 +1,7 @@
 # CLDR Trac Administration
 
+## [TOC]
+
 ## Moot with Jira
 
 ## ~~CLDR Trac Administration~~

@@ -1,5 +1,7 @@
 # New BCP47 Extension T Fields
 
+[TOC]
+
 ## Proposed Additions
 
 BCP47 language tags can use Extension T for identifying transformed content, or
@@ -225,8 +227,8 @@ since="21.0.2">
     a particular type of machine translation of content. The first subfield in a
     sequence would typically be a 'platform' or vendor designation.*
 
-<type name="und" description="The choice of machine translation is not
-specified." since="21.0.2"/>
+> <type name="und" description="The choice of machine translation is not
+> specified." since="21.0.2"/>
 
     *   *Used when the only information known (or requested) is that the text
         was machine translated.*

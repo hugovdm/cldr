@@ -1,5 +1,7 @@
 # Persian
 
+[TOC]
+
 **Persian style guide and Common issues**
 
 ### Orthography

@@ -1,5 +1,7 @@
 # CLDRModify using Config file
 
+[TOC]
+
 The CLDRModify tool can be used to make changes to a number of files, based on a
 configuration file.
 

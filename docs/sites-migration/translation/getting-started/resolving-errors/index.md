@@ -43,10 +43,10 @@ errors should fix from linguistic side if as much as possible.
     easiest way to resolve these are to explicitly vote for the inherited or
     aliased items. Here is an example, before and after.
 
-### Before
+> > ### Before
 
 ![image](Screen-Shot-2017-08-22-at-12.11.26.png)
 
-### After
+> > ### After
 
 ![image](Screen-Shot-2017-08-22-at-12.15.08.png)

@@ -10,6 +10,8 @@ No. Date Rel. Note Data Charts Spec Delta SVN Tag DTD Diffs 26 2014-09-18
 
 ## Overview
 
+[TOC]
+
 Version 26 added significant new data, with 77 locales now reaching the 100%
 modern coverage level (see [§4 Coverage](cldr-26.md)). Collation data was
 reorganized to use the new import feature, resulting in about 23% less source
@@ -281,7 +283,8 @@ shows the number of languages. The area between lines are the additional data
 added in that release. The axis shows the percentage of modern coverage, as
 measured for the v26 definition.
 
-document.getElementById('form1327344284').submit();
+<iframe src="javascript:void(0);" width="800" height="400" allow="fullscreen"
+/>document.getElementById('form1163463471').submit();
 
 The definition of “modern coverage” increases over time, as new structure and
 requirements are added. This chart is using the most recent definition, but
@@ -304,7 +307,8 @@ requirements are added. Three different coverage levels are shown in the chart,
 from modern down to basic. The light lines show where data is available, but
 unconfirmed.
 
-document.getElementById('form170511797').submit();
+<iframe src="javascript:void(0);" width="800" height="400" allow="fullscreen"
+/>document.getElementById('form1803965769').submit();
 
 ## Charts
 

@@ -87,15 +87,15 @@ coptic                          Coptic Calendar
 ethiopic                        Ethiopic Calendar
 collation parameters:
 
-colStrength
-colAlternate
-colBackwards
-colNormalization
-colCaseLevel
-colCaseFirst,
-colHiraganaQuaternary
-colNumeric
-variableTop
+> colStrength
+> colAlternate
+> colBackwards
+> colNormalization
+> colCaseLevel
+> colCaseFirst,
+> colHiraganaQuaternary
+> colNumeric
+> variableTop
 
 *Associated values as defined in: 5.14.1
 [<collation>](http://www.unicode.org/reports/tr35/#Collation_Element)*

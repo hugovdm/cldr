@@ -28,6 +28,8 @@ Other major features are described below. The table above points to the files
 for this release. For a description of their purpose and format, see the
 [Key](cldr-23.md).
 
+[TOC]
+
 ## Features
 
 The main features include the following (see the Delta link above for a full

@@ -5,7 +5,7 @@
 This page is designed for general consumers of CLDR. Members of the CLDR-TC
 doing development on CLDR itself, or other curious parties, should see [New CLDR
 Developers](../development/new-cldr-developers/index.md) and the [CLDR
-Development](../development/_index.md) pages instead.
+Development](../development/index.md) pages instead.
 
 ## Obtaining CLDR Tools
 
@@ -25,9 +25,7 @@ JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) version
 ## Building
 
 ```none
-
 ant -f tools/java/build.xml jar
-
 ```
 
 This will build tools/java/**cldr.jar**
@@ -40,9 +38,7 @@ This will build tools/java/**cldr.jar**
     print out a list of installed tools.
 
 ```none
-
 java -jar tools/java/cldr.jar
-
 ```
 
 *   Adding the `-l `option will list otherwise-undocumented or hidden tools.
@@ -53,13 +49,11 @@ java -jar tools/java/cldr.jar
     "cldr.jar", followed by any other arguments or options.
     The following two command lines are identical:
 
-```none
+<pre><code>java -jar tools/java/cldr.jar <b>validate</b>   <i>path/to/somefile.xml</i>
+</code></pre>
 
-java -jar tools/java/cldr.jar validate   path/to/somefile.xml
-
-java -jar tools/java/cldr.jar org.unicode.cldr.util.XMLValidator   path/to/somefile.xml
-
-```
+<pre><code>java -jar tools/java/cldr.jar <b>org.unicode.cldr.util.XMLValidator</b>   <i>path/to/somefile.xml</i>
+</code></pre>
 
 ### Tool environment settings
 
@@ -67,19 +61,15 @@ java -jar tools/java/cldr.jar org.unicode.cldr.util.XMLValidator   path/to/some
     accomplished by setting the `CLDR_DIR` variable. For example, if you have
     your CLDR data in `/somewhere/cldr` you might call a tool this way:
 
-```none
-
-java -DCLDR_DIR=/somewhere/cldr -jar tools/java/cldr.jar ...
-
-```
+<pre><code>java <b>-DCLDR_DIR=/somewhere/cldr</b> -jar tools/java/cldr.jar ...
+</code></pre>
 
 *   If you run out of memory (not that it could happen with CLDR tools and
     data), you might need to prepend `-Xmx` or other options. See your JDK
     documentation.
 
-```none
--jar tools/java/cldr.jar ...java -Xmx700M -DCLDR_DIR=/somewhere/cldr 
-```
+<pre><code>java <b>-Xmx700M</b> -DCLDR_DIR=/somewhere/cldr-jar tools/java/cldr.jar ...
+</code></pre>
 
 ### Tool Help
 
@@ -90,4 +80,4 @@ java -DCLDR_DIR=/somewhere/cldr -jar tools/java/cldr.jar ...
 
 CLDR has a lot of tools. See the list of subpages below for specific
 documentation. If a tool is not documented here, you might try the [CLDR
-Development Site](../development/_index.md) page or else file a bug.
+Development Site](../development/index.md) page or else file a bug.

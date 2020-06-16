@@ -17,6 +17,8 @@ No. Date Rel. Note Data Charts Spec Delta git tag **DTD Δs** 36.1 2020-03-11
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 36 provides an update to the key building blocks for software
 supporting the world's languages. CLDR data is used by all [major software
 systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) for their software

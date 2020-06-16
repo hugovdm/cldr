@@ -103,7 +103,7 @@ draft="unconfirmed">bhutani</language>
 
 #### A. Data into Survey Tool (after data submission start)
 
-Tell Steven to merge your data into the running Survey Tool.
+> Tell Steven to merge your data into the running Survey Tool.
 
 #### B. New Locale into SVN (anytime)
 

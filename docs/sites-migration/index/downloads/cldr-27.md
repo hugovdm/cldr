@@ -16,6 +16,8 @@ NONE
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 27 has been released, providing an update to the key building
 blocks for software supporting the world's languages. This data is used by all
 [major software systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) for
@@ -225,7 +227,8 @@ is very small.
     are the additional data added in that release.
 *   The vertical axis shows the percentage of modern coverage.
 
-document.getElementById('form959751517').submit();
+<iframe src="javascript:void(0);" width="800" height="450" allow="fullscreen"
+/>document.getElementById('form464388373').submit();
 
 The definition of “modern coverage” increases over time, as new structure and
 requirements are added. This chart is using the most recent definition, but
@@ -260,7 +263,8 @@ The following chart shows the coverage levels for this release.
 The definition of the various levels of coverage increases over time, as new
 structure and requirements are added (see [**Growth**](cldr-27.md)).
 
-document.getElementById('form1486009436').submit();
+<iframe src="javascript:void(0);" width="800" height="450" allow="fullscreen"
+/>document.getElementById('form1379800005').submit();
 
 ## Charts
 

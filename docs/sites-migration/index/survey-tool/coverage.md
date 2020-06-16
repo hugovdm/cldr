@@ -1,5 +1,7 @@
 # Coverage
 
+[TOC]
+
 ## Introduction to Coverage Level
 
 *   For an introduction to coverage level, see the appropriate section in TR#35,

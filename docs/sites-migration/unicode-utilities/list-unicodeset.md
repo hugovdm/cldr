@@ -1,5 +1,7 @@
 # list-unicodeset - Manipulate sets of Unicode characters
 
+[TOC]
+
 UnicodeSets use regular-expression syntax to allow for arbitrary set operations
 (Union, Intersection, Difference) on sets of Unicode characters. The base sets
 can be specified explicitly, such as `[a-m w-z]`, or using a combinations of

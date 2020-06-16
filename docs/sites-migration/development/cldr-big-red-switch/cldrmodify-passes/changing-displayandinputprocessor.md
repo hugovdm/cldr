@@ -1,5 +1,7 @@
 # DisplayAndInputProcessor
 
+[TOC]
+
 There are a few ways to change CLDR data. One of these is
 DisplayAndInputProcessor.java. The advantage of this method is that it will be
 run ***whenever*** users enter data in the Survey Tool — and in the final

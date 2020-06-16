@@ -129,7 +129,7 @@ The exemplar character set for ja appears to be too small.
 Kanji? in JIS X 208), I expected Auxiliary Exemplar Character set to contain the
 rest of
 
-JIS X 0208 (plus JIS X 212 / 213). However, it contains only 5 characters.
+> JIS X 0208 (plus JIS X 212 / 213). However, it contains only 5 characters.
 
 3. It does not contain <U+30F7, U+30FA> ('composed Katakana letters'), U+30FB
 and U+30FC (conjunction and length marks).

@@ -1,5 +1,7 @@
 # CheckHtmlFiles
 
+[TOC]
+
 This tool is used to check the TR35 spec .html files for correctness. See
 [Cleaning up the spec](../cleaning-up-the-spec/index.md).
 
@@ -17,17 +19,17 @@ Input options include:
 The output will be a listing of problems and how to correct them. Sometimes the
 HTML is not clean. In that case, you'll see lines like:
 
-454     Couldn't pop: ul,
-/!doctype\[0\]/html\[2\]/body\[73\]/div\[88\]/ul\[240\]/li\[445\]/ul\[447\]/li\[448\]/ul\[450\]/li\[451\]
+> 454     Couldn't pop: ul,
+> /!doctype\[0\]/html\[2\]/body\[73\]/div\[88\]/ul\[240\]/li\[445\]/ul\[447\]/li\[448\]/ul\[450\]/li\[451\]
 
-9474    Couldn't pop: div,
-/!doctype\[0\]/html\[2\]/body\[73\]/div\[88\]/ul\[240\]/li\[445\]
+> 9474    Couldn't pop: div,
+> /!doctype\[0\]/html\[2\]/body\[73\]/div\[88\]/ul\[240\]/li\[445\]
 
-9476    Couldn't pop: body,
-/!doctype\[0\]/html\[2\]/body\[73\]/div\[88\]/ul\[240\]/li\[445\]
+> 9476    Couldn't pop: body,
+> /!doctype\[0\]/html\[2\]/body\[73\]/div\[88\]/ul\[240\]/li\[445\]
 
-9478    Couldn't pop: html,
-/!doctype\[0\]/html\[2\]/body\[73\]/div\[88\]/ul\[240\]/li\[445\]
+> 9478    Couldn't pop: html,
+> /!doctype\[0\]/html\[2\]/body\[73\]/div\[88\]/ul\[240\]/li\[445\]
 
 That is often due to only one problem (typically missing a closing value like
 </li>) that cascades.

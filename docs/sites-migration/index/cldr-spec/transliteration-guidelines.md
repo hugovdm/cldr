@@ -1,5 +1,7 @@
 # Unicode Transliteration Guidelines
 
+[TOC]
+
 # Introduction
 
 *This document describes guidelines for the creation and use of CLDR
@@ -90,8 +92,8 @@ reversible, but not the other way around. For example, Hangul is reversible, in
 that any Hangul to Latin to                                    Hangul should
 provide the same Hangul as the input. Thus we have the following:
 
-갗                                               →
-gach →                                          갗
+> 갗                                               →
+> gach →                                          갗
 
 However, for completeness, many Latin
 characters have fallbacks. This means that more than one Latin character may map
@@ -99,17 +101,17 @@ to the same                                    Hangul. Thus *from* Latin we
 don't have reversibility, because two
 different Latin source strings round-trip back to the same Latin string.
 
-gach                                            →
-갗 →                                             gach
-gac                                             →
-갗 →                                             gach
+> gach                                            →
+> 갗 →                                             gach
+> gac                                             →
+> 갗 →                                             gach
 
 Transliteration can also be used to convert unfamiliar letters within the same
 script, such as converting Icelandic THORN (þ) to th. These are not typically
 reversible.
 
-*There is an online demo using released CLDR data
-at [ICU Transform Demo](http://demo.icu-project.org/icu-bin/translit).*
+> *There is an online demo using released CLDR data
+> at [ICU Transform Demo](http://demo.icu-project.org/icu-bin/translit).*
 
 ## Variants
 
@@ -133,7 +135,7 @@ different                                   authorities, or even varying across
 time (if the authority for a system changes its recommendation).
 The canonical identifier that CLDR uses for these has the form:
 
-*source-target/variant*
+> *source-target/variant*
 
 The source (and target) can be a language or script, either using the English
 name or a locale code. The variant should specify the authority for the system,
@@ -241,8 +243,8 @@ the Greek character PI SIGMA (πσ) maps to *p's*. This method is recommended
 for all script transliteration methods, although sometimes the character may
 vary:                                      for example, "-" is used in Korean.
 
-**Note:** We've had a recent proposal to consistently use the hyphenation dot
-for this code, thus we'd have πσ → p‧s.
+> **Note:** We've had a recent proposal to consistently use the hyphenation dot
+> for this code, thus we'd have πσ → p‧s.
 
 A second problem is that some characters in a target script are not normally
 found outside of certain contexts. For example, the small Japanese "ya"
@@ -253,9 +255,9 @@ the Unicode transliterations currently use different conventions.
 *   Tilde: "ャ" in isolation is represented as "~ya"
 *   Diacritics: Greek "ς" in isolation is represented as s̱
 
-**Note:** The CLDR committee is considering converging on a common
-representation for                                           this. The advantage
-of a common representation is that it allows for easy filtering.
+> **Note:** The CLDR committee is considering converging on a common
+> representation for                                           this. The
+> advantage of a common representation is that it allows for easy filtering.
 
 For the default script transforms, the goal is to have unambiguous mappings,
 with variants for any common use mappings that are ambiguous (non-reversible).
@@ -452,19 +454,19 @@ Transliteration](http://www.korean.go.kr/06_new/rule/rule06.jsp) regulations
 summary](http://www.korea.net/korea/kor_loca.asp?code=A020303)).
 There is an optional clause 8 variant for reversibility:
 
-"제 8 항 학술 연구 논문 등 특수 분야에서 한글 복원을 전제로 표기할 경우에는 한글 표기를 대상으로 적는다. 이때 글자 대응은
-제2장을 따르되 'ㄱ, ㄷ, ㅂ, ㄹ'은 'g, d, b, l'로만 적는다. 음가 없는 'ㅇ'은 붙임표(-)로 표기하되 어두에서는 생략하는
-것을 원칙으로 한다. 기타 분절의 필요가 있을 때에도 붙임표(-)를 쓴다."
+> "제 8 항 학술 연구 논문 등 특수 분야에서 한글 복원을 전제로 표기할 경우에는 한글 표기를 대상으로 적는다. 이때 글자 대응은
+> 제2장을 따르되 'ㄱ, ㄷ, ㅂ, ㄹ'은 'g, d, b, l'로만 적는다. 음가 없는 'ㅇ'은 붙임표(-)로 표기하되 어두에서는 생략하는
+> 것을 원칙으로 한다. 기타 분절의 필요가 있을 때에도 붙임표(-)를 쓴다."
 
-*translation:* "Clause 8: When it is required to recover the original
-Hangul representation faithfully as in scholarly articles, ' ㄱ, ㄷ, ㅂ, ㄹ' must
-be always romanized as 'g, d, b, l' while the mapping for the rest of the
-letters                                               remains the same as
-specified in clause 2. The placeholder 'ㅇ' at the beginning
-of a syllable should be represented with '-', but should be omitted at the
-beginning                                            of a word. In addition, '-'
-should be used in other cases where a syllable boundary
-needs to be explicitly marked (be disambiguated."
+> *translation:* "Clause 8: When it is required to recover the original
+> Hangul representation faithfully as in scholarly articles, ' ㄱ, ㄷ, ㅂ, ㄹ' must
+> be always romanized as 'g, d, b, l' while the mapping for the rest of the
+> letters                                               remains the same as
+> specified in clause 2. The placeholder 'ㅇ' at the beginning
+> of a syllable should be represented with '-', but should be omitted at the
+> beginning                                            of a word. In addition,
+> '-' should be used in other cases where a syllable boundary
+> needs to be explicitly marked (be disambiguated."
 
 There are a number of cases where this Romanization may be ambiguous, because
 sometimes multiple Latin letters map to a single entity (jamo) in Hangul. This
@@ -500,8 +502,8 @@ multi-character                                        consonants in the case of
 3. For example, in the following cases, the left side
 is unambiguous:
 
-angda = ang-da → 앙다
-apda = ap-da → 앞다
+> angda = ang-da → 앙다
+> apda = ap-da → 앞다
 
 There are a relatively small number of possible ambiguities, listed below using
 "a" as a sample vowel.

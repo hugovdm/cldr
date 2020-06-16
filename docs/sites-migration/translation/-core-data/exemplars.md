@@ -1,5 +1,7 @@
 # Exemplar Characters
 
+## [TOC]
+
 The exemplar character sets contain the commonly used letters for a given modern
 form of a language. These are used for testing and for determining the
 appropriate repertoire of letters for various tasks, like choosing charset

@@ -1,5 +1,7 @@
 # Fixing Errors
 
+[TOC]
+
 I distributed the errors according to what we discussed yesterday.
 
 <https://docs.google.com/spreadsheet/ccc?key=0AqRLrRqNEKv-dGNSbnRLbmpKZHpRX2xhQkJxVXRla3c#gid=0>

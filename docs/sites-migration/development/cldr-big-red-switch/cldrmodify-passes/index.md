@@ -1,5 +1,7 @@
 # CLDRModify Passes
 
+[TOC]
+
 ## Main Process
 
 This section describes how to run the CLDRModify passes for the mechanical

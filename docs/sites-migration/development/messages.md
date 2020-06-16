@@ -1,5 +1,7 @@
 # Messages
 
+[TOC]
+
 Here are messages for different stages of the translation/vetting process, so
 that we can copy and update as necessary. The Red needs updating for each
 release. Each section also has the contents of the News Line for the Survey

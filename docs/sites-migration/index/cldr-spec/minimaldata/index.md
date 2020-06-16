@@ -1,5 +1,7 @@
 # Core Data for New Locales
 
+[TOC]
+
 This document describes the minimal data needed for a new locale. There are two
 kinds of data:
 

@@ -1,5 +1,7 @@
 # Alphabetic Information
 
+[TOC]
+
 ## Ellipsis Patterns
 
 Ellipsis patterns are used in a display when the text is too long to be shown.
@@ -55,7 +57,7 @@ a time separator, such as 13:45).
 Like the Core Data > Alphabetic Information, a change needs to be flagged for
 review, and you should post in the forum why any change is needed.
 
-![image](ST-parselinientdate.JPG)
+> > ![image](ST-parselinientdate.JPG)
 
 ## More Information Character
 
@@ -76,9 +78,9 @@ and turned around.”
 
 *BIDI languages (Arabic, Hebrew,…):*
 
-“Start” means the character that *starts* the quotation, and “end” the one that
-*finishes* it. With most languages, the start quotation will appear on the left,
-while with BIDI languages, it will appear on the right.
+> “Start” means the character that *starts* the quotation, and “end” the one
+> that *finishes* it. With most languages, the start quotation will appear on
+> the left, while with BIDI languages, it will appear on the right.
 
 **Valid Delimiters**
 

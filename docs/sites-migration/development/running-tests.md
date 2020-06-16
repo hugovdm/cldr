@@ -1,5 +1,7 @@
 # Running Tests
 
+[TOC]
+
 You will always need to run tests when you do a check-in.
 
 1.  Preconditions

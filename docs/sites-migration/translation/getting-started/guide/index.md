@@ -8,23 +8,46 @@ and Known Bugs](../../../index/survey-tool/known-bugs.md)**
 
 ---
 
-This page explains the different views used in entering in CLDR data. The exact
-appearance in screenshots may change as the tool is enhanced over time.
+[TOC]
 
-Please read the home page of the [Translation
-Guidelines](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsites.google.com%2Fsite%2Fcldr%2Ftranslation&data=02%7C01%7Ckristil%40microsoft.com%7C4baf9663933d4ef810b108d4997c81bb%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636302207402581433&sdata=VSRRxtOE1hEPjUZF65DgQdriuhhxYQvPGzVedjvYoY8%3D&reserved=0)
-before starting your data contribution.
+The Survey tool is a web based tool for collecting CLDR data and includes
+various features that the contributors (vetters) should know before getting
+started.
+Note that the exact appearance in screenshots may change as the tool is enhanced
+over time and base on your vetter level.
 
-If you experience a **Loading...** problem with the Survey Tool, try clearing
-your browser cache. See [Reloading
-JavaScript](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.getfilecloud.com%2Fblog%2F2015%2F03%2Ftech-tip-how-to-do-hard-refresh-in-browsers%2F%23.XOjGNtMzbuM&data=02%7C01%7Ckristil%40microsoft.com%7C3d5791ec423446708bf708d6e0ce2e75%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636943573490814084&sdata=zKoAMTCBzsfg8A8XzbUmM88rJ0MJ5RcWdyFPsjzi16M%3D&reserved=0).
+💡 Helpful Tips
 
-## Navigating the Survey Tool and Workflow
+*   Please read the home page of the [Translation
+    Guidelines](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsites.google.com%2Fsite%2Fcldr%2Ftranslation&data=02%7C01%7Ckristil%40microsoft.com%7C4baf9663933d4ef810b108d4997c81bb%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636302207402581433&sdata=VSRRxtOE1hEPjUZF65DgQdriuhhxYQvPGzVedjvYoY8%3D&reserved=0)
+    before starting your data contribution.
+*   If you experience a **Loading...** problem with the Survey Tool, try
+    clearing your browser cache. See [Reloading
+    JavaScript](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.getfilecloud.com%2Fblog%2F2015%2F03%2Ftech-tip-how-to-do-hard-refresh-in-browsers%2F%23.XOjGNtMzbuM&data=02%7C01%7Ckristil%40microsoft.com%7C3d5791ec423446708bf708d6e0ce2e75%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636943573490814084&sdata=zKoAMTCBzsfg8A8XzbUmM88rJ0MJ5RcWdyFPsjzi16M%3D&reserved=0).
+*   **Browser support** for Survey Tool includes the latest versions of Edge,
+    Safari, Chrome, and Firefox.
+*   Use
+    [Reports](http://cldr.unicode.org/translation/getting-started/guide#TOC-Reports)
+    at the beginning to review the data in your language in a wholistic for Date
+    & time, Zones, and Numbers.
+*   Capitalization: Translations should be what is most appropriate for
+    ”middle-of-sentence” use. So, for example, if your language normally doesn't
+    spell languages with a capital letter, then you shouldn’t do that here.
+    Please see
+    [Capitalization](../../translation-guide-general/capitalization.md) for more
+    details.
+*   Plurals: For important information regarding the use of plural forms for
+    your language, please read [Plurals](../plurals/index.md).
 
-**Browser support** for Survey Tool includes the latest versions of Edge,
-Safari, Chrome, and Firefox.
+## Vetting Phase
 
-### Login and Import of old votes
+At a point towards the end of Survey Tool period, the Technical Committee will
+change the survey tool to "Vetting Mode". In Vetting Mode, submitting new
+data/translations is no longer possible, but you can still change your votes and
+participate in the forum. (The exception is that you can submit new data if the
+currently winning value has generated an error or a warning.)
+
+## Login and Import of old votes
 
 1.  Go to <http://st.unicode.org/cldr-apps/survey/> and log in.
 
@@ -84,7 +107,7 @@ Safari, Chrome, and Firefox.
 **[No Information
 Panel](http://cldr.unicode.org/translation/getting-started/guide#TOC-No-Information-Panel).***
 
-### Main Sections
+### Voting view
 
 1.  Once you have selected your locale, more options show up in the left
     sidebar. (You’ll note that the sidebar only shows if you mouse over the
@@ -200,8 +223,12 @@ section below.)
     above). This is the easiest way to post discussions for the selected item.
     Remember that the Forum posts are at language level and not at Sub-locale
     level. For more information, see [Forum](index.md).
+10. No Information Panel?
+    If you click on the **Code** cell and there is no **Information Panel**, you
+    may have turned it off accidentally. Go to the Gear icon at the top and make
+    sure that the Toggle is set right.
 
-### Inheritance
+## Inheritance
 
 Some items are by default inherited from other places in the data. You have the
 option of voting for the inherited value or entering a different one.
@@ -331,7 +358,7 @@ below.
 *The first priority is to fix all the **Missing** items by supplying the correct
 translations.*
 
-### Dashboard Sections
+### Dashboard Reports
 
 Go through each of the sections to address the problems. These sections are
 explained below.
@@ -361,62 +388,71 @@ There are five columns in the Dashboard view.
 
 ![image](Dashboard-rows.JPG)
 
-### Best practices for handling items in each category
+### How to handle different categories
+
+Following are guidelines on best practices for handling items under each
+category in Dashboard.
 
     #### Missing
 
-These are items where there is no localization provided by any contributor.
-Click on the blue Code on the left (such as **Famagusta** in the screenshot
-below). It opens a new window with the survey tool where items are highlighted
-and you can add a translation. When you fix a **Missing** item it will turn to
-**~~New~~ Changed**.
+> These are items where there is no localization provided by any contributor.
+> Click on the blue Code on the left (such as **Famagusta** in the screenshot
+> below). It opens a new window with the survey tool where items are highlighted
+> and you can add a translation. When you fix a **Missing** item it will turn to
+> **~~New~~ Changed**.
 
-![image](Dashboard-Missing2.JPG){width="1332" height="443"}
+> ![image](Dashboard-Missing2.JPG){width="1332" height="443"}
 
     #### **Losing**
 
-These are items that you already voted on. This indicates that your vote is not
-for the currently winning value. If you can live with the winning item—if it is
-reasonable, even if you don't think it is optimal—change your vote to be for the
-winning item. If not, click the **Forum** button and give reasons for people to
-change their vote to what you have suggested. If not all users have voted yet,
-these values may still be approved before the end of the cycle. **Engage with
-others on the Forum discussions**. Make sure to post the reasons why others
-should change their votes and **respond to others’ postings**. You can list a
-number of items in the same forum post, to make it easier for people to read.
+> These are items that you already voted on. This indicates that your vote is
+> not for the currently winning value. If you can live with the winning item—if
+> it is reasonable, even if you don't think it is optimal—change your vote to be
+> for the winning item. If not, click the **Forum** button and give reasons for
+> people to change their vote to what you have suggested. If not all users have
+> voted yet, these values may still be approved before the end of the cycle.
+> **Engage with others on the Forum discussions**. Make sure to post the reasons
+> why others should change their votes and **respond to others’ posts**. You can
+> list a number of items in the same forum post, to make it easier for people to
+> read.
 
-![image](Dashboard-losing.JPG)
+> ![image](Dashboard-losing.JPG)
 
     #### **Disputed**
 
-This is very similar to **Losing**, except in this case your vote is winning and
-someone else's is losing. Review all of the items to see if someone else’s item
-is better and read the forum posting, and whether you want to change your vote.
-Discuss in the forum, then use the Hide button to hide disputes you’ve addressed
-in the forum.
+> This is very similar to **Losing**, except in this case your vote is winning
+> and someone else's is losing. Review all of the items to see if someone else’s
+> item is better and read the forum post, and whether you want to change your
+> vote. Discuss in the forum, then use the Hide button to hide disputes you’ve
+> addressed in the forum.
 
-    #### **(was New until CLDR v37 version of the survey tool**Changed
-    #### Changed count is provided in the Dashboard only as a reference.
+    #### Changed
 
-The ~~New~~ Changed items are either:
+    (The label was **New** until CLDR v37 version of the survey tool)
+
+    Changed count is provided in the Dashboard only as a reference.
+
+> The ~~New~~ Changed items are either:
 
     *   Missing items now have a value.
     *   The Winning value of the translation has been changed.
 
     #### English Changed
 
-These are items where the English source has changed. You need to re re-checked
-in order assess the impact to your language and update as appropriate.
+> These are items where the English source has changed. You need to re
+> re-checked in order assess the impact to your language and update as
+> appropriate.
 
     #### Warnings
 
-These are issues which appear after automatic checks. (For examples, a message
-could be "*The value is the same as English"*, which is a quite common warning
-for languages that are close to English in the spelling of languages or
-territories. If the value is actually ok, then click on the Hide button (crossed
-eye). If not, then vote for a fix, or post on the Forum for discussion.
+> These are issues which appear after automatic checks. (For examples, a message
+> could be "*The value is the same as English"*, which is a quite common warning
+> for languages that are close to English in the spelling of languages or
+> territories. If the value is actually ok, then click on the Hide button
+> (crossed eye). If not, then vote for a fix, or post on the Forum for
+> discussion.
 
-![image](Dashboard-warning.JPG)
+> ![image](Dashboard-warning.JPG)
 
 ### Dashboard icons
 
@@ -443,7 +479,7 @@ of the same type.
 
 ![image](Dashboard-Fix.JPG)
 
-### Summary
+### Dashboard Summary
 
 There are two ways to clear items from the **Dashboard** list:
 
@@ -458,77 +494,43 @@ There are two ways to clear items from the **Dashboard** list:
             appear).*
         *   *Hide all the lines again by clicking the top eye button.*
 
-### Reports
+## Reports
 
 The reports show lists of items that need to be reviewed for consistency. You
 should look through these after you do the **Dashboard** to make sure that the
 items are consistent, when viewed in the context of others. Each of them has a
 link to instructions at the top. Please read these before continuing.
 
+Reports are under the left navigation.
+
+Reports are a good way to review the data in your language in a wholistic view
+for the Date and time, Zones, and Numbers.
+
+![image](Reports.PNG){width="226" height="320"}
+
 *Example:*
 
 *![image](Dashboard-reports.JPG)*
 
-### **Special Notes**
+## Special cases
 
-#### Capitalization
-
-Translations should be what is most appropriate for ”middle-of-sentence” use.
-So, for example, if your language normally doesn't spell languages with a
-capital letter, then you shouldn’t do that here. Please see
-[Capitalization](../../translation-guide-general/capitalization.md) for more
-details.
-
-#### Plurals
-
-For important information regarding the use of plural forms for your language,
-please read [Plurals](../plurals/index.md).
-
-## Vetting Phase
-
-At a point towards the end of Survey Tool period, the Technical Committee will
-change the survey tool to "Vetting Mode". In Vetting Mode, submitting new
-data/translations is no longer possible, but you can still change your votes and
-participate in the forum. (The exception is that you can submit new data if the
-currently winning value has generated an error or a warning.)
-
-## Problems
-
-If you find a problem, you may want to review **[FAQ & Known
-Bugs](../../../index/survey-tool/known-bugs.md)** to see whether it has already
-been reported (and whether there is a work-around). If not, or if you have
-suggestions for improvements, please file a bug using the Feedback link at the
-bottom of each window. If you encounter problems or have enhancement suggestions
-for the survey tool, please [file a
-ticket](http://unicode.org/cldr/trac/newticket).
-
-If there are other issues, you can raise them on the [Unicode CLDR Mailing
-List](http://www.unicode.org/consortium/distlist.html#cldr_list).
-
-### You may not make changes to this locale
-
+**You may not make changes to this locale**
 You may see a message like the following when trying to modify a regional
 locale, like pt-BR.
 
 ![image](Screen-Shot-2017-05-31-at-15.04.27.png) →
 ![image](Screen-Shot-2017-05-31-at-15.51.50.png)
 
-The reason that Brazil is grayed out is that it is the **default content
-locale** for **Portuguese**. So to modify pt-BR, you need to simply click on
-**Portuguese**. If you do click on Brazil, you will get to a page with the
-following at the top. Clicking on **[default content
-locale](../../translation-guide-general/default-content.md) will explain in more
-detail.**
+> The reason that Brazil is grayed out is that it is the default content locale
+> for Portuguese. So to modify pt-BR, you need to simply click on Portuguese. If
+> you do click on Brazil, you will get to a page with the following at the top.
+> Clicking on [default content
+> locale](../../translation-guide-general/default-content.md) will explain in
+> more detail.
 
 ![image](Screen-Shot-2017-05-31-at-15.06.50.png){width="400" height="56"}
 
-### No Information Panel
-
-If you click on the **Code** cell and there is no **Information Panel**, you may
-have turned it off accidentally. Go to the Gear icon at the top and make sure
-that the Toggle is set right.
-
-### May not be modified—see details or 20-vote thresholds
+### 20 vote items May not be modified
 
 Some items have change protection in place that will stop vetters from changing
 it, but you can still advocate a change. This is indicated by the message "May
@@ -550,48 +552,18 @@ To change it, you have to flag the item for committee review:
 5.  Towards the end of data collection cycle, the Technical Committee will
     review the change request and either accept it, or reject it with comments.
 
+Note: The **Flag for Review** button will be available only when the item has a
+20 vote value AND there is a suggestion in the **Others** column.
+
 ## Forum
 
-After the data submission phase, any differences in the submitted data will be
-resolved according to the [data resolution
-process](http://www.unicode.org/cldr/process.html#resolution_procedure).
-However, you should collaborate with the other translators where you have
-questions, via email and the **Forum**.
+Forum is the place to discuss and collaborate with other vetters on questions
+and issues in your language. The forum is at Language level and not at
+sub-locale level; if you are talking about a translation in a sub-locale, be
+sure that you are clear about that.
 
-![image](ST-Forum.JPG)
-
-**Forum** is the place to discuss issues in your language. Use the Forum for
-general topics and consistency questions, including proposed changes and new
-suggestions. When you make a forum entry, it will be emailed to all other
-linguists working on locales with the same language, parent or sub-locale (i.e.
-**forum is at Language level and not at sub-locale level**). If you are talking
-about a translation in a sub-locale, be sure that you are clear about that.
-
-A best practice is to **create a Forum post whenever you propose a change to a
-previously approved value**, and provide an explanation and links to references,
-if available. Including the value itself in the body of the post will make your
-suggestion clearer, even when viewed outside of the detailed view. Your post
-will alert other participants to the proposed change, and encourage them to vote
-to approve it, or to explain why they support a different variant.
-
-*   To create a Forum post linked to a special data point, click on the item in
-    the Survey tool or in the Dashboard, then click the New Forum Post or use
-    the Forum entry point in the left-navigation as shown in the screenshot
-    above.
-
-    ![image](ST-Newforumpost.JPG)
-
-*   If a new post from another user proposes a change you agree with, there is
-    no need to respond, because you can simply vote to approve. Inside the Forum
-    window, you can click the **Item** link in the post to open a detailed view
-    of the item and see voting status.
-
-    ![image](ST-Forum-Itemlink.JPG)
-
-*   Another way to check for posts that may need your attention is to review
-    email notifications to the e-mail account for your locale. You can delete
-    these notifications if they are for changes initiated by you. You can open
-    the post directly from a link in the email.
+It's a best practice to **create a Forum post whenever you propose a change to a
+previously approved value**, and provide an explanation and links to references.
 
 ### Forum Etiquette
 
@@ -615,69 +587,289 @@ these general etiquette guidelines for best productive outcomes:
     by these guidelines will encourage active participation by all vetters and a
     better end result.
 
-### Forum postings for CLDR ticket feedback
+### **Forum Workflow**
 
-### CLDR users can send in data feedback using [JIRA](http://cldr.unicode.org/index/bug-reports). Tickets filed in JIRA will be processed as described below. Please expect to see postings by CLDR Technical Committee members (TCs) in Forums, and participate by providing your response to any tickets needing your input.
+Forum posts work with the following workflow:
 
-1.  ### CLDR TC members accept JIRA tickets.
-2.  ### For each ticket assigned to them, the TC member will post a forum topic
-    in each language mentioned in the ticket, asking for vetters to look at the
+1.  Create a new **Request** or **Discuss** post.
+2.  Responses by other vetters in your language with Agree, Decline, or Comment.
+3.  Once resolved, those who created the initial Request or Discuss closes the
+    post.
+
+### How to create a new forum post
+
+A forum post can be specific to a particular data point or a general issue. In
+either case, create a new forum post to an item.
+
+*   A post that is specific to a particular data point.
+*   A general issue that impacts multiple data points. In a general case that
+    impacts multiple data points, you do not need to post new forum posts for
+    every item impacted. The general issue should be flagged to other vetters
+    and once a consensus is reached, it is expected that vetters update their
+    votes on all impacted items. New forum posts can be used to flag to other
+    vetters if others fail to update their votes on all impacted items. ONLY
+    request if others have missed or have not updated consistently.
+
+**Create forum posts from the [Information
+pane](http://cldr.unicode.org/translation/getting-started/guide#TOC-Information-Panel)
+in the voting window.**
+
+1.  Vote on an item (or add new +) for the item you want to suggest changing.
+2.  In the Information pane on the right, there are two buttons to indicate the
+    type of forum posts:
+    1.  **Request** You have voted on a non-winning item, and you want to
+        Request others to change their votes.
+    2.  **Discuss** You have not created a new suggestion, and want to bring up
+        a question regarding the winning data. The discussions here may turn
+        into a new Suggestion and a Request for change.
+3.  Click **Request** OR **Discuss** button and fill out the details of your
+    request. (Note: The **Request** button is disabled unless you have voted)
+
+    ![image](request-and-discuss.PNG){width="400" height="173"}
+
+    *   **Request**
+        1.  A precomposed text is included to help start your post.
+            **Important!: Request works WITH the item you voted for currently.**
+            *Please consider voting for “{your voted-value}”.* My reasons are:
+        2.  Complete the text by filling out your reasons and links to
+            references.
+        3.  Then **Submit.**
+    *   **Discuss**
+        1.  Post your questions for other vetters, including links to
+            references.
+        2.  Then **Submit**.
+
+            ![image](discuss.PNG)
+
+### Responding to Request posts
+
+There are two ways to respond to forum posts:
+
+*   Information pane (This is the recommended option.)
+*   In the Forum view (See [Working in the Forum
+    view](http://cldr.unicode.org/translation/getting-started/guide#TOC-Working-in-the-Forum-view-))
+
+**Respond from the [Information
+pane](http://cldr.unicode.org/translation/getting-started/guide#TOC-Information-Panel)
+in the voting window.**
+
+In the **information pan**e, select the button that applies to your decision:
+
+*   Three response buttons are available for you**: Agree**, **Decline**,
+    **Comment**
+*   Each posted response is labeled in Red and its response type: Agree, Decline
+    or Comment.
+
+**Choosing your Response:** Agree, Decline, or Comment
+
+1.  **Agree** If you agree with the reasons for change, you don't need to add more explanations for agreeing.A precomposed text is included to help start your reply:
+    I agree. I am changing my vote to the requested “{requested-value}”
+
+    ![image](Agree-message.PNG)
+
+2.  An **Automated** ***Agreement*** will be posted if you vote for the
+    requested value. Your agreement will be automatically posed with a
+    precomposed reply: I voted for “{requested-value}”
+
+    ![image](autogenerate.PNG){width="320" height="250"}
+
+3.  **Decline:** Use this option if you absolutely DO NOT agree with the post. A
+    precomposed text is included to help start your reply: I decline changing my
+    vote to the requested “{requested-value}”. My reasons are: <Please add your
+    reason with reference links>
+
+    ![image](decline.PNG)
+
+4.  **Comment:** Use this option if you do not Agree or Decline, and you have
+    other input to bring to the discussion or if you want to ask for more
+    information.
+
+### Responding to Discuss posts
+
+There are two ways to respond to new forum post:
+
+*   Information pane (This is the recommended option.)
+*   In the Forum view (See [Working in the Forum
+    view](http://cldr.unicode.org/translation/getting-started/guide#TOC-Working-in-the-Forum-view-))
+
+**Respond to forum posts from the [Information
+pane](http://cldr.unicode.org/translation/getting-started/guide#TOC-Information-Panel)
+in the voting window.**
+
+1.  In the information pane, click the **Comment** button and add your input to
+    the open discussion.
+2.  The label **Discuss** in Red indicates that this is a Discuss post (to
+    distinguish from Request posts)
+
+    ![image](Comment-to-discuss.PNG){width="400" height="293"}
+
+### Working in the Forum view
+
+In the Survey Tool [Forum](https://st.unicode.org/cldr-apps/v#forum/USER//)
+view, there are multiple filtering options available for you to work more
+effectively.
+
+1.  The Forum view can be accessed from the left navigation **Forum.**
+
+    ![image](ST-Forum.JPG)
+
+    By default, the filter is for **Needing action**.
+    Filter options:
+
+    *   **Needing action**: Forum posts included in this filter are Requests and
+        Discussion posts by someone in your language. You have not yet taken
+        action on either agreed or declined or posted a discussion asking for
+        additional information. For Discussion posts, these are where you are
+        not the last poster.
+    *   **Open requests by you**: Forum posts included in this filter are
+        Requests that you have posted that you have not closed yet.
+    *   **All Open topics**: All posts that are open. This includes both Request
+        and Discussions that have not closed yet.
+    *   **All topics:** All topics, open or closed, including forum posts from
+        previous releases.
+        Note that Forum posts that were active in previous releases will be
+        marked as Closed at the start of a new Survey tool cycle.
+
+**Respond to forum posts in the Forum view**
+
+In the Forum view, you can respond to Request and Discuss posts.
+
+For **Request posts**, you can select your decision using the 3 available
+buttons: **Agree, Decline, Discuss.**
+
+See [Responding to Request posts in Information
+Pane](http://cldr.unicode.org/translation/getting-started/guide#TOC-Responding-to-Request-posts).
+
+![image](Forum-view.PNG)
+
+For **Discuss posts**, you can use the Comment button to add your input.
+
+![image](Forum-view-discuss.PNG)
+
+### Forum posts in Dashboard
+
+#### **Count of open posts**
+
+In the Dashboard, a count of open forum posts are available for you to know the
+work remaining in the Forum.
+
+*   **Needs action**: These are open posts that you have not responded to yet.
+    Please go to the item and select one of the buttons in the Information pane.
+*   **Open requests by you**: Please watch replies by others and close the
+    thread once there is consensus. It is expected that you Close threads at the
+    end of the cycle.
+*   **Open topic**: This is provided as information as to how many forum posts
+    are still open in your language.
+
+![image](Dashboard-forum.PNG){width="298" height="320"}
+
+**Note:** For Survey Tool users who manage other user's profiles for their
+organization, you will not yet see a summary view of open threads for all
+locales. You will need to look at individual locale Dashboard. \[Tracking
+ticket; [CLDR-13616](https://unicode-org.atlassian.net/browse/CLDR-13616)\]
+
+#### **Respond to posts from the Fix view**
+
+The Fix popup in Dashboard is a quick way to fix simple changes.
+
+For full context and better decision making, it is recommended that you [work in
+the Information
+pane](http://cldr.unicode.org/translation/getting-started/guide#TOC-Responding-to-Request-posts)
+in the voting view.
+
+![image](fix-entry.PNG)
+
+See [Responding to
+Request](http://cldr.unicode.org/translation/getting-started/guide#TOC-Responding-to-Request-posts)
+and [Responding to Discuss
+](http://cldr.unicode.org/translation/getting-started/guide#TOC-Responding-to-Discuss-posts)in
+the Information pane in the voting view.
+
+![image](fix.PNG)
+
+**Email notification**
+
+1.  Another way to check for posts that may need your attention is to review
+    email notifications to the e-mail account for your locale. You can delete
+    these notifications if they are for changes initiated by you. You can open
+    the post directly from a link in the email.
+2.  When you make a forum entry, it will be emailed to all other linguists
+    working on locales with the same language, parent or sub-locale (i.e.
+    **forum is at Language level and not at sub-locale level**). If you are
+    talking about a translation in a sub-locale, be sure that you are clear
+    about that.
+
+### Forum posts for CLDR ticket feedback
+
+CLDR users can send in data feedback using
+[JIRA](http://cldr.unicode.org/index/bug-reports). Tickets filed in JIRA will be
+processed as described below. Please expect to see posts by CLDR Technical
+Committee members (TCs) in Forums, and participate by providing your response to
+any tickets needing your input.
+
+The goal is to bring it to the attention to all linguists contributing in a
+particular language, and gather their input, so an informed decision can be made
+and/or suggested.
+
+1.  CLDR TC members accept JIRA tickets.
+2.  For each ticket assigned to them, the TC member will post a forum topic in
+    each language mentioned in the ticket, asking for vetters to look at the
     issue and either make the requested change, or explain in a forum post why
     changes should not be made.
-    ### A reason for not changing could be for example that it is a reasonable
+3.  A reason for not changing could be for example that it is a reasonable
     change, but doesn't exceed the 'stability' bar in the translation
     guidelines.
-3.  ### TC members will monitor the forum discussion/change during the
-    Submission phase, and will close the JIRA ticket after the forum discussion
-    is concluded.
-4.  ### The goal is to bring it to the attention to all linguists contributing
-    in a particular language, and gather their input, so an informed decision
-    can be made and/or suggested.
+4.  TC members will monitor the forum discussion/change during the Submission
+    phase, and will close the JIRA ticket after the forum discussion is
+    concluded.
 
-### Old Forum Posts
+### ~~Old Forum Posts~~
 
-Forum posts from the most recent Survey Tool release can be accessed using the
-Old Forum Post navigation in the left-navigation pane.
+**Note: The Old Forum posts are now integrated into the single Forum view.**
 
-(This is a new feature introduced with CLDR v32 data collection, May 2017.)
+~~Forum posts from the most recent Survey Tool release can be accessed using the
+Old Forum Post navigation in the left-navigation pane.~~
 
-![Old Forum Post Navigation](Old_Forum_Post_Nav.JPG)
+~~(This is a new feature introduced with CLDR v32 data collection, May 2017.)~~
 
-There are a few known limitation that you should know:
+~~![Old Forum Post Navigation](Old_Forum_Post_Nav.JPG)~~
 
-*   The old forum posts are not linked **from** individual items or the current
-    Forum. But it but you can navigate **To** the item from the old post.
-*   The old forum posts are only from the most recent data collection release.
+~~There are a few known limitation that you should know:~~
+
+*   ~~The old forum posts are not linked **from** individual items or the
+    current Forum. But it but you can navigate **To** the item from the old
+    post.~~
+*   ~~The old forum posts are only from the most recent data collection release.
     For example, if you are contributing to CLDR v32, the old forum posts are
-    discussions from CLDR v30.
+    discussions from CLDR v30.~~
 
-**When to use the Old Forum Posts**
+**~~When to use the Old Forum Posts~~**
 
-Here are a few sample cases when you may want to use the Old Forum Posts:
+~~Here are a few sample cases when you may want to use the Old Forum Posts:~~
 
-*   You remember postings in the last contribution period, and you want to
-    refresh your memory.
-*   You don’t agree with the current Approved item, and you want to see if your
-    new suggestion was already discussed in the last period.
+*   ~~If you remember posts in the last contribution period, and you want to
+    refresh your memory.~~
+*   ~~If you don’t agree with the current Approved item, and you want to see if
+    your new suggestion was already discussed in the last period.~~
 
-**Ways to use the Old Forum Posts**
+**~~Ways to use the Old Forum Posts~~**
 
-Here are a few tips for using the Old Forum posts:
+~~Here are a few tips for using the Old Forum posts:~~
 
-*   Search for the item using the browser search feature (CTRL+F)
-*   Search for your profile name, the Term, or the data category path (For
-    example, Currencies)
-*   Click on the **Item** link on the right side of the post to go to the item
-    directly. The item will take you to the current version of the data.
-*   Click on **Reply** to continue the thread. This action in the Old Forum
+*   ~~Search for the item using the browser search feature (CTRL+F)~~
+*   ~~Search for your profile name, the Term, or the data category path (For
+    example, Currencies)~~
+*   ~~Click on the **Item** link on the right side of the post to go to the item
+    directly. The item will take you to the current version of the data.~~
+*   ~~Click on **Reply** to continue the thread. This action in the Old Forum
     Posts will post a new thread in the current Forum. Go to **Forum** to see
-    your posting of the reply. Your reply will not be shown in the Old Forum
-    Posts even though you initiated the Reply there. This ensures that your
-    thread will be captured for the current release.
-*   The last TC user action on a thread typically means that it was discussed by
-    the committee, and actions were taken to resolve errors. This does not mean
-    that you can reactivate the discussion if you do not see a resolution on
-    discussions among linguists.
+    your post of the reply. Your reply will not be shown in the Old Forum Posts
+    even though you initiated the Reply there. This ensures that your thread
+    will be captured for the current release.~~
+*   ~~The last TC user action on a thread typically means that it was discussed
+    by the committee, and actions were taken to resolve errors. This does not
+    mean that you can reactivate the discussion if you do not see a resolution
+    on discussions among linguists.~~
 
 ## Advanced Features
 
@@ -687,13 +879,26 @@ Here are a few tips for using the Old Forum posts:
 2.  Organization managers can manage users for their organization (add, remove,
     send passwords, set locales, etc.) For more information, see **[Managing
     Users](../../../index/survey-tool/managing-users/index.md).**
-3.  Some users may want to reset their Coverage Level, with the menu that looks
+
+    Some users may want to reset their Coverage Level, with the menu that looks
     like the image to the right.
+
     The Coverage Level determines the items that you will see for translation:
     the minimal level has the highest priority items. You normally start with
     the level marked "Default" (which will vary by your organization and
     locale). Each successively higher level adds more items, at successively
     lower priorities. You will not normally go beyond "Modern", unless you have
     special instructions for your organization.
+
     *Note that some companies won't use the data until it is complete at a
     certain coverage level, typically **Modern**.*
+
+## Reporting Survey Tool issues
+
+If you run into a problem with the Survey Tool functionalities, please see [FAQ
+& Known Bugs](../../../index/survey-tool/known-bugs.md) to see whether it has
+already been reported (and whether there is a work-around). If not, or if you
+have suggestions for improvements, please file a bug using the Feedback link at
+the bottom of each window. If you encounter problems or have enhancement
+suggestions for the survey tool, please [file a
+ticket](http://unicode.org/cldr/trac/newticket).

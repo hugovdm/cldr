@@ -1,5 +1,7 @@
 # Collation Guidelines
 
+[TOC]
+
 Collation sequences can be quite tricky to specify.
 
 The locale-based collation rules in Unicode CLDR specify customizations of the
@@ -199,42 +201,42 @@ sequence "ch" (and their case variants) at the appropriate positions in the
 sorting sequence, and with the appropriate strengths:
 **Minimal Rules**
 
-& A
+> & A
 
-< ä <<< Ä
+> < ä <<< Ä
 
-& C
+> & C
 
-< č <<< Č
+> < č <<< Č
 
-& D
+> & D
 
-< đ <<< Đ
+> < đ <<< Đ
 
-& H
+> & H
 
-< ch <<< cH <<< Ch <<< CH
+> < ch <<< cH <<< Ch <<< CH
 
-...
+> ...
 
 It would be possible instead to have rules that list every letter used by Slovak
 \[a á ä b c č d ď e é f-h {ch} i í j-l ĺ ľ m n ň o ó ô p-r ŕ s š t ť u ú v-y ý z
 ž\], looking something like the following.
 **Maximal Rules**
 
-& A << á <<< Á
+> & A << á <<< Á
 
-< ä <<< Ä
+> < ä <<< Ä
 
-< b <<< B
+> < b <<< B
 
-< c <<< C
+> < c <<< C
 
-< č <<< Č
+> < č <<< Č
 
-< d
+> < d
 
-...
+> ...
 
 ***The Maximal Rules format is not accepted in CLDR.*** The reasons are:
 
@@ -253,11 +255,11 @@ suppose that U+0D89 SINHALA LETTER IYANNA and U+0D8A SINHALA LETTER IIYANNA
 needed to come after U+0D96 SINHALA LETTER AUYANNA, in primary order, and that
 otherwise DUCET was ok. Then you would give the following rules:
 
-& ඖ # U+0D96 SINHALA LETTER AUYANNA
+> & ඖ # U+0D96 SINHALA LETTER AUYANNA
 
-< ඉ # U+0D89 SINHALA LETTER IYANNA
+> < ඉ # U+0D89 SINHALA LETTER IYANNA
 
-< ඊ # U+0D8A SINHALA LETTER IIYANNA
+> < ඊ # U+0D8A SINHALA LETTER IIYANNA
 
 ## Pitfalls
 

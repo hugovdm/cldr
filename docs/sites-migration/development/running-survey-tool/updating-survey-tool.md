@@ -1,5 +1,7 @@
 # Updating Survey Tool
 
+[TOC]
+
 ### Supplemental Data/structure
 
 1.  Make the change to a supplemental file and/or DTD. (See XXX for details.)

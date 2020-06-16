@@ -13,6 +13,8 @@ No. Date Rel. Note Data Charts Spec Delta SVN Tag DTD Diffs **DTD Δs**
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 32 provides an update to the key building blocks for software
 supporting the world's languages. This data is used by all [major software
 systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) for their software
@@ -129,7 +131,8 @@ order changes.*
 
 The following chart shows the increase in locale-based data over time.
 
-document.getElementById('form1237620627').submit();
+<iframe src="javascript:void(0);" width="800" height="400" allow="fullscreen"
+/>document.getElementById('form635776371').submit();
 
 For more details, see the [Delta
 Data](http://www.unicode.org/cldr/charts/32/delta/index.html) charts.

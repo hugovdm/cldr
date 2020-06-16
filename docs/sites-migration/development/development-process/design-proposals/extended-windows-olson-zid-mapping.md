@@ -1,5 +1,7 @@
 # Extended Windows-Olson zid mapping
 
+[TOC]
+
 **This proposal was approved by the CLDR TC on 2012-01-11 with some minor
 updates. See update comments.**
 

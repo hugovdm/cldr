@@ -1,5 +1,7 @@
 # Typographic Names
 
+[TOC]
+
 CLDR maintains typographic terms for apps like word processors, graphic design
 apps, or font pickers in operating systems.
 
@@ -22,17 +24,17 @@ example, you must *not* give the same name to [wght-400
 and [wdth-100
 (English=“normal”)](http://st.unicode.org/cldr-apps/v#/de/Typography/29a3de4cf27e33c6).
 
-**However, there is an important exception for Feature fields that have a suffix
-after a number ("-heavy"), such as [wght-900-heavy
-(English=“heavy”)](http://st.unicode.org/cldr-apps/v#/de/Typography/292fe4e98aa53cfe).
-You can *(and often should)* give the same name in your language to these as you
-give to the Code without a suffix.**
+> **However, there is an important exception for Feature fields that have a
+> suffix after a number ("-heavy"), such as [wght-900-heavy
+> (English=“heavy”)](http://st.unicode.org/cldr-apps/v#/de/Typography/292fe4e98aa53cfe).
+> You can *(and often should)* give the same name in your language to these as
+> you give to the Code without a suffix.**
 
-**That is: the name in your language for [wght-900-heavy
-(English=“heavy”)](http://st.unicode.org/cldr-apps/v#/de/Typography/292fe4e98aa53cfe)
-can be identical to the name for [wght-900
-(English=“black")](http://st.unicode.org/cldr-apps/v#/de/Typography/435b966dbd7681ab):
-both could be “schwartz” in German.**
+> **That is: the name in your language for [wght-900-heavy
+> (English=“heavy”)](http://st.unicode.org/cldr-apps/v#/de/Typography/292fe4e98aa53cfe)
+> can be identical to the name for [wght-900
+> (English=“black")](http://st.unicode.org/cldr-apps/v#/de/Typography/435b966dbd7681ab):
+> both could be “schwartz” in German.**
 
 **Slant vs Italic**
 
@@ -66,34 +68,34 @@ both could be “schwartz” in German.**
 
 ![image](font-weight.png)
 
-The **Weight axis** is used to vary text from lighter to bolder. See
-[here](https://en.wikipedia.org/wiki/Font#Weight).
+> The **Weight axis** is used to vary text from lighter to bolder. See
+> [here](https://en.wikipedia.org/wiki/Font#Weight).
 
 ### Width
 
 ![image](font-width.png)
 
-The **Width axis** is used to vary text from narrower to wider. Also called
-“stretch”. See
-[here](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_wdth).
+> The **Width axis** is used to vary text from narrower to wider. Also called
+> “stretch”. See
+> [here](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_wdth).
 
 ### Italic
 
 ![image](italic.png)
 
-The **Italic axis** is used to vary text from upright/plain/regular to
-cursive/italic. See also [here](https://en.wikipedia.org/wiki/Italic_type) and
-[here](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_ital).
+> The **Italic axis** is used to vary text from upright/plain/regular to
+> cursive/italic. See also [here](https://en.wikipedia.org/wiki/Italic_type) and
+> [here](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_ital).
 
 ### Slant
 
 ![image](oblique.png)
 
-The **Slant axis** is used to vary text from upright/plain/regular to
-slanted/oblique. See
-[here](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_slnt).
+> The **Slant axis** is used to vary text from upright/plain/regular to
+> slanted/oblique. See
+> [here](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_slnt).
 
-![image](reverse-oblique.png)
+> ![image](reverse-oblique.png)
 
 Fonts can also be slanted towards the opposite of the reading direction.
 

@@ -18,12 +18,14 @@ extensions that provide for additional information needed for identifying
 *locales*. The 'u' subtags consist of a set of *keys* and associated *values*
 (types). For example, a locale identifier for British English *with numeric
 collation* has the following form:
-en-GB-***u-kn-true*** The subtags available for use in the 't' extension provide
-language tag extensions that provide for additional information needed for
-identifying transformed content, or a request to transform content in a certain
-way. For example, the language tag "ja-Kana-t-it" can be used as a content tag
-indicates Japanese Katakana transformed from Italian. It can also be used as a
-request for a given transformation.
+> en-GB-***u-kn-true***
+
+The subtags available for use in the 't' extension provide language tag
+extensions that provide for additional information needed for identifying
+transformed content, or a request to transform content in a certain way. For
+example, the language tag "ja-Kana-t-it" can be used as a content tag indicates
+Japanese Katakana transformed from Italian. It can also be used as a request for
+a given transformation.
 
 ## Machine-Readable Files for Validity Testing
 

@@ -1,5 +1,7 @@
 # ShowLocaleCoverage
 
+[TOC]
+
 The ShowLocaleCoverage program is used to:
 
 1.  check that we have reached full modern coverage for the CLDR org locales
@@ -77,13 +79,13 @@ arguments for the right directory.
 
 Required:
 
--g to select growth
+> -g to select growth
 
 Optional:* Useful for debugging the tool, making sure the directories are set up
 
--f xxx to filter to just some locales (matching the regex xxx).
+> -f xxx to filter to just some locales (matching the regex xxx).
 
-Reset the DEBUG switch at the top of the file
+> Reset the DEBUG switch at the top of the file
 
 **Generates `tsv/locale-growth.tsv` (you can override the target directory with
 -t ddd).**

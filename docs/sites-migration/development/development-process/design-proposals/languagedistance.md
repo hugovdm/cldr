@@ -1,5 +1,7 @@
 # Language Distance Data
 
+[TOC]
+
 The purpose is to provide a way to match language/locales according to
 "closeness" rather than just a truncation algorithm. and to allow for the user
 to specify multiple acceptable languages. The data is designed to allow for an

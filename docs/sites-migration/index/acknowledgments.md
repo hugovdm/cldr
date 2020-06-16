@@ -78,6 +78,7 @@ Anna Krivich (Анна Кривич)
 Anna Sixkiller
 Anna Taranova (Анна Таранова)
 Anna Zaytseva (Анна Зайцева)
+Anne Lise Pitre
 Anne Yu (喻艳玲)
 Annelize Swart
 Annette Wiibroe Lorentzen
@@ -153,11 +154,13 @@ Chris Fleizach
 Chris Hansten
 Chris Leonard
 Chris McDowell
+Christian Jaekl
 Christian Schmidt
 Christina El hayek (كريستينا الحايك )
 Christine Guthry
 Christoph Päper
 Christopher Fynn (ཀརྨ་སྒྲུབ་བརྒྱུད་བསྟན་འཛིན།)
+Christopher Morain
 Cibu C. J. (സിബു സി.ജെ.)
 Claire Ho (賀靜蘭)
 Clara Bozzo Closas
@@ -183,6 +186,7 @@ Daniel U. Thibault
 Daniel Wojciechowski
 Daniel Yacob
 Daniela Slankamenac
+Daphne Okonkwo
 Dary Mihova (Дари Михова)
 David Beaumont
 David Corbett
@@ -201,6 +205,7 @@ Dharma Adhivijaya Gapin
 Dian Embarsari
 Diana Abdrakhmanova
 Dick Veerhar
+Diego Plentz
 Dilip Vegad (દિલીપ વેગડ)
 Dilmurat Abduqayyum (دىلمۇرات ئابدۇقەييۇم)
 Divon Lan (דיבון לן‎, ឡាន ឌីវុន)
@@ -250,6 +255,7 @@ Fagelot Solofonirina
 Fayeq Oweis (فائق عويس )
 Federico Leva
 Felipe Balbontín
+Felipe Pérez Álvarez
 Firitia Velt
 Firoj Alam (ফিরোজ আলম)
 Flora Gu
@@ -283,6 +289,7 @@ Gregory Huczynski
 Grishma Shah (ગ્રીષ્મા શાહ)
 Gruff Prys
 Grzegorz Kulik
+Guillaume Veillette
 Gulhan Yuzgec (Gülhan Yüzgeç)
 Gunnar Hjalmarsson
 Guvanch Dushmedov
@@ -313,6 +320,7 @@ Ihar Mahaniok (Ігар Маханёк)
 Ilkin Huseynov
 Illimar Tambek
 Ilyas Bakirov (Ильяс Бакиров)
+Inae Lee
 Iñigo Varela
 Irina Chausova
 Irina Parshina
@@ -373,6 +381,7 @@ Josep M. Closa
 Joseph Erb
 Juan Pablo Martínez
 Judit Subirachs Guix
+Júlia Vieira
 Jung Hyoun Yi (이정현)
 Jungshik Shin (신정식, 申政湜)
 Junko Sakakibara (榊原 淳子)
@@ -390,6 +399,7 @@ Keith Stribley
 Kent Karlsson
 Kentaroh Noji (野地 健太郎)
 Keshan Sodimana (කේෂාන් සෝදිමාන)
+Kevin Brubeck Unhammer
 Kevin Scannell
 Khaled Hosny (خالد حسني)
 Khamphay Inthara (ຄໍາຜາຍ ອິນທະຣາ)
@@ -400,12 +410,16 @@ Dr Kipkoeech araap Sambu
 Kirill Buryak
 Klaas Ruppel
 Klean Xhelilaj
+Kornelija Antolin
 Kresna Luginawati
 Kristi Lee
 Kudzanai Chitsungo
+Kumar Prabhat Ranjan (कुमार प्रभात रंजन)
+Kyle Morain
 Kyoung-Jun Min (민경준)
 Lara Vázquez Cao
-Laurențiu Iancu Lauris Bukšis-Haberkorns
+Laurențiu Iancu
+Lauris Bukšis-Haberkorns
 Lazar Milicevic
 Leandro Reis
 Lee Collins
@@ -419,6 +433,7 @@ Liesbeth Tjemmes
 Lilavati Vaidya (लीलावती वैद्य)
 Lilia Borissova (Лилия Борисова)
 Lipika Yadav (लिपिका यादव)
+Liu Xin Yu
 Livia Soardi
 Lo Quentin
 Lokosh (Joshua D. Hinson)
@@ -481,6 +496,7 @@ Miguel da Fonseca
 Miguel Sousa
 Miha Rus
 Mihai Niță
+Miika Brenna Jarsve
 Mike Tardif
 Miklós Surján
 Mikołaj Zalewski
@@ -516,6 +532,7 @@ Naushina Qamar
 Neda Armanfar (ندا آرمانفر)
 Neel Kamal Thakur (नील कमल ठाकुर)
 Neelima Talwar (నీలిమా తల్వార్)
+Neha Kumari (नेहा कुमारी)
 Dr. Neil Morton
 Neil Shadrach
 Nemo Semret (ነሞ ሥምረት)
@@ -571,6 +588,7 @@ Philips Benjamin
 Phyllis Edwards
 Pia Nanny
 Pravin Jain (પ્રવીણ જૈન)
+Prithvi Shah
 Priya Bhawalkar (प्रिया भवाळकर)
 Puri Rodríguez Díaz
 Purodha Blissenbach
@@ -585,6 +603,7 @@ Rafael Soares Mazzeu da Silva
 Rafael Xavier de Souza
 Raffaele Sandrini
 Raghuram Viswanadha (రఘురామ్ విశ్వనాథ)
+Ragland Inbaraj
 Raimund Bauer
 Raj Neettiyath (രാജ് നീട്ടിയത്ത്)
 Dr. Rajesh Kumar (डॉ. राजेश कुमार)
@@ -618,6 +637,7 @@ Rosidah Mohamad
 Rossi Ignatova (Роси Игнатова)
 Roumen Botev (Румен Ботев)
 Roy Boney
+Roy Okonkwo
 Ruben Prins
 Ruben Zakharov (Рубен Захаров)
 Ruby Chiu (邱莉婷)
@@ -626,6 +646,7 @@ Ruth Layús Quiroga
 S. M. Murtoza Habib (এস. এম. মুর্তজা হাবিব)
 Sajith VK
 Saku Airila
+Salam Brojen Singh (slaM bCrojeN siZh)
 Salome Nduku
 Salvatore Baiamonte
 Samir Kumar Mondal (সমীর কুমার মন্ডল)
@@ -702,6 +723,7 @@ Steven R. Loomis
 Stoyan Dimitrov (Стоян Димитров)
 Su Liu (劉速)
 Sudhakar Chandrasekharan
+Sue-Yin Pang
 Sumesh Chandran V.R (സുമേഷ് ചന്ദ്രന്‍.വി.ആര്‍)
 Sumesh Menon K (സുമേഷ് മേനോൻ കെ)
 Suresh Chandrasekharan (സുരേഷ് ചന്ദ്രശേഖരന്)
@@ -709,9 +731,10 @@ Susan Maria Howard
 Sushil Kahat (सुशील कहात)
 Sushrut Jalukar (सुश्रुत जळूकर)
 Sussu Laaksonen
-Suvdantsetseg Ts
+Suvda Ts
 Suwit Srivilairith (สุวิทย์ ศรีวิไลฤทธิ์)
 Suzy Wang
+Svanhvít Lilja Ingólfsdóttir
 Sverrir Á. Berg
 Swaran Lata
 Szabolcs Blaga (子伯)
@@ -736,6 +759,7 @@ Tilek Mamutov (Тилек Мамутов)
 Tim Brandall
 Timothy Stranex
 Toliño
+Tom Ayre
 Tom Bishop (汤姆·毕晓普)
 Tom Boerger
 Tom Garland
@@ -771,6 +795,7 @@ Vytautas Rekus
 Wahyu Dahana Murti
 Waldir Pimenta
 Walter Keutgen
+Wanwara Chairoek (วัลย์วรา ไชยฤกษ์)
 Waris Abdukerim Janbaz (ۋارىس ئابدۇكېرىم جانباز)
 Weilin Zhang (张卫琳)
 William Gan (甘玮亚)

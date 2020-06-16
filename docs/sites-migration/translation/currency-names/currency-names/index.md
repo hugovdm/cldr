@@ -5,7 +5,7 @@ given in the table below. Be sure to look at the international symbol to see
 which currency is being translated. For example, the English examples below are
 for USD. The Symbol and International code will be used in number patterns, as
 shown in the Examples of Usage. For more information, see [Number
-Patterns](../../numbers-currency/number-patterns.md).
+Patterns](../../numbers-currency/number-patterns/index.md).
 
 **Type** **Code** **Example** **Examples of Usage** **Meaning** Symbol USD $
 

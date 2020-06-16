@@ -2,6 +2,8 @@
 
 ## Problem:
 
+[TOC]
+
 The two part AM/PM day division is not universal and some cultures require
 greater granularity in day divisions to properly represent a time. For more
 information, please see CLDR bugs

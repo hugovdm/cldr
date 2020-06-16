@@ -2,6 +2,8 @@
 
 ## Adding new Transliterators
 
+[TOC]
+
 There is a gotcha when adding transforms. If transform A-B depends on transform
 X (eg it uses ::A-C; ::C-B), then ICU has to register B *before* A. A table for
 this is built for testing CLDR transforms, and for the tool that converts to

@@ -4,6 +4,8 @@
 
 There are two ways to request changes (for bug fixes or new features):
 
+[TOC]
+
 ### Use the CLDR Survey Tool
 
 *   **fixing/adding most language-specific data**
@@ -25,8 +27,11 @@ There are two ways to request changes (for bug fixes or new features):
 The CLDR tickets are located at:
 <https://unicode-org.atlassian.net/projects/CLDR/>.
 
-To file a ticket, hit the large ➕ on the left side. If you don't have an
-account, you'll see an image like the following.
+To file a ticket, click the red "Create" button in the upper screen area.
+
+![image](Create.png){width="400" height="114"}
+
+If you don't have an account, you'll see an image like the following.
 
 ![image](Screenshot-2019-07-09-at-14.07.13.png){width="400" height="315"}
 
@@ -46,10 +51,9 @@ A few areas are particularly tricky.
 
 ## Adding New Locales
 
-If you would like to add data for a *new* locale, please **[File a
-Ticket](http://unicode.org/cldr/trac/newticket)** requesting the addition. You
-should also notify your CLDR contact (see [Survey Tool
-Accounts](../survey-tool/accounts.md)).
+If you would like to add data for a *new* locale, please follow the instructions
+above to **file a ticket, requesting the addition**. You should also notify your
+CLDR contact (see [Survey Tool Accounts](../survey-tool/accounts.md)).
 
 *   Make sure that you pick the right locale code for the new data. See [Picking
     the Right Language Code](../cldr-spec/picking-the-right-language-code.md)

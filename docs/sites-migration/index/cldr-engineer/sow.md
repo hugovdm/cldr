@@ -1,5 +1,7 @@
 # Statement of Work for CLDR Contract Engineers
 
+[TOC]
+
 This document provides some background for the [CLDR Software
 Engineer](index.md) tasks. The focus is on performance and UI improvements to
 the CLDR Survey Tool (ST).

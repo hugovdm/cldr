@@ -1,5 +1,7 @@
 # Managing Users
 
+[TOC]
+
 If you have a TC or Manager level account, you can manage other translators
 (users). When data submission starts, you'll want to Lock the users who are no
 longer active, add new users, and send messages to your users. For the old users

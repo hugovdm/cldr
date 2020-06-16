@@ -1,5 +1,7 @@
 # Core Specification
 
+[TOC]
+
 *(This is a draft of converting the LDML spec to a different format. It is not
 updated.)*
 
@@ -32,10 +34,10 @@ names between "Abbot, Cosmo" and "Arnold, James", if different systems have
 different sort orders, different lists will be returned. (For comparisons across
 systems formatted as HTML tables, see \[[Comparisons](#Comparisons)\].)
 
-**Note:** There are many different equally valid ways in which data can be
-judged to be "correct" for a particular locale. The goal for the common locale
-data is to make it as consistent as possible with existing locale data, and
-acceptable to users in that locale.
+> **Note:** There are many different equally valid ways in which data can be
+> judged to be "correct" for a particular locale. The goal for the common locale
+> data is to make it as consistent as possible with existing locale data, and
+> acceptable to users in that locale.
 
 This document specifies an XML format for the communication of locale data: the
 Unicode Locale Data Markup Language (LDML). This provides a common format for
@@ -93,9 +95,9 @@ language identifiers shall:
 External specifications may also reference particular components of Unicode
 locale or language identifiers, such as:
 
-*Field X can contain any Unicode region subtag values as given in Unicode
-Technical Standard #35: Unicode Locale Data Markup Language (LDML), excluding
-grouping codes.*
+> *Field X can contain any Unicode region subtag values as given in Unicode
+> Technical Standard #35: Unicode Locale Data Markup Language (LDML), excluding
+> grouping codes.*
 
 ## 2. What is a Locale?
 
@@ -314,7 +316,7 @@ below. For information on the process for adding new *key*/*type*, see
 
 *Examples:*
 
-en fr_BE de_DE_u_co_phonebk_cu_ddm
+> en fr_BE de_DE_u_co_phonebk_cu_ddm
 
 A locale that only has a language subtag (and optionally a script subtag) is
 called a *language locale*; one with both language and territory subtag is
@@ -510,10 +512,11 @@ A Unicode language/locale identifier can be converted to a valid \[[BCP
 2.  Replace the special language identifier "root" with the BCP 47 primary
     language tag "und"
 
-For example,`en_US` → `en-US`
-`de_DE_u_co_phonebk` → `de-DE-u-co-phonebk`
-`root` → `und`
-`root_u_cu_usd` → `und-u-cu-usd`
+For example,
+> `en_US` → `en-US`
+> `de_DE_u_co_phonebk` → `de-DE-u-co-phonebk`
+> `root` → `und`
+> `root_u_cu_usd` → `und-u-cu-usd`
 
 A valid \[[BCP 47](#BCP47)\] language tag can be converted to a valid Unicode
 language/locale identifier by performing the following transformation.
@@ -531,12 +534,13 @@ language/locale identifier by performing the following transformation.
     replace the language subtag with the *replacement* value. (When multiple
     *replacement* values are available, use the first one)
 
-For example,`en-US` → `en-US` (no changes)
-`und` → `root`
-`und-US` → `und-US` (no changes, because region subtag is present)
-`und-u-cu-USD` → `root-u-cu-usd`
-`cmn-TW` → `zh-TW` (language alias)
-`sr-CS` → `sr-RS` (territory alias)
+For example,
+> `en-US` → `en-US` (no changes)
+> `und` → `root`
+> `und-US` → `und-US` (no changes, because region subtag is present)
+> `und-u-cu-USD` → `root-u-cu-usd`
+> `cmn-TW` → `zh-TW` (language alias)
+> `sr-CS` → `sr-RS` (territory alias)
 
 **Note:** In some rare cases, BCP 47 language tags cannot be converted to valid
 Unicode language/locale identifiers, such as certain \[[BCP 47](#BCP47)\]
@@ -627,7 +631,7 @@ any collation data, nor does either the 'en_US' or the 'en_IE' locale data.
 Given a particular locale id "en_IE_someVariant", the search chain for a
 particular resource is the following.
 
-en_IE_someVariant en_IE en root
+> en_IE_someVariant en_IE en root
 
 If a type and key are supplied in the locale id, then logically the chain from
 that id to the root is searched for a resource tag with a given type, all the
@@ -648,10 +652,10 @@ contain all of the appropriate resources for it. For more information see
 If a language has more than one script in customary modern use, then the CLDR
 file structure in common/main follows the following model:
 
-lang
-lang_script
-lang_script_region
-lang_region *(aliases to lang_script_region)*
+> lang
+> lang_script
+> lang_script_region
+> lang_region *(aliases to lang_script_region)*
 
 There are actually two different kinds of fallback: resource bundle lookup and
 resource item lookup. For the former, a process is looking to find the first,

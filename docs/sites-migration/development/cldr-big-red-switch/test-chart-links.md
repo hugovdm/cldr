@@ -1,5 +1,7 @@
 # test-chart-links
 
+[TOC]
+
 You can use these to test.
 
 ***{latest} = latest release, currently 29***

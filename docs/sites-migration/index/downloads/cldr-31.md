@@ -12,6 +12,8 @@ No. Date Rel. Note Data Charts Spec Delta SVN Tag DTD Diffs
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 31 provides an update to the key building blocks for software
 supporting the world's languages. This data is used by all [major software
 systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) for their software
@@ -86,11 +88,11 @@ The following gives the total overview of the change in data items in CLDR.
 *This release did not have a data-submission cycle, so the changes reflect
 cleanup and bug fixes.*
 
-added items
-0.99%
-deleted items\*                                                         0.70%
-changed items                                                   1.21%
-*total items*                                                   *975,840*
+> added items
+> 0.99%
+> deleted items\*                                                         0.70%
+> changed items                                                   1.21%
+> *total items*                                                   *975,840*
 
 \* The measurement of the number of items is reflects the different ways that
 the information is represented. A single data field (element or attribute value)

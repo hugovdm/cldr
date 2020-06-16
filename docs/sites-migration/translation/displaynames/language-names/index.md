@@ -4,7 +4,7 @@ Some language names are simple, like "English". However, it is often important
 to distinguish a variant of the language, even when it is only written. For
 example, British English and American English are often written differently. In
 some cases, the difference can be quite substantial, such as when the same
-language is written with different [scripts](script-names.md) (aka writing
+language is written with different [scripts](../script-names.md) (aka writing
 systems, like Latin letters vs Greek letters).
 
 Thus more complex language names may be composed from simple languages plus
@@ -12,7 +12,7 @@ variants. A pattern is used to control how the translations for language,
 script, and region codes are composed into a name when the compound code doesn't
 have a specific translation. An example is "αγγλικά (Αυστραλία)", which has the
 native name for "English", followed by the native word for "Australia" in
-parentheses. See [Patterns for Locale/Language Names](localepattern.md).
+parentheses. See [Patterns for Locale/Language Names](../localepattern.md).
 
 For the simple language names, please follow these guidelines:
 
@@ -26,7 +26,7 @@ For the simple language names, please follow these guidelines:
 *   Use the capitalization that would be appropriate for a language name in the
     middle of a sentence; the <contextTransforms> data can specify the
     capitalization for other contexts. For more information, see
-    [Capitalization](../translation-guide-general/capitalization.md).
+    [Capitalization](../../translation-guide-general/capitalization.md).
 
 ## Unique Names
 
@@ -41,3 +41,28 @@ There are a few special cases:
 *   "Swiss High German" (*Schweizer Hochdeutsch*), also called "Swiss Standard
     German", has the code `de_CH`.
 *   "Swiss German" (*Schwyzerdütsch*) has the code `gsw`.
+
+## Menu variants
+
+For languages that are part of a larger family, the Survey Tool may request
+translations of a “menu variant” of the language name that puts the family name
+first so it will be grouped in a menu together with other languages of the same
+family. For example:
+
+![Menu variant for Cantonese](menuVariants1.png){width="400" height="54"}
+
+![Menu variant for Central Kurdish](menuVariants2.png){width="400" height="63"}
+
+If your standard translation of the language name already puts the family name
+first (as in “Kurdish, Central”) then you can supply the same name as the menu
+variant.
+
+## Other variants
+
+Some languages may have other variant forms. For example, “ckb” may in English
+be called “Central Kurdish” or “Sorani Kurdish”; the former is used as the
+standard name for English, and the latter is the variant. In other languages the
+equivalent of “Sorani Kurdish” may be used as the standard name; if there is
+also an equivalent for “Central Kurdish” it may be supplied as the variant. If
+there is only one form in your language, please use it for both the standard and
+the variant form.

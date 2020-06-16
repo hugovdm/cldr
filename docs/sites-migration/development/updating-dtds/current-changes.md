@@ -1,5 +1,7 @@
 # current changes
 
+[TOC]
+
 John: please add this page to the BRS. The first step should be to find the
 diffs and record here. This step should come early on the BRS page. Once we have
 people, we can file bugs on each change.

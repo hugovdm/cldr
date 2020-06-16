@@ -31,7 +31,7 @@ You will need to manually set the encoding in your browser to UTF-8 (and the
 tool still doesn't get it quite right). The w3c tool has many false positives
 (<pre> and <table> often fool it) also, so you will see cases like:
 
-Roundtrip ~~mappings—the~~ mappingsâ€”the ability...
+> Roundtrip ~~mappings—the~~ mappingsâ€”the ability...
 
 But it should allow you to double check that the Modifications are correct for
 your Part.

@@ -1,5 +1,7 @@
 # Plurals & Units
 
+[TOC]
+
 ## Plurals
 
 In CLDR, Plurals are used for localized Units and Compact numbers (under
@@ -132,7 +134,25 @@ with the placeholder).
 
 ## Minimal Pairs
 
-Minimal pairs are used to establish the different categories. ***These messages
-are not to be translated literally; do not simply translate the English!*** For
-more information, see [Determining Plural
-Categories](http://cldr.unicode.org/index/cldr-spec/plural-rules#TOC-Determining-Plural-Categories).
+Minimal pairs are used to verify the different grammatical features used by a
+language. ***These messages are not to be translated literally; do not simply
+translate the English!***
+
+*   **Plurals (cardinals) and Ordinals.** For more information, see [Determining
+    Plural
+    Categories](http://cldr.unicode.org/index/cldr-spec/plural-rules#TOC-Determining-Plural-Categories).
+*   **Grammatical Case.** These need to be patterns that require the given case
+    in the language. For example, in German the phrase "mit {0}" requires {0} to
+    be in the dative case. Each phrase must be different, and should be suitable
+    for substituting a unit measure, such as "mit 1 britischen Gallone".
+*   **Grammatical Gender.** These need to be patterns that require the given
+    gender in the language. For example, in German the phrase "{0}, die zu viel
+    ist, …" requires {0} to be feminine. Each phrase must be different, and if
+    possible\*, should be suitable for substituting a unit measure, such as "1
+    britischen Gallone, die zu viel ist, …".
+    *   \* in some languages a unit measure can't have a particular gender.
+
+## Compound Units
+
+Units of measurement can be formed from other units and other components. For
+more information, see [Compound Units](../../units-1/units.md).

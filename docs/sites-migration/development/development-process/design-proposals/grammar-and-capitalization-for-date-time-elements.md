@@ -1,5 +1,7 @@
 # Grammar & capitalization forms for date/time elements and others
 
+[TOC]
+
 Author Peter Edberg, comments from others as noted Date 2011-11-17 through
 2011-11-30, 2012-01-10to17 Status Proposal Feedback to pedberg (at) apple (dot)
 com Bugs See list of tickets in section D

@@ -1,5 +1,7 @@
 # Adding a new locale to CLDR
 
+[TOC]
+
 If you are just adding a new country locale (eg we have a locale for the
 language), you just need to add the new empty locale file, and Update Survey
 Tool. Otherwise:

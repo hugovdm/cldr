@@ -1,8 +1,10 @@
 # Country/Region (Territory) Names
 
+[TOC]
+
 Country and region names (referred to as Territories in the Survey Tool) may be
-used as part of [Language/Locale Names](language-names.md), or may be used in UI
-menus and lists to select countries or regions.
+used as part of [Language/Locale Names](language-names/index.md), or may be used
+in UI menus and lists to select countries or regions.
 
 ## General Guidelines
 

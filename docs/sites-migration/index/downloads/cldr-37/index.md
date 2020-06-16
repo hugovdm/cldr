@@ -13,6 +13,8 @@ No. Date Rel. Note Data Charts Spec Delta Tickets GitHub Tag Delta DTD 37
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR provides an update to the key building blocks for software
 supporting the world's languages. CLDR data is used by all [major software
 systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) (including all mobile

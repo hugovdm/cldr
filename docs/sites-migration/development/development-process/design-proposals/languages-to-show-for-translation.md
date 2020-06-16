@@ -1,5 +1,7 @@
 # BCP 47 Changes (DRAFT)
 
+[TOC]
+
 With the new release of the new version of [BCP
 47](http://www.inter-locale.com/ID/draft-ietf-ltru-4646bis-18.html), there are
 various changes we need to make in Unicode CLDR and LDML. Already in CLDR 1.7 we

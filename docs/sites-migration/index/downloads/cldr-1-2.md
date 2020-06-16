@@ -12,11 +12,11 @@ CLDR Version 1.2 contains data for 232 locales,
 72 languages and 108 territories. There are also 63 draft locales in the process
 of being developed, covering an additional 27 languages and 28 territories.
 
-*This is a stable release and may be used as reference material or cited as a
-normative reference by other specifications. Although the data in this release
-will not be changed, bug reports and feature requests for future versions filed
-at [Bug
-Reports](http://unicode.org/cldr/data/docs/web/filing_bug_reports.html).*
+> *This is a stable release and may be used as reference material or cited as a
+> normative reference by other specifications. Although the data in this release
+> will not be changed, bug reports and feature requests for future versions
+> filed at [Bug
+> Reports](http://unicode.org/cldr/data/docs/web/filing_bug_reports.html).*
 
 In this release, the major additions to CLDR are:
 

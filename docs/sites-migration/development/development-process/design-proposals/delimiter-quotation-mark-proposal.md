@@ -30,7 +30,7 @@ visual practice, so we have two alternatives.**
 2.  Reverse the two, which would be correct with all BIDI or with correct
     markup.
 
-Personally, I lean towards #2.
+> Personally, I lean towards #2.
 
 The first sheet has recommendations for changing; the others are just scratch
 sheets.
@@ -41,4 +41,6 @@ sheets.
 *   The Old columns show the current values.
 *   And the last column shows the locales in question.
 
-**Quotation ‎(Delimiter)‎ Proposal**
+**<iframe
+src="https://spreadsheets.google.com/spreadsheet/lv?chrome=false&key=0AqRLrRqNEKv-dHNzeVAxLW9XcDBIMFh4VDNXdzFpY3c&output=html&pubredirect=true&widget=true"
+width="100%" height="1200" allow="fullscreen" />**

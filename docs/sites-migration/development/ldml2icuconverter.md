@@ -26,24 +26,23 @@ A typical setup to do development both in CLDR (LDML2ICUConverter) and ICU4C is:
 
 ```none
   
-
-*   root_dir
-    *   icu4j_dir
-        *   <icu4j_branch_name>
-            *   main
-    *   <Project1>
-        *   cldr
-            *   <cldr_branch_name>
-                *   common
-                *   ...
-        *   icu4c
-            *   <icu4c_branch_name>
-                *   source
-    *   <Project2>
-        *   ...
-        *   ...
-
 ```
+
+*   ```none root_dir ```
+    *   ```none icu4j_dir ```
+        *   ```none <icu4j_branch_name> ```
+            *   ```none main ```
+    *   ```none <Project1> ```
+        *   ```none cldr ```
+            *   ```none <cldr_branch_name> ```
+                *   ```none common ```
+                *   ```none ... ```
+        *   ```none icu4c ```
+            *   ```none <icu4c_branch_name> ```
+                *   ```none source ```
+    *   ```none <Project2> ```
+        *   ```none ... ```
+        *   ```none ... ```
 
 Here, `<icu4j_branch_name>`, `<cldr_branch_name>`, `<icu4c_branch_name>` are the
 branches from which these three projects are checked out. Since icu4j is used

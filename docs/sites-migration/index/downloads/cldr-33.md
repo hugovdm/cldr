@@ -12,6 +12,8 @@ No. Date Rel. Note Data Charts Spec Delta SVN Tag DTD Diffs **DTD Δs** 33
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 33 provides an update to the key building blocks for software
 supporting the world's languages. This data is used by all [major software
 systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) for their software

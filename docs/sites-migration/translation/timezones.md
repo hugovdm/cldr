@@ -1,5 +1,7 @@
 # Time Zones and City names
 
+[TOC]
+
 ## Time Zone Names
 
 Time zones (such as "Pacific Time" or "France Time") can be formatted in

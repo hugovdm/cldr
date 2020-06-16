@@ -1,5 +1,7 @@
 # Subeclipse Setup
 
+## [TOC]
+
 ## Updating Eclipse & SVN for CLDR (TODO: Update for Git)
 
 1.  Go to <http://www.eclipse.org/>

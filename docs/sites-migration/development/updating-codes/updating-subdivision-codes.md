@@ -2,6 +2,8 @@
 
 ## Main Process
 
+[TOC]
+
 1.  Get the latest version of the iso subdivision xml file from
     https://www.iso.org/obp/ui/ (you'll need a password) and add it to a
     cldr-private directory:

@@ -34,4 +34,4 @@ For the script names, please follow these guidelines:
     other contexts. For more information, see
     [Capitalization](http://cldr.unicode.org/translation/capitalization).
 
-See also [Language Names](language-names.md).
+See also [Language Names](language-names/index.md).

@@ -1,5 +1,7 @@
 # CLDR Process
 
+[TOC]
+
 ## Introduction
 
 This document describes the Unicode CLDR Technical Committee's process for data
@@ -87,37 +89,42 @@ process.
 
 There are multiple levels of access and control:
 
-Vetter Level Vote Description *Managers of Organizations* 8
+Vetter Level Vote Description *TC Member*20 / 4
 
 *   Manage users in their organization
 *   Can vet and submit data for all locales (However, their vetting work is only
     done to correct issues.)
 *   Can see the email addresses for all vetters in their organization
-*   *Is or has a direct connection to a Technical Committee (TC) members*
+*   Only uses a 20 vote for items agreed to by the CLDR technical Committee
 
-*Expert vetter nominated by Organization* 8
+*Organization Managers* 4
 
-*   Has association to an organization with Unicode membership.
+*   Manage users in their organization
+*   Can vet and submit data for all locales (However, their vetting work is only
+    done to correct issues.)
+*   Can see the email addresses for all vetters in their organization
+
+*Organization Expert Vetter* 8
+
 *   Can vet and submit data for a particular set of locales.
 *   Can see the email addresses for submitted data in their locales.
-*   Cannot manager other users.
+*   Cannot manage other users.
 
-*Vetter associate to Organizations* 4
+*Organization Vetter* 4
 
 *   Can vet and submit data for a particular set of locales
 *   Can see the email addresses for submitted data in their locales.
 *   Cannot manage other users.
 
-*Guest Vetters* 1
+*Guest Vetter* 1
 
 *   Can vet and submit data for a particular set of locales
 *   Cannot see email addresses.
 *   Cannot manage other users.
 
-Locked Vetters 0
+Locked Vetter 0
 
-*   If a user is locked or removed, then his/er vote is considered a zero
-    weight.
+*   If a user is locked or removed, then their vote is considered a zero weight.
 
 These levels are decided by the technical committee and the TC representative
 for the respective organizations.
@@ -143,7 +150,7 @@ for the respective organizations.
     highest user level who voted has user level of 4 votes, then the vote count
     attributed to the organization as a whole is 4 for that item.
 
-### Optimal Field Value (To be confirmed ticket #13332)
+### Optimal Field Value
 
 For each release, there is one optimal field value determined by the following:
 
@@ -199,7 +206,7 @@ refined free of errors for the release:
     *   When an item is removed, an alternate may then become the new optimal
         value.
     *   All values with errors are removed.
-*   Non-optimal values are handled as follows (To be confirmed Ticket #13332):
+*   Non-optimal values are handled as follows
     *   Those with no votes are removed.
     *   Those with votes are marked with *alt=proposed* and given the draft
         status: unconfirmed

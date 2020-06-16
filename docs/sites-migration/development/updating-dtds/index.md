@@ -1,5 +1,7 @@
 # Updating DTDs
 
+[TOC]
+
 ## Introduction
 
 CLDR makes special use of XML because of the way it is structured. In
@@ -367,24 +369,24 @@ determined by the ordering in the file. To override this, set the order field in
 your function. For example, the following gets integer values and changes them
 into real ints for comparison.
 
-**int** m = Integer.*parseInt*(source);
-*order* = m;
+> **int** m = Integer.*parseInt*(source);
+> *order* = m;
 
 There is also a "suborder" used in a few cases for the code. You probably don't
 need to worry about this, but here is an example. Ask for help on the cldr-dev
 list if you need this.
 
-*suborder* = **new** SubstringOrder(source, 1);
+> *suborder* = **new** SubstringOrder(source, 1);
 
 The return value is the appearance to the user. For example, the following
 changes integer months into strings for display:
 
-**static** String\[\] *months* = { "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-"Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Und" };
+> **static** String\[\] *months* = { "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+> "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Und" };
 
-...
+> ...
 
-**return** *months*\[m - 1\];
+> **return** *months*\[m - 1\];
 
 ## Placeholders
 

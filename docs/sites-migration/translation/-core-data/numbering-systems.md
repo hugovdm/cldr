@@ -1,5 +1,7 @@
 # Numbering Systems
 
+[TOC]
+
 Certain general features of numbers need to be supplied for locale data.
 
 ## Numbering systems

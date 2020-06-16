@@ -1,5 +1,7 @@
 # Language Support Levels
 
+[TOC]
+
 Programs and devices can offer different levels of support for different
 languages. It is useful to distinguish three of these: *basic language support*,
 *content language support*, and *UI language support*.

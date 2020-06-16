@@ -2,6 +2,8 @@
 
 OBSOLETE, Need instructions for Git/Jira
 
+[TOC]
+
 We use Eclipse for development and testing of our tools.
 
 Keywords: getting started running tests run

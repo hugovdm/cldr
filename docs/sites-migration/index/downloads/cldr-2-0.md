@@ -17,6 +17,8 @@ modern coverage-level data for the top 55 languages, for an increase of over 45%
 more data fields in those languages. Overall, there was an increase of over 20%
 in the total number of data fields.
 
+[TOC]
+
 ## ****Features****
 
 *   Modified coverage levels to be data-driven, and fine-tuned the allocation

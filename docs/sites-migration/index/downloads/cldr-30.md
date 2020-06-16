@@ -25,6 +25,8 @@ No. Date Rel. Note Data Charts Spec Delta SVN Tag DTD Diffs
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 30 provides an update to the key building blocks for software
 supporting the world's languages. This data is used by all [major software
 systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) for their software
@@ -61,52 +63,53 @@ main improvements in the release:
 
 The new data fields being added to the release are:
 
-In locale data,
-new element
-**[<relativePeriod>](http://www.unicode.org/reports/tr35/tr35-45/tr35-dates.html#Calendar_Fields)**,
-new attribute **count** for
-**<dateFormatItem>**;
-In supplemental data,
-new element
-**[<weekOfPreference>](http://www.unicode.org/reports/tr35/tr35-45/tr35-dates.html#Week_Data)**
-For generated periods like “the week of August 10”. Data examples:
-<availableFormats>
-<dateFormatItem id="MMMMW" count=...>'week' W 'of' MMM</dateFormatItem>
-<dateFormatItem id="yw" count=...>'week' w 'of' y</dateFormatItem>
-...
-<field type="week">
-<relativePeriod>the week of {0}</relativePeriod>
-**Note:** the structure and intended usage for these items is still being
-refined, see [Warnings and Errata](cldr-30.md). New [relative data
-items](http://www.unicode.org/reports/tr35/tr35-45/tr35-dates.html#Calendar_Fields)
-for weekdays,
-and for “this hour”, “this minute” Examples:
-<field type="sun">
-<relativeTime type="future">
-<relativeTimePattern count=...>in {0} Sundays</relativeTimePattern>
-...
-<field type="hour">
-<relative type="0">this hour</relative> New [unit
-patterns](http://www.unicode.org/reports/tr35/tr35-45/tr35-general.html#perUnitPatterns)
-for
-“per square kilometer”, “per square mile” In locale data, new elements
-**[<characterLabel>](http://www.unicode.org/reports/tr35/tr35-45/tr35-general.html#Character_Labels)**,
-**[<characterLabelPatterns>](http://www.unicode.org/reports/tr35/tr35-45/tr35-general.html#Character_Labels)**
-To generate labels for groups of related characters in character pickers In
-[annotation
-data](http://www.unicode.org/reports/tr35/tr35-45/tr35-general.html#Annotations),
-new attribute **type** for **<annotation>,**
-deprecated attribute **tts** for **<annotation>** Restructured to make the
-difference clearer between short names (text-to-speech) and other keywords (for
-predictive typing, search, etc.). See detail below. New data file
-[ExtendedPictographic.txt](http://unicode.org/cldr/trac/browser/tags/release-30-0-2/common/properties/ExtendedPictographic.txt)
-Specifies property data for “future-proofing” [emoji
-segmentation](http://www.unicode.org/reports/tr35/#Extended_Pictographic). The
-structure for annotations has changed to make processing simpler:
+> In locale data,
+> new element
+> **[<relativePeriod>](http://www.unicode.org/reports/tr35/tr35-45/tr35-dates.html#Calendar_Fields)**,
+> new attribute **count** for
+> **<dateFormatItem>**;
+> In supplemental data,
+> new element
+> **[<weekOfPreference>](http://www.unicode.org/reports/tr35/tr35-45/tr35-dates.html#Week_Data)**
+> For generated periods like “the week of August 10”. Data examples:
+> <availableFormats>
+> <dateFormatItem id="MMMMW" count=...>'week' W 'of' MMM</dateFormatItem>
+> <dateFormatItem id="yw" count=...>'week' w 'of' y</dateFormatItem>
+> ...
+> <field type="week">
+> <relativePeriod>the week of {0}</relativePeriod>
+> **Note:** the structure and intended usage for these items is still being
+> refined, see [Warnings and Errata](cldr-30.md). New [relative data
+> items](http://www.unicode.org/reports/tr35/tr35-45/tr35-dates.html#Calendar_Fields)
+> for weekdays,
+> and for “this hour”, “this minute” Examples:
+> <field type="sun">
+> <relativeTime type="future">
+> <relativeTimePattern count=...>in {0} Sundays</relativeTimePattern>
+> ...
+> <field type="hour">
+> <relative type="0">this hour</relative> New [unit
+> patterns](http://www.unicode.org/reports/tr35/tr35-45/tr35-general.html#perUnitPatterns)
+> for
+> “per square kilometer”, “per square mile” In locale data, new elements
+> **[<characterLabel>](http://www.unicode.org/reports/tr35/tr35-45/tr35-general.html#Character_Labels)**,
+> **[<characterLabelPatterns>](http://www.unicode.org/reports/tr35/tr35-45/tr35-general.html#Character_Labels)**
+> To generate labels for groups of related characters in character pickers In
+> [annotation
+> data](http://www.unicode.org/reports/tr35/tr35-45/tr35-general.html#Annotations),
+> new attribute **type** for **<annotation>,**
+> deprecated attribute **tts** for **<annotation>** Restructured to make the
+> difference clearer between short names (text-to-speech) and other keywords
+> (for predictive typing, search, etc.). See detail below. New data file
+> [ExtendedPictographic.txt](http://unicode.org/cldr/trac/browser/tags/release-30-0-2/common/properties/ExtendedPictographic.txt)
+> Specifies property data for “future-proofing” [emoji
+> segmentation](http://www.unicode.org/reports/tr35/#Extended_Pictographic).
 
-OLD: <annotation cp='\[😀\]' tts='grinning face'>face; grin</annotation> NEW:
-<annotation cp="😀">face | grin</annotation>
-<annotation cp="😀" type="tts">grinning face</annotation
+The structure for annotations has changed to make processing simpler:
+
+> OLD: <annotation cp='\[😀\]' tts='grinning face'>face; grin</annotation> NEW:
+> <annotation cp="😀">face | grin</annotation>
+> <annotation cp="😀" type="tts">grinning face</annotation
 
 Other changes:
 
@@ -194,15 +197,16 @@ Some other items of note:
 CLDR 30 included a Survey Tool data collection phase, and collection of
 annotation data. The following shows the growth of locale-data over time.
 
-document.getElementById('form487730350').submit();
+<iframe src="javascript:void(0);" width="800" height="400" allow="fullscreen"
+/>document.getElementById('form343939591').submit();
 
 This graph does not include data outside of the main and annotations
 directories, such as sorting order, transliterations, validity data, and so
 forth. The following gives the total overview of the change in data items in
 CLDR.
 
-added items 9.32% deleted items\* 0.12% changed items 5.90% *total items*
-818,314
+> added items 9.32% deleted items\* 0.12% changed items 5.90% *total items*
+> 818,314
 
 The measurement of the number of items is reflects the different ways that the
 information is represented. A single data field (element or attribute value) may

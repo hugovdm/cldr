@@ -10,6 +10,8 @@ release-25](http://unicode.org/cldr/trac/browser/tags/release-25)` ` [
 
 ## Overview
 
+[TOC]
+
 This release focused primarily on improvements to the LDML structure and tools,
 and on consistency of data. There are many smaller data fixes, but there was no
 general data submission. Changes include the following:
@@ -220,7 +222,8 @@ available, but unconfirmed.
 For more details, see *LDML Part 6, Section 7 [Coverage
 Levels](http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-info.html#Coverage_Levels)*.
 
-document.getElementById('form190308817').submit();
+<iframe src="javascript:void(0);" width="800" height="400" allow="fullscreen"
+/>document.getElementById('form513655734').submit();
 
 ## JSON data changes
 

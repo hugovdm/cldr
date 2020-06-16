@@ -1,5 +1,7 @@
 # XMB
 
+[TOC]
+
 ### Introduction
 
 Adds tools to CLDR to convert to and from the [XMB message
@@ -96,14 +98,14 @@ with examples. This is data-driven, using the file at
 
 #### Format:
 
-path_regex ; variable=name example
+> path_regex ; variable=name example
 
 The name cannot contain spaces.
 
 #### Example:
 
-^//ldml/dates/.\*(pattern|available|intervalFormatItem) ;
-EEEE=**DAY_OF_WEEK_LONG** Tuesday
+> ^//ldml/dates/.\*(pattern|available|intervalFormatItem) ;
+> EEEE=**DAY_OF_WEEK_LONG** Tuesday
 
 ### Filtering and descriptions
 
@@ -112,9 +114,9 @@ Data driven, using the file
 
 #### Format:
 
-path_regex ; description
-path_regex ; SKIP
-path_regex ; ROOT type_value; description
+> path_regex ; description
+> path_regex ; SKIP
+> path_regex ; ROOT type_value; description
 
 1.  If the value is SKIP, then the path is skipped.
 2.  The description can have {0}-style variables in it. If so, then the (...)

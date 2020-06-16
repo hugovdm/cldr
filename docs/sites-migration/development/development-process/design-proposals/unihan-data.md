@@ -1,5 +1,7 @@
 # Unihan Data
 
+[TOC]
+
 ## Background
 
 In CLDR, we use this data for sorting and romanization of Chinese data. Both of

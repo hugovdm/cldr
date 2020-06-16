@@ -1,5 +1,7 @@
 # Search collators
 
+[TOC]
+
 AuthorPeter EdbergDate2010-04-06
 StatusProposalBugs
 [2182](http://unicode.org/cldr/trac/ticket/2182),

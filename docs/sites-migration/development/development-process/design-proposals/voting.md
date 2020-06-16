@@ -1,5 +1,7 @@
 # Voting
 
+[TOC]
+
 We have been trying to tune the voting process, see
 [2260](http://www.unicode.org/cldr/bugs-private/locale-bugs-private?findid=2260).
 The goal is to balance stability with flexibility.

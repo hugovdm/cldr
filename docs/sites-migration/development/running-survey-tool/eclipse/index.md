@@ -1,5 +1,7 @@
 # Building and Running the Survey Tool on Eclipse
 
+[TOC]
+
 How to build and run the Survey Tool under Eclipse.
 
 These instructions are under construction. Add comments below with any feedback

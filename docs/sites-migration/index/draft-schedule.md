@@ -1,5 +1,8 @@
 # Draft Schedule
 
+<iframe src="https://www.youtube.com/embed/HRl3TNmT8HU?rel=0&wmode=opaque"
+width="425" height="355" allow="fullscreen" />
+
 We are planning on a different process for the future, with the following
 changes:
 

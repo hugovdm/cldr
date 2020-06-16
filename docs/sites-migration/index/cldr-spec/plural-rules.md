@@ -1,5 +1,7 @@
 # Plural Rules
 
+[TOC]
+
 Languages vary in how they handle plurals of nouns or           unit expressions
 ("hour" vs "hours", and so on). Some languages have            two forms, like
 English; some languages have only a single form; and            some languages
@@ -15,7 +17,7 @@ categories:
     language only has a single form)
 
 *See [Language                          Plural
-Rules](http://www.unicode.org/cldr/data/charts/supplemental/language_plural_rules.html)
+Rules](https://unicode-org.github.io/cldr-staging/charts/37/supplemental/language_plural_rules.html)
 for the categories for each language in CLDR.*
 
 These categories are used to provide localized units, with              a more
@@ -259,12 +261,12 @@ and is given the category other. French is similar, except                that
 the number 0 also has the category one and not other or zero, because the form
 of units            qualified by 0 is also singular.
 
-*This is worth emphasizing:* A common mistake                   is to think that
-"one" is only for only the number 1. Instead, "one"                    is a
-category for any number that behaves like 1. So in some
-languages, for example, one                             → numbers that end in
-"1" (like 1, 21, 151) but that don't end in 11                            (like
-"11, 111, 10311).
+> *This is worth emphasizing:* A common mistake                   is to think
+> that "one" is only for only the number 1. Instead, "one"                    is
+> a category for any number that behaves like 1. So in some
+> languages, for example, one                             → numbers that end in
+> "1" (like 1, 21, 151) but that don't end in 11
+> (like "11, 111, 10311).
 
 Note that these categories may be different from the forms              used for
 pronouns or other parts of speech. *In particular, they

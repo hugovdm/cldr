@@ -9,6 +9,8 @@ No. Date Rel. Note Data Charts Spec Delta SVN Tag DTD Diffs **24**
 ` [ release-24](http://unicode.org/cldr/trac/browser/tags/release-24)` `
 [ΔDTD24](http://unicode.org/cldr/trac/changeset?reponame=&new=HEAD@tags/release-24/common/dtd&old=HEAD@tags/release-23-1/common/dtd)`
 
+[TOC]
+
 Unicode CLDR 24 focused on additional structure for formatting units, dates, and
 times, and improving data coverage. This version contains data for **238**
 languages and **259** territories—**740** locales in all. Ten languages were
@@ -42,8 +44,8 @@ languages, and many improvements made.
 Details of coverage improvements and new features are provided below, along with
 a detailed Migration section.
 
-The table above lists the files for this release. For a description of their
-purpose and format, and for the coverage graphic, see the [Key](#TOC-Key).
+> The table above lists the files for this release. For a description of their
+> purpose and format, and for the coverage graphic, see the [Key](#TOC-Key).
 
 ## Coverage improvements
 
@@ -51,7 +53,8 @@ The following shows the additional coverage in this release. The horizontal axis
 shows the number of languages. The shaded areas show additional data in each
 release. The axis shows the percentage of modern coverage.
 
-document.getElementById('form1990907207').submit();
+<iframe src="javascript:void(0);" width="600" height="500" allow="fullscreen"
+/>document.getElementById('form564716603').submit();
 
 The definition of “modern coverage” increases over time, as new structure and
 requirements are added. This chart is using the most recent definition, but
@@ -167,11 +170,14 @@ for these items):
 *   The relative time units formerly under <units> with types ending in
     "-future" or "-past" have been moved to new <relativeTime> elements under
     <fields>. See the Migration section for details.
+
 *   New fields types have been added for weekdays (sun, mon, tue, wed, the, fri,
-    sat) to enable specifying relative times for these, for example: <field
-    type="mon"> <relative type="-1">last Monday</relative> <relative
-    type="0">this Monday</relative> <relative type="1">next Monday</relative>
-    </field> Usage is defined as follows:
+    sat) to enable specifying relative times for these, for example:
+    > <field type="mon"> <relative type="-1">last Monday</relative> <relative
+    > type="0">this Monday</relative> <relative type="1">next Monday</relative>
+    > </field>
+
+    Usage is defined as follows:
     *   "Last…" is the greatest before today.
     *   "This" is the least after today, but in the same week;
     *   "Next…" is the least after today but in the next week.
@@ -179,9 +185,11 @@ for these items):
     Yesterday, Last Sunday, April 15
 
 *   Added data to provide relative times for more field types (in addition to
-    day), such as week, month, year: <field type="week"> <relative
-    type="-1">last week</relative> <relative type="0">this week</relative>
-    <relative type="1">next week</relative> </field>
+    day), such as week, month, year:
+    > <field type="week"> <relative type="-1">last week</relative> <relative
+    > type="0">this week</relative> <relative type="1">next week</relative>
+    > </field>
+
 *   The term for "now" has been added (with the path <field
     type="second">/<relative type="0">now</relative>
 *   The English data for all field items was changed to use middle-of-sentence
@@ -256,8 +264,8 @@ For the Gregorian calendar, an alt="variant" form for eras was added which can
 provide a more neutral or non-religious name
 \[[#649](http://unicode.org/cldr/trac/ticket/649)\], for example:
 
-<eras> <eraAbbr> <era type="0">BC</era> <era type="0" alt="variant">BCE</era>
-<era type="1">AD</era> <era type="1" alt="variant">CE</era> </eraAbbr> </eras>
+> <eras> <eraAbbr> <era type="0">BC</era> <era type="0" alt="variant">BCE</era>
+> <era type="1">AD</era> <era type="1" alt="variant">CE</era> </eraAbbr> </eras>
 
 The default month names in the root locale changed from “Month1”..“Month12” to
 “M01”..“M12” to be more neutral.
@@ -295,7 +303,7 @@ others\]. Note that because the UCA now doesn't distinguish decimal digits with
 the same value, a by-product is sometimes strange-looking generated rules, such
 as:
 
-OLD&2 <<< ㉓ / 3**NEW**&2 <<< ㉓ / &#x1d362;
+> OLD&2 <<< ㉓ / 3**NEW**&2 <<< ㉓ / &#x1d362;
 
 The character "㉓" is expanding to a tertiary difference from "23". There is now
 no functional difference between these, because for the UCA, "3" = "&#x1d362;".
@@ -434,14 +442,16 @@ fields may change.
 
 ### **Units**
 
-The <units> structure has changed. In CLDR 23 it looked like <units> <unit
-type="day"> <unitPattern count="one">{0} day</unitPattern> <unitPattern
-count="one" alt="short">{0} day</unitPattern> <unitPattern count="other">{0}
-days</unitPattern> <unitPattern count="other" alt="short">{0} days</unitPattern>
-</unit> <unit type="day-future"> <unitPattern count="one">In {0}
-day</unitPattern> <unitPattern count="other">In {0} days</unitPattern> </unit>
-<unit type="day-past"> <unitPattern count="one">{0} day ago</unitPattern>
-<unitPattern count="other">{0} days ago</unitPattern> </unit> ... </units>
+The <units> structure has changed. In CLDR 23 it looked like
+> <units> <unit type="day"> <unitPattern count="one">{0} day</unitPattern>
+> <unitPattern count="one" alt="short">{0} day</unitPattern> <unitPattern
+> count="other">{0} days</unitPattern> <unitPattern count="other"
+> alt="short">{0} days</unitPattern> </unit> <unit type="day-future">
+> <unitPattern count="one">In {0} day</unitPattern> <unitPattern
+> count="other">In {0} days</unitPattern> </unit> <unit type="day-past">
+> <unitPattern count="one">{0} day ago</unitPattern> <unitPattern
+> count="other">{0} days ago</unitPattern> </unit> ... </units>
+
 Beginning in CLDR 24 there are several changes:
 
 *   The "-future" and "-past" forms have moved to a new <relativeTime> element
@@ -452,18 +462,22 @@ Beginning in CLDR 24 there are several changes:
     standard forms are now under <unitLength type="long">, and the the old
     alt="short" forms are now under <unitLength type="short">.
 
-The <units> structure now looks like this: <units> <unitLength type="long">
-<unit type="duration-day"> <unitPattern count="one">{0} day</unitPattern>
-<unitPattern count="other">{0} days</unitPattern> </unit> ... </unitLength>
-<unitLength type="short"> <unit type="duration-day"> <unitPattern
-count="one">{0} day</unitPattern> <unitPattern count="other">{0}
-days</unitPattern> </unit> ... </unitLength> </units> The <fields> structure now
-has added items as follows: <fields> <field type="day"> ... <relativeTime
-type="future"> <relativeTimePattern count="one">in {0} day</relativeTimePattern>
-<relativeTimePattern count="other">in {0} days</relativeTimePattern>
-</relativeTime> <relativeTime type="past"> <relativeTimePattern count="one">{0}
-day ago</relativeTimePattern> <relativeTimePattern count="other">{0} days
-ago</relativeTimePattern> </relativeTime> </field> ... </fields>
+The <units> structure now looks like this:
+> <units> <unitLength type="long"> <unit type="duration-day"> <unitPattern
+> count="one">{0} day</unitPattern> <unitPattern count="other">{0}
+> days</unitPattern> </unit> ... </unitLength> <unitLength type="short"> <unit
+> type="duration-day"> <unitPattern count="one">{0} day</unitPattern>
+> <unitPattern count="other">{0} days</unitPattern> </unit> ... </unitLength>
+> </units>
+
+The <fields> structure now has added items as follows:
+> <fields> <field type="day"> ... <relativeTime type="future">
+> <relativeTimePattern count="one">in {0} day</relativeTimePattern>
+> <relativeTimePattern count="other">in {0} days</relativeTimePattern>
+> </relativeTime> <relativeTime type="past"> <relativeTimePattern
+> count="one">{0} day ago</relativeTimePattern> <relativeTimePattern
+> count="other">{0} days ago</relativeTimePattern> </relativeTime> </field> ...
+> </fields>
 
 ### **Collation**
 

@@ -1,106 +1,170 @@
 # Date/Time Symbols
 
-## Symbols
+[TOC]
 
-Dates and times are formatted using patterns, like "mm-dd". Each field, like the
-month or the hour, is represented by a sequence of letters from A to Z. For
-example, one or more M's stand for the month. When the software formats a date
-for your language, a value will be substituted for each field, according to the
-following table.
+Symbols is a required topic to work in [Date/Time
+Patterns](date-time-patterns/index.md)
 
-*Important: the characters a-z and A-Z are special placeholders; they stand for
-date or time fields, NOT real characters. For example, 'y' stands for a numeric
-year and will be replaced by a value like '1998'. You must NOT "translate" the
-placeholders; for example, don't change 'y' to 'j' even though in your language
-the word for "year" starts with a "j".*
+More details on date/time symbols and patterns may be found in the Spec [Date
+Field Symbol
+Table](http://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table).
 
-Any "real" characters need to be quoted, as in the following where a real
-character 'g' needs to be in the pattern.
+## About Symbols
 
-EEE, yyyy. **'g'**. dd. MMM
+Dates and times are formatted using patterns, like "mm-dd". Within these
+patterns, each field, like the month or the hour, is represented by a sequence
+of letters (“pattern characters”) in the range A–Z or a–z. For example,
+sequences consisting of one or more ‘M‘ or ‘L‘ stand for various forms of a
+month name or number.
 
-Symbol **English Examples** Meaning G AD, BC era
-This also covers non-Gregorian calendars, such as Japanese. y, yy 1987 year; use
-y to show as many digits as necessary (987, 2017) or yy to always show two
-digits (87, 17, 09). M, L September, Sept, S; 11 month
+When the software formats a date for your language, a value will be substituted
+for each field, according to the following table. Examples of the pattern usage
+you may see in an every day use may be on the lock screen on a mobile device
+showing the date or time, or as a date stamp on an email.
+
+Notice in the table below that there are different pattern characters for
+standalone and formatting. For example M to indicate the formatting and L to
+indicate the standalone month names.
+
+Make sure you understand the difference between standalone and formatting
+patterns and use the appropriate symbols in patterns. See [when to use
+standalone vs. formatting](date-time-patterns/index.md) in Date and Time
+patterns.
+
+Symbol **Meaning** **English example** **Special note** **Usage in pattern
+example** G era AD, BC This symbol also covers era names and abbreviations for
+non-Gregorian calendars, such as Japanese. y G = 1999 AD y
+yy year
+1987 use y to show as many digits as necessary (987, 2017)
+Use yy to always show year in two digits (87, 17, 09).
+M/d/y = 9/5/2019
+M/d/yy = 9/5/19 M month September Used in patterns to reference use of Formatted
+month names. MMMM d, y = September 5, 2019 L month September Used in patterns to
+reference use of Standalone month names.
 *See below under Stand-Alone vs Format Styles for the difference between M and
-L.* E, c Tuesday, Tues, T day of the week (eg Tuesday).
-*Note that even if the locale never normally uses 12-hour time, values for the am and pm symbols, as well as flexible time patterns for 12-hour time, must be supplied to support overrides and testing. See [Date/Time Patterns](date-time-patterns/index.md).**See below under Stand-Alone vs Format Styles for the difference between E and c.* d 13 day h, H, K, k 12 hour. h for 12-hour cycle using 1 through 12, H for 24-hour cycle using 0 through 23, K for 12-hour cycle using 0 through 11, k for 24-hour cycle using 1 through 24 m 49 minute s 49 second a, b, B am, a, pm, p, noon, n a indicates am/pm, b indicates am/noon/pm/midnight, B indicates use of day period ranges such as “in the morning” or “in the evening”. Only used with "h" or "K".
-*If the examples for day period ranges show them in the wrong position, then the
-time formats specific to using day period ranges may be updated. See [Day period
-patterns](date-time-patterns/index.md).* z / v Pacific Time, Paris Time time
-zone. Don't change v to z or vice versa; just leave the choice the same as in
-English.
-' Since letters have special meaning, if you want a real letter, you need to put
-it in single quotes, such as 'ta'.
-For a real single quote, use '' (that is, two adjacent ' characters). Q Q1,
-Q3quarter. These are calendar quarters (eg, Jan-Mar) not fiscal quarters (for
-languages that distinguish them.
+L.* LLLL d, y =September 5, 2019 E Day of week Tuesday
+Used in patterns to reference use of Formatted weekday names. EEEE, MMMM d, y =
+Sunday, September 5, 2009 c Day of week Tuesday Used in patterns to reference
+use of Standalone weekday names.
+*See below under Stand-Alone vs Format Styles for the difference between E and
+c.* ccc = Sun d day h
+H
+K
+k Hour 12 h- hour in a 12 hour clock
+H-hour in a 24 hour clock system using 0-23
+K -12 hour cycle using 0 through 11
+k - 24 hour cycle using 1 though 24
+h:mm a = 3:25 PM
+HH:mm = 15:25
+K:mm a = 0:25 AM
+kk:mm = 24:25 m minute 49
+hh:mm a = 03:25 PM s second 49
+h:mm:ss = 3:25:01 PM a
+b
+B day period AM
+noon
+in the morning a- AM or PM
+b-am, noon, pm, or midnight
+B-"in the morning", "in the evening" (see [Day period
+names](http://cldr.unicode.org/translation/date-time-1/date-time-names#TOC-Day-Periods-AM-PM-etc.-))
+ONLY used with "h" or K" for all a, b and B
+See [date/time patterns about flexible time
+formats](http://cldr.unicode.org/translation/date-time-1/date-time-patterns#TOC-Additional-Date-Time-Formats)
+even if your language does not use 12-hour time clock
+Also see [date/time day period patterns.](date-time-patterns/index.md) h:mm a =
+3:25 PM
+h:mm b = 12:00 noon
+h:mm B= 3:25 in the afternoon z / v timezone Pacific Time, Paris Time Don't
+change v to z or vice versa; just leave either z or v as in English. h a – h a v
+= 5 AM – 5 PM GMT ' If you want a sequence of one or more real letters A–Z or
+a–z within a pattern, you need to put it in single quotes, such as 'ta'. This is
+because letters included in a format have special meaning.
+For a real single quote, use '' (that is, two adjacent ' characters). German
+example for skeleton *h*
+h 'Uhr' a = 1 Uhr PM Q Quarter (a concept of 3 months period) These are calendar
+quarters not fiscal quarters.
+4 Quarters in United States for example would be Jan-Mar, Apr-June, July-Sep,
+Sep-Dec. Also see💡**Translation Tips** below
+QQQ y = Q3 1999
 
-### Symbol Length
+💡Translation Tips
 
-The number of letters indicates the format: for example, M or MM for numeric
-(eg, 1 or 01), MMM for abbreviated. The following are the available symbol
-lengths, and their meaning.
+*   The symbols using characters a-z and A-Z are special placeholders; they
+    stand for date or time fields. They are NOT real characters.
+    For example, 'y' stands for a numeric year and will be replaced by a value
+    like '1998'. DO NOT "translate" the placeholders; for example, don't change
+    'y' to 'j' even though in your language the word for "year" starts with a
+    "j".
+*   Any "real" characters need to be quoted. For example, 'g' in a real
+    character in this example pattern: EEE, yyyy. **'g'**. dd. MMM
+*   If your language doesn't have a concept of "**Quarters**", use a translation
+    that describes the concept "three-month period" rather than
+    “quarter-of-a-year”.
 
-**Symbol** **Examples** **Meaning** M 3, 11 Numeric form, at least 1 digit MM
-03, 11 Number form, at least 2 digits (padding with 0) MMM Dec Abbreviated form
-MMMM December Full form MMMMM D Narrow form - only used in where context makes
-it clear, such as headers in a calendar.
+## Symbol Length
+
+The number of letters in a field indicates the **format.**
+
+The number of letters used to indicate the format is the same for all date
+fields EXCEPT for the year. (See table above for y and yy).
+
+The following are the available field lengths, and their meanings:
+
+**Symbol** **Examples** **Meaning** M 3, 11 Numeric form, at least 1 digit and
+without leading zero. MM 03, 11 Number form, 2 digits with leading zero if
+necessary MMM Dec Abbreviated form MMMM December Full form MMMMM D Narrow form -
+only used in where context makes it clear, such as headers in a calendar.
 *Should be one character wherever possible.*
 
-For the year, normally the form that should be used is 'y', which will expand
-from 1 to 4 digits (the shorter forms occur in some calendars). The form yy' is
-special, and is used for exactly two digits: thus "2005" turns into "05".
+The longer forms are only relevant for the fields that are non-numeric, such as
+era names, month names, day of the week, and am/pm, etc...
 
-The longer forms are only relevant for the fields that can have a textual
-representation: eras, months, day of the week, and am/pm. For more about the
-names of these fields, see [Date/Time Names](date-time-names/index.md).
+## Standalone vs. Format Styles
 
-### Stand-Alone vs. Format Styles
+This section is relevant to [When to use standalone vs.
+Formatting](date-time-patterns/index.md) in date/time patterns.
 
-Some languages use two different forms of strings (*stand-alone* and *format*)
-depending on the context. Typically the *stand-alone* version is the nominative
-form of the word, and the *format* version is in the genitive. Two different
-characters are used:
+Some languages use two different forms of strings (*standalone* and *format*)
+depending on the context. Typically the *standalone* version is the nominative
+form of the word, and the *format* version is in the genitive (or related form).
 
-**FieldFormatStand Alone**MonthMLDay of the WeekEc
+Two different characters are used:
 
-Make sure that the correct forms are provided, especially for the months, and
-used in the patterns. That is, suppose that the language uses "Dezembro" for
-December when standing alone (LLLL), but "Dezembru" when with a date (MMMM, when
-it means the nth day *of* that month). Then the formats for months could be
-something like:
+**Field** **Format** **Standalone** Month M L Day of the Week E c
 
-**Format String** **Example1** **Example2** LLLL Dezembro Dez. d MMMM 1 Dezembru
-1 Dez. MMMM d yy Dezembru 1 1953 1 Dez. 53
+💡 Translation Tips
 
-Similarly, suppose that your language formats months differently if they have
-vowels, eg "14 de gener de 2008" but "14 d'abril de 2008". In that case, the
-stand-alone and format versions of the months should be:
+*   Standalone and Format names must be coordinated with the format strings. See
+    [When to use standalone vs. Formatting](date-time-patterns/index.md) in
+    date/time patterns.
+*   If your language uses two different form, be sure to provide the correct
+    forms under Standalone and Formatting. For example in Brazilian Portuguese
+    *   "Dezembro" for December when standing alone; thus use LLLL
+    *   "Dezembru" when referencing December with a date (e.g. to mean "the nth
+        day of that month"); thus, use MMMM
+    *   Then, make sure you use the intended forms by using the correct symbol
+        (e.g. LLLL stand-alone form or MMMM format forms).
+*   If your language formats months differently with vowels, eg "14 de gener de
+    2008" but "14 d'abril de 2008"; the stand-alone and format versions of the
+    months should be as follows; in this case the format strings should not have
+    the extra "de" before the month:
 
-**Format Month** Stand-Alone Month de gener gener d'abril abril
+> **Format Month** Stand-Alone Month de gener gener d'abril abril
 
-These must be coordinated with the format strings, which can't have the extra
-"de" before the month:
+These days, standalone names should not be used merely to provide capitalized
+forms. There are other solutions for capitalizing date symbols which provide
+finer control over capitalization, see [capitalization
+guidelines](../translation-guide-general/capitalization.md).
+
+### Examples:
+
+Nominative/standalone (LLLL) vs genitive/format (MMMM):
+
+**Format** **Example1** **Example2** LLLL Dezembro Dez. d MMMM 1 Dezembru 1 Dez.
+MMMM d yy Dezembru 1 1953 1 Dez. 53
+
+Precede months with de or d’ - coordinate with the formats strings, which can't
+have the extra "de" before the month:
 
 **Format String** Date **Result** LLLL 2008-1-14 gener 2008-4-14 abril d MMMM
 'de' y 2008-1-14 14 de gener de 2008 2008-4-14 14 d’abril de 2008
-
-That is, if your language uses two different forms, then make sure that there
-are two forms of the months or days where necessary, *and* adjust the date
-patterns to use the LLL or LLLL stand-alone form or MMM and MMMM format forms,
-as needed. See notes on [date formats](date-time-patterns/index.md).
-
-If stand-alone forms are not needed for any grammatical reasons such as the
-above, and if your language would always capitalize a date symbol such as month
-name or weekday name when it appears by itself on a calendar page or as a menu
-item (but not when it appears in the middle of a sentence), then stand-alone
-forms may be used for capitalized versions of date symbols. However, there are
-other solutions for capitalizing date symbols which provide finer control over
-capitalization, see [capitalization
-guidelines](../translation-guide-general/capitalization.md).
-
-More details on date/time symbols and patterns may be found in the [Date Field
-Symbol
-Table](http://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table).

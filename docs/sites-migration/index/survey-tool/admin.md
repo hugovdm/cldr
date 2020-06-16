@@ -37,43 +37,43 @@ These are buttons that perform various actions.
 
 *   #### rawload
 
-This action allows you to import a copy of the production SurveyTool data to
-your local system for testing. **It erases all users and votes** from your local
-instance, hence it is only permitted for the "Local" Environment (i.e. not
-smoketest nor production).
+> This action allows you to import a copy of the production SurveyTool data to
+> your local system for testing. **It erases all users and votes** from your
+> local instance, hence it is only permitted for the "Local" Environment (i.e.
+> not smoketest nor production).
 
-To use:
+> To use:
 
-1.  Download the file http://www.unicode.org/repos/cldr-tmp2/usersa/usersa.xml
-    and store it on your local disk. This contains anonymous (no name or email
-    address) information.
-2.  Download (you can use Subversion) the pxml (*proposed XML)* directory from
-    <http://www.unicode.org/repos/cldr-tmp2/pxml/> to your local disk.
-3.  From the Admin panel, click "**Actions**" and then click the "**rawload**"
-    button.
-4.  Fill in the form:
-    1.  ABSOLUTE PATH to users.xml with the path to your local users.xml file
-    2.  ABSOLUTE PATH to pxml with the path to your pxml directory
-    3.  Click the Submit button.
-5.  This will take a few minutes. Watch your server console.
-    *   **NOTE: This process purposefully causes the SurveyTool to enter a
-        "broken" state, so that it isn't used in an inconsistent manner. The
-        message "WARNING: SurveyTool busted: Due to IMPORT of local data" is
-        expected and due to successful import.**
-6.  When successful, you will see something like
-    *   *"1 user files read..."*
-    *   *"136 locales loaded from
-        /home/srl/workspace/cldr-tmp2/pxml//common/main and 5 locales loaded
-        from /home/srl/workspace/cldr-tmp2/pxml//seed/main"*
-    *   *"... Now busting (shutting down) your surveytool so that this will be
-        picked up the next time around"*
-    *   ***\[warning\] You must manually restart the SurveyTool to proceed.
-        (i.e. restart Tomcat)***
-7.  Next, you **must** restart the SurveyTool. From Eclipse, right-click the
-    server instance and choose Restart.
-8.  Your main (admin@) vetting password is unchanged, however, all other user
-    accounts have been replaced by the production data.
+> 1.  Download the file http://www.unicode.org/repos/cldr-tmp2/usersa/usersa.xml
+      and store it on your local disk. This contains anonymous (no name or email
+      address) information.
+> 2.  Download (you can use Subversion) the pxml (*proposed XML)* directory from
+      <http://www.unicode.org/repos/cldr-tmp2/pxml/> to your local disk.
+> 3.  From the Admin panel, click "**Actions**" and then click the "**rawload**"
+      button.
+> 4.  Fill in the form:
+>     1.  ABSOLUTE PATH to users.xml with the path to your local users.xml file
+>     2.  ABSOLUTE PATH to pxml with the path to your pxml directory
+>     3.  Click the Submit button.
+> 5.  This will take a few minutes. Watch your server console.
+>     *   **NOTE: This process purposefully causes the SurveyTool to enter a
+          "broken" state, so that it isn't used in an inconsistent manner. The
+          message "WARNING: SurveyTool busted: Due to IMPORT of local data" is
+          expected and due to successful import.**
+> 6.  When successful, you will see something like
+>     *   *"1 user files read..."*
+>     *   *"136 locales loaded from
+          /home/srl/workspace/cldr-tmp2/pxml//common/main and 5 locales loaded
+          from /home/srl/workspace/cldr-tmp2/pxml//seed/main"*
+>     *   *"... Now busting (shutting down) your surveytool so that this will be
+          picked up the next time around"*
+>     *   ***\[warning\] You must manually restart the SurveyTool to proceed.
+          (i.e. restart Tomcat)***
+> 7.  Next, you **must** restart the SurveyTool. From Eclipse, right-click the
+      server instance and choose Restart.
+> 8.  Your main (admin@) vetting password is unchanged, however, all other user
+      accounts have been replaced by the production data.
 
-Note: if you require non-anonymized user data, the server has the file
-"users.xml" which has original names and email addresses. See
-{tomcat}/cldr/vetdata/users/users.xml on the server.
+> Note: if you require non-anonymized user data, the server has the file
+> "users.xml" which has original names and email addresses. See
+> {tomcat}/cldr/vetdata/users/users.xml on the server.

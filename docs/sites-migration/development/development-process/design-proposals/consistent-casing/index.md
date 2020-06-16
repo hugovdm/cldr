@@ -2,6 +2,8 @@
 
 ***Rough Draft***
 
+[TOC]
+
 We know that we need to improve the way we do casing in CLDR. We want the casing
 to be consistent, so that we don't see, for example, some language names with
 titlecase and some with lowercase.

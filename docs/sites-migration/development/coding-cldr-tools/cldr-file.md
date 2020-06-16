@@ -1,5 +1,7 @@
 # CLDR File
 
+[TOC]
+
 ## Introduction
 
 CLDR File is a workhorse for CLDR tools. It has grown and changed over the

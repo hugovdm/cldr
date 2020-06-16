@@ -10,6 +10,8 @@ No. Date Rel. Note Data Charts Spec Delta SVN Tag DTD Diffs 28 2015-09-17
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 28 provides an update to the key building blocks for software
 supporting the world's languages. This data is used by all [major software
 systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) for their software
@@ -218,13 +220,15 @@ listed in the [Migration](cldr-27.md) section below.*
 
 The following shows the additional coverage in this release.
 
-document.getElementById('form1604355333').submit();
+<iframe src="javascript:void(0);" width="800" height="450" allow="fullscreen"
+/>document.getElementById('form61982890').submit();
 
 ## Coverage
 
 The following chart shows the coverage levels for this release.
 
-document.getElementById('form742498149').submit();
+<iframe src="javascript:void(0);" width="800" height="450" allow="fullscreen"
+/>document.getElementById('form1570313520').submit();
 
 ## Charts
 

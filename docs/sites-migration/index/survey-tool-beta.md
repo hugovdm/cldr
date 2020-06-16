@@ -1,5 +1,7 @@
 # Survey Tool Beta
 
+[TOC]
+
 April 15, 2013 — The [Unicode CLDR](http://cldr.unicode.org/) Survey Tool is
 open for beta testing today. CLDR provides key building blocks for software to
 support the world's languages, with the largest and most extensive standard

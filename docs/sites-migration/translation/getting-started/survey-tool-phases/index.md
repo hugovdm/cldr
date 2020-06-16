@@ -2,6 +2,8 @@
 
 Data collection in the Survey tool has 4 stages:
 
+[TOC]
+
 1.  Shakedown
 2.  General submission
 3.  Vetting
@@ -62,12 +64,12 @@ view, first getting all **Missing**† items entered, and then addressing any
 remaining **Errors**\* and reviewing the **English Changed** (fixing your
 language if necessary).
 
-\* Note that if the committee finds systematic errors in data, new tests can be
-added during the submission period, resulting in new **Errors.**
+> \* Note that if the committee finds systematic errors in data, new tests can
+> be added during the submission period, resulting in new **Errors.**
 
-† Among the ***Missing*** are are new items for translation. (On the
-[Dashboard](http://cldr.unicode.org/translation/getting-started/guide#TOC-Dashboard),
-**New** means winning values that have changed since the last release.)
+> † Among the ***Missing*** are are new items for translation. (On the
+> [Dashboard](http://cldr.unicode.org/translation/getting-started/guide#TOC-Dashboard),
+> **New** means winning values that have changed since the last release.)
 
 If you are working in a sub-locales (such as fr_CA), coordinate with others on
 the Forum to work on each section after it is are done in the main locale (fr).
@@ -94,8 +96,8 @@ view, and:
 4.  Review the items that are Flagged for TC and provide comments if you have
     information that should be considered.
 
-To see the Flagged items, go to the **Gear** dropdown, under **Forum** see
-**Flagged items**:
+> To see the Flagged items, go to the **Gear** dropdown, under **Forum** see
+> **Flagged items**:
 
 ![image](gear.PNG)
 

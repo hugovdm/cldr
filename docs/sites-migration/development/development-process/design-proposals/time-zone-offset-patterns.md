@@ -3,6 +3,8 @@
 **This proposal was reviewed in the CLDR TC meetings on 2013-01-09 and
 2013-01-16, and approved by the CLDR TC.**
 
+[TOC]
+
 ## Summary
 
 This design proposal includes following new pattern letters in the LDML date

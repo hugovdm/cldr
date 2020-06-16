@@ -24,27 +24,27 @@ Important features
 
 2. Options.
 
-1. Use HTML, but break into Part1, Part2, .... Still have to muck with tagging;
-non-WYSIWYG editing.
+> 1. Use HTML, but break into Part1, Part2, .... Still have to muck with
+> tagging; non-WYSIWYG editing.
 
-2. Eric strongly recommends docbook (see
-<http://wiki.docbook.org/topic/DocBookAuthoringTools>).
+> 2. Eric strongly recommends docbook (see
+> <http://wiki.docbook.org/topic/DocBookAuthoringTools>).
 
-3. Ask Richard Ishida about how W3C documents work. \[Mark\]
+> 3. Ask Richard Ishida about how W3C documents work. \[Mark\]
 
-4. Use Sites for the subdocuments. We've done this in ICU, and it makes it
-easier to edit, and thus easier to add new material.
+> 4. Use Sites for the subdocuments. We've done this in ICU, and it makes it
+> easier to edit, and thus easier to add new material.
 
-The release would consist of taking a snapshot of the site, copying to different
-number (eg ldmlspec2.1)
+> > The release would consist of taking a snapshot of the site, copying to
+> > different number (eg ldmlspec2.1)
 
-4.1. There is a *rough* prototype:
+> > 4.1. There is a *rough* prototype:
 
         1.  <http://sites.google.com/site/ldmlspec/home?previewAsViewer=1>
         2.  <http://unicode.org/repos/cldr-tmp/trunk/dropbox/mark/LDML.1.pdf>
         3.  <http://sites.google.com/site/ldmlspec/home>
 
-4.2. Discussion
+> > 4.2. Discussion
 
         1.  Mark to look at whether we can make a copy for a snapshot of a
             version. DONE (easy to do)

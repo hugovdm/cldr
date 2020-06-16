@@ -1,5 +1,7 @@
 # Updating Script Metadata
 
+[TOC]
+
 ## New Unicode scripts
 
 We should work on script metadata early for a Unicode version, so that it is

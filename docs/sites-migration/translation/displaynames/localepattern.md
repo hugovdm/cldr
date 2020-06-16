@@ -5,10 +5,11 @@ such as 'en_AU' or 'uz_Arab'. The following patterns are used.
 
 **Type** **Example** **Usage Example** Meaning locale pattern {BASE_LANGUAGE}
 ({MODIFIERS}) English (South Africa) Pattern used to combine the [base
-language](language-names.md) (eg, "English") with variants (eg, "South Africa")
-locale separator , Uzbek (Cyrillic, Uzbekistan) Text used to separate different
-variants ([script](script-names.md), [country/region](country-names.md), etc.)
-locale option pattern {0}: {1} German (Currency: USD)
+language](language-names/index.md) (eg, "English") with variants (eg, "South
+Africa") locale separator , Uzbek (Cyrillic, Uzbekistan) Text used to separate
+different variants ([script](script-names.md),
+[country/region](country-names.md), etc.) locale option pattern {0}: {1} German
+(Currency: USD)
 When the variant is a locale option (see [Locale Option Names](key-names.md)),
 and there is not a single name for the Option+Value, this pattern is used.
 

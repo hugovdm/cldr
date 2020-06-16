@@ -1,5 +1,7 @@
 # CLDR BRS Post Items (Section E) for Rick
 
+**[TOC]**
+
 **Actions for Rick, prior to Alpha**
 
 **A25**

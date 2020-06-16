@@ -1,4 +1,6 @@
-# Names and Patterns
+# Unit Names and Patterns
+
+[TOC]
 
 ## Display Names
 
@@ -43,17 +45,17 @@ that is not available, look for a compound unit and compose a fallback format.
 Hover over the English column and the Winning column to see examples. The
 following patterns are available:
 
-**Examples** **Description** per cm/s, centimeters per second Used to compose
-units consisting of a division of two source units when there is no specialized
-pattern available. See
+**Pattern Examples** **Formatted Examples** **Description** **per** {0} per {1}
+cm/s, centimeters per second Used to compose units consisting of a division of
+two source units when there is no specialized pattern available. See
 [perUnitPatterns](http://www.unicode.org/reports/tr35/tr35-general.html#perUnitPatterns).
-times kW⋅h,
+**times** {0}-{1} kW⋅h,
 kilowatt-hour Used to compose units consisting of a multiplication of two source
 units when there is no specialized pattern available. See [kilowatt
-hour](https://en.wikipedia.org/wiki/Kilowatt_hour). square, cubic square meters
-• Used to compose area or volume measures when there is no specialized pattern
-available. The width should correspond to the base unit's width, as in [{0}
-square
+hour](https://en.wikipedia.org/wiki/Kilowatt_hour). **power**
+(square, cubic) square {0} square meters • Used to compose area or volume
+measures when there is no specialized pattern available. The width should
+correspond to the base unit's width, as in [{0} square
 meter](https://cldr-smoke.unicode.org/smoketest/v#/USER/Area/5888c3421f06626c)
 or [{0}
 m²](https://cldr-smoke.unicode.org/smoketest/v#/USER/Area/6b88ccc5db865200).
@@ -62,8 +64,9 @@ be the same or may be spelled out (as in English). Inflected languages may need
 to use the superscripts instead of spelled-out forms where the units may have
 different genders that would force adjective agreements.
 • Note that the base unit will be lowercased when there is no spacing around the
-{0}. Thus {0} Meter will be lowercased when composed with Quadrat{0}. milli-,
-kilo-,… millimeter • Used to compose **metric** units when there is no
+{0}. Thus {0} Meter will be lowercased when composed with Quadrat{0}. **prefix**
+(milli-,
+kilo-,…) milli{0} millimeter • Used to compose **metric** units when there is no
 specialized pattern available.
 • The width should correspond to the base unit's width, as in [{0}
 decimeter](https://cldr-smoke.unicode.org/smoketest/v#/USER/Length/ce4591152ece6f2)
@@ -71,11 +74,60 @@ or [{0}
 dm](https://cldr-smoke.unicode.org/smoketest/v#/fr/Length/1f1b7ef47cfaee78).
 • Note that the base unit will be lowercased when there is no spacing around the
 {0}. Thus {0} Meter will be lowercased when composed with Milli{0}.
+• There are two different sets of prefixes:
+• The standard prefixes are base 10, such as
+[mega{0}](https://st.unicode.org/cldr-apps/v#/USER/CompoundUnits/2ac0c0f7d5fff965)
+= ×10⁶ = ×1,000,000.
+• The *binary* prefixes are base 1024, such as
+[mebi{0}](https://st.unicode.org/cldr-apps/v#/USER/CompoundUnits/61ea5a846717f829)
+= ×1024² = ×1,048,576. There are only a few of these, and they are only used
+with digital units such as byte or bit. See
+[Mebibyte](https://en.wikipedia.org/wiki/Mebibyte) for more information.
+
+Using these patterns, names for complex units can be formed, such as *gigawatt
+hour per square second*. In common cases, these complex units will have an
+explicit translation that you supply such as
+[kilowatt-hour](https://st.unicode.org/cldr-apps/v#/USER/EnergyPower/49796c300ae2d104).
+But for less common cases, the components will be used to form units, and you
+need to make sure that they are consistent.
+
+### Common Problems with Compound Units
+
+Make sure that the prefix patterns are consistent with the explicit
+translations. Here are some common problems to watch for.
+
+**Descriptions** Examples Prefix is the wrong format, such as having a hyphen
+when the explicit compound doesn't «γιγα-{0}» produces «{0} γιγα-χερτζ», but the
+explicit translation is «{0} γιγαχέρτζ» The spacing for the simple unit pattern
+differs from the spacing for the explicit compound (including non-breaking vs
+breaking space) «hecto{0}» produces «{0} hectopascals», but the explicit
+translation is «{0} hectopascals» The translation of the core unit is different
+than the translation of the explicit compound «M{0}» produces «{0} M==byte==»,
+but the explicit translation is «{0} MB»
+«n{0}» produces «{0} nsec», but the explicit translation is «{0} ns»
+«{0}²» produces «{0} μ.²», but the explicit translation is «{0} m²» The
+translation is incomplete, for example: the "one" form «{0} carré» was
+translated, but not the plural form, which inherits {0}² from root«{0}²»
+produces «{0} mètres²», but the explicit translation is «{0} mètres carrés»
+
+Important: languages are complicated, and sometimes the composition of complex
+units cannot match what is grammatically correct for your language. Sometimes
+there are no fixes that you can make to fix the issue completely. So any
+indications of problems are warnings, not errors. For example, here is an issue
+that the translator can't fix:
+
+**Descriptions** Examples The accent needs to shift when a prefix is added
+«δεκατο{0}» produces «{0} δεκατολίτρα», but the explicit translation is «{0}
+δεκατόλιτρα» The internal algorithm for when to combine spacing needs
+adjustment. M{0}» produces «{0}M o», but the explicit translation is «{0} Mo»
+
+Your goal is to make the composition work as well as you can, even it if is not
+perfect.
+
+### Specialized Pattern
 
 The specialized patterns are needed where there is a special abbreviation, like
 "mph" instead of "m/hr".
-
-### Specialized Pattern
 
 In addition, there are some very common combinations that are translated as a
 whole, such as "{0} kilometro par hora". In that case, the number is substituted

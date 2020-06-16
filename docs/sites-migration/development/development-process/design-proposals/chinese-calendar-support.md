@@ -1,5 +1,7 @@
 # Chinese (and other) calendar support, intercalary months, year cycles
 
+[TOC]
+
 Author Peter Edberg, with info and ideas from many others Date 2011-11-20
 through 2011-11-30, more 2012-01-10 Status Proposal Feedback to pedberg (at)
 apple (dot) com Bugs See list of tickets at the end of this document

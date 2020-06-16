@@ -1,12 +1,14 @@
 # Emoji Names and Keywords
 
+[TOC]
+
 CLDR collects short character names and keywords for Emoji characters and
 sequences.
 
 These are found in Survey Tool under **Characters**, and they are divided into
 different category types. For example, Smileys, People, Animal & Nature, etc...
 
-![image](ST-emojileftnav.JPG){width="200" height="189"}
+> > > ![image](ST-emojileftnav.JPG){width="200" height="189"}
 
 ## No Font support
 
@@ -27,12 +29,12 @@ below.
     up the survey tool in another window and pick another language.
 *   You can also find information about other images by doing the following:
 
-1.  Go to the page <http://unicode.org/emoji/charts/full-emoji-list.html> (you
-    can leave this window open while you work on the emoji section).
-2.  Open the "Find in page" menu (typically control or command-F), and paste in
-    the character you can't see (eg, 😅) or search for the English name (e.g.
-    "star-struck")
-3.  You should see the images for the emoji, as below.
+> 1.  Go to the page <http://unicode.org/emoji/charts/full-emoji-list.html> (you
+      can leave this window open while you work on the emoji section).
+> 2.  Open the "Find in page" menu (typically control or command-F), and paste
+      in the character you can't see (eg, 😅) or search for the English name
+      (e.g. "star-struck")
+> 3.  You should see the images for the emoji, as below.
 
 ![image](Screen-Shot-2017-05-16-at-17.35.17.png)
 

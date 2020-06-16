@@ -7,33 +7,33 @@ from.
 
 ***Example:*** all paths for Croatian
 
--f ^hr$
+> -f ^hr$
 
--p .\*
+> -p .\*
 
 ***Results:***
 
-...
+> ...
 
-**hr**.xml      **afarski**
-**//ldml/localeDisplayNames/languages/language\[@type="aa"\]**
+> **hr**.xml      **afarski**
+> **//ldml/localeDisplayNames/languages/language\[@type="aa"\]**
 
-...
+> ...
 
-*(Search has other options: use -h to see them.)*
+> *(Search has other options: use -h to see them.)*
 
 2. Copy the results (which are tab-delimited) into a file, and use regex, search
 and replaces, or spreadsheets to get the right format for a config file.
 
 ***Example:***
 
-locale=**bs** ; action=addNew ; new_value= **afarski** ;
-new_path=**//ldml/localeDisplayNames/languages/language\[@type="aa"\]**
+> locale=**bs** ; action=addNew ; new_value= **afarski** ;
+> new_path=**//ldml/localeDisplayNames/languages/language\[@type="aa"\]**
 
 For example, what I find simple is to copy into a spreadsheet, and construct the
 config line from them:
 
-"locale=bs ; action=add ; new_value=" & B1 & "; new_path=" & C1
+> "locale=bs ; action=add ; new_value=" & B1 & "; new_path=" & C1
 
 Alternatively, for simple cases like the above, you can just do search & replace
 within the file.

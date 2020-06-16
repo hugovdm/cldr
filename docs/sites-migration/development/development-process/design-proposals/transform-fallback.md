@@ -1,5 +1,7 @@
 # Transform Fallback
 
+[TOC]
+
 We need to more clearly describe the presumed lookup fallback for transforms:
 
 ## Code equivalence

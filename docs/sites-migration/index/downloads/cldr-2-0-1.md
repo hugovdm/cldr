@@ -15,6 +15,8 @@ Unicode CLDR 2.0.1 contains data for 200 languages and 183 territories: 618
 locales in all. This is a minor release, with no new translations. It includes
 about 80 changes that were not ready for CLDR 2.0.
 
+[TOC]
+
 ## ****Features****
 
 The fixes include:

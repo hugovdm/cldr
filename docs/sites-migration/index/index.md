@@ -4,12 +4,16 @@
 
 ## News
 
-2020-04-23 [CLDR v37](downloads/cldr-37/index.md) released 2020-03-11 [CLDR
+2020-06-04CLDR v38 General Submission began — see
+[InfoHub](../translation/_index.md) 2020-04-23 [CLDR
+v37](downloads/cldr-37/index.md) released 2020-03-11 [CLDR
 v36.1](http://cldr.unicode.org/index/downloads/cldr-36?pli=1#TOC-CLDR-36.1)
 released 2020-01-10 New CLDR subcommittee: [Message
 Formatting](http://blog.unicode.org/2020/01/new-unicode-working-group-message.html)
 
 ## What is CLDR?
+
+[TOC]
 
 The Unicode CLDR provides key building blocks for software to support the
 world's languages, with the largest and most extensive standard repository of
@@ -148,4 +152,5 @@ The two important periods for translators are:
 *   ***Vetting***: translators are asked to review all changed or conflicted
     values, and reach consensus.
 
-The details are found in the left-hand navigation bar.
+The details for the current release are found in [Current CLDR
+Cycle](https://docs.google.com/spreadsheets/d/1N6inI5R84UoYlRwuCNPBOAP7ri4q2CmJmh8DC5g-S6c/edit#gid=1680747936).

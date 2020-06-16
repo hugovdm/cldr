@@ -2,6 +2,8 @@
 
 **See also: [SurveyTool Info](../surveytool-info/index.md)**
 
+**[TOC]**
+
 ## Quick Introduction
 
 1.  They consist of [JSP](http://java.sun.com/products/jsp/) files. The API they
@@ -81,10 +83,10 @@ characters, timezones, etc. It's sort of like setting the base URL.
 
 ### **Q. How is** printSectionTableOpenShort used?
 
-SurveyForum.printSectionTableOpenShort(subCtx,
-"//ldml/numbers/symbols/decimal");
+> SurveyForum.printSectionTableOpenShort(subCtx,
+> "//ldml/numbers/symbols/decimal");
 
-*SurveyForum.printSectionTableOpenShort(subCtx, **thisBaseXpath**);*
+> *SurveyForum.printSectionTableOpenShort(subCtx, **thisBaseXpath**);*
 
 thisBaseXpath is the xpath that your current "step" is connected to.
 
@@ -100,6 +102,7 @@ These each show a specific XPath's worth of data.
 ### Q. **What do these do?**
 
 *SurveyForum.printSectionTableCloseShort(subCtx, thisBaseXpath);* SurveyForum.printSectionTableCloseShort(subCtx, "//ldml/numbers/symbols/decimal");
+
 TableClose.. prints the closing HTML.
 
 ### Q. How do I add a new step?

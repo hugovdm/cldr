@@ -1,5 +1,7 @@
 # CLDR Features
 
+[TOC]
+
 ### Locale-specific patterns for formatting and parsing:
 
 *   [dates](http://www.unicode.org/cldr/charts/by_type/calendars.gregorian.html#57dac0d1b36c1261),

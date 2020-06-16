@@ -1,5 +1,7 @@
 # Generic calendar data
 
+[TOC]
+
 Authors Peter Edberg, Mark Davis Date 2012-Dec-10, 2012-Dec-18 update from
 2012-Dec-12 TC discussion
 Status Proposal Feedback to

@@ -1,5 +1,7 @@
 # SurveyTool Database configuration.
 
+[TOC]
+
 ## *Note: this is detailed information most users (hopefully) won't need. Basic setup is covered in the [Step-By-Setup setup](../../setup.md).*
 
 ## JNDI
@@ -54,14 +56,13 @@
     Put the following near the end of the file, before the final "</Context>".
     Change the boldfaced parts as appropriate.
 
-    ```none
-    <Resource name="jdbc/SurveyTool"
+    <pre><code>&lt;Resource name="jdbc/SurveyTool"
                 auth="Container"
                 type="javax.sql.DataSource"
-                username="usernam3"
-                password="passw0rd"
+                username="<b>usernam3</b>"
+                password="<b>passw0rd</b>"
                 driverClassName="com.mysql.jdbc.Driver"
-                url="jdbc:mysql://localhost:3306/cldrdb"
+                url="jdbc:mysql://localhost:3306/<b>cldrdb</b>"
                 maxActive="8"
                 maxIdle="4"
     	removeAbandoned="true"
@@ -70,5 +71,5 @@
     			defaultAutoCommit="false"
     			poolPreparedStatements="true"
     			maxOpenPreparedStatements="150"
-    			/>
-    ```
+    			/&gt;
+    </code></pre>

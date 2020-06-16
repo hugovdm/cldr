@@ -1,5 +1,7 @@
 # Editing Release Pages
 
+[TOC]
+
 ## Release Page
 
 Each release page looks like <http://cldr.unicode.org/index/downloads/cldr-37>.
@@ -61,40 +63,41 @@ B
 
 Example <tr>..</tr>
 
-<tr>
+> <tr>
 
-<td style="text-align:center;white-space:nowrap">37</td>
+> <td style="text-align:center;white-space:nowrap">37</td>
 
-<td
-style="text-align:center;white-space:nowrap;background-color:#ffff00">2020-04-23</td>
+> <td
+> style="text-align:center;white-space:nowrap;background-color:#ffff00">2020-04-23</td>
 
-<td style="text-align:center;white-space:nowrap"><a
-href="http://cldr.unicode.org/index/downloads/cldr-37"
-target="_blank">v37</a></td>
+> <td style="text-align:center;white-space:nowrap"><a
+> href="http://cldr.unicode.org/index/downloads/cldr-37"
+> target="_blank">v37</a></td>
 
-<td style="text-align:center;white-space:nowrap"><a
-href="http://unicode.org/Public/cldr/37/" target="_blank">CLDR37</a></td>
+> <td style="text-align:center;white-space:nowrap"><a
+> href="http://unicode.org/Public/cldr/37/" target="_blank">CLDR37</a></td>
 
-<td style="text-align:center;white-space:nowrap"><a
-href="http://www.unicode.org/cldr/charts/37/" target="_blank">Charts37</a></td>
+> <td style="text-align:center;white-space:nowrap"><a
+> href="http://www.unicode.org/cldr/charts/37/"
+> target="_blank">Charts37</a></td>
 
-<td style="text-align:center;white-space:nowrap"><a
-href="http://unicode.org/reports/tr35/proposed.html"
-target="_blank">LDML37</a></td>
+> <td style="text-align:center;white-space:nowrap"><a
+> href="http://unicode.org/reports/tr35/proposed.html"
+> target="_blank">LDML37</a></td>
 
-<td style="text-align:center;white-space:nowrap"><a
-href="https://unicode-org.atlassian.net/issues/?jql=project%20%3D%20CLDR%20AND%20status%20%3D%20Done%20AND%20resolution%20%3D%20Fixed%20AND%20fixVersion%20%3D%20%2237%22%20ORDER%20BY%20component%20ASC%2C%20priority%20DESC%2C%20created%20ASC"
-target="_blank">Δ37</a></td>
+> <td style="text-align:center;white-space:nowrap"><a
+> href="https://unicode-org.atlassian.net/issues/?jql=project%20%3D%20CLDR%20AND%20status%20%3D%20Done%20AND%20resolution%20%3D%20Fixed%20AND%20fixVersion%20%3D%20%2237%22%20ORDER%20BY%20component%20ASC%2C%20priority%20DESC%2C%20created%20ASC"
+> target="_blank">Δ37</a></td>
 
-<td style="text-align:center;white-space:nowrap"><a
-href="https://github.com/unicode-org/cldr/tree/release-37"
-target="_blank">release-37</a></td>
+> <td style="text-align:center;white-space:nowrap"><a
+> href="https://github.com/unicode-org/cldr/tree/release-37"
+> target="_blank">release-37</a></td>
 
-<td style="text-align:center;white-space:nowrap"><a
-href="http://www.unicode.org/cldr/charts/37/supplemental/dtd_deltas.html"
-target="_blank">ΔDtd37</a></td>
+> <td style="text-align:center;white-space:nowrap"><a
+> href="http://www.unicode.org/cldr/charts/37/supplemental/dtd_deltas.html"
+> target="_blank">ΔDtd37</a></td>
 
-</tr>
+> </tr>
 
 ### News
 

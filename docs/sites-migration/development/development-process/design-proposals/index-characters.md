@@ -5,6 +5,8 @@ Status Accepted
 Bugs
 [2224](http://www.unicode.org/cldr/bugs-private/locale-bugs-private/data?id=2224)
 
+[TOC]
+
 This is a proposal for structure to allow for index characters for UIs, on a
 per-language basis.
 

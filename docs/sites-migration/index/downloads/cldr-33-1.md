@@ -12,6 +12,8 @@ No. Date Rel. Note Data Charts Spec Delta SVN Tag DTD Diffs **DTD Δs** 33.1
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 33.1 is an update to CLDR 33 that focuses on [Unicode
 11.0](http://blog.unicode.org/2018/06/announcing-unicode-standard-version-110.html)
 support. Improvements in this release include:
@@ -49,40 +51,42 @@ There is not a new version of the LDML spec. Instead, the following are
 amendments to [LDML33](https://www.unicode.org/reports/tr35/tr35-51/tr35.html).
 The changed text is indicated below by green highlighting
 
-### 14.1 Synthesizing Sequence Names
+> ### 14.1 Synthesizing Sequence Names
 
-…
+> …
 
-1.  If **sequence** is an **emoji flag sequence**, look up the territory name in
-    CLDR for the corresponding ASCII characters. Set **suffixName** to that, and
-    **prefixName** to the characterLabel for "flag", and go to step 10.
-    *   For example, "🇵🇫" has the regional indicator symbols **PF** and would
-        map to “Flagge: Französisch-Polynesien” in German.
-2.  If **sequence** is an **emoji tag sequence**, look up the subdivision name
-    in CLDR for the corresponding ASCII characters and compose as for **emoji
-    flag sequence**.
-    *   For example, "🏴󠁧󠁢󠁳󠁣󠁴󠁿" has TAG characters **gbsct** and would map to
-        “Flagge: Schottland” in German.
-3.  If **sequence** is a keycap sequence or 🔟, use the characterLabel for
-    "keycap" as the **prefixName** and set the **suffix** to be the ASCII
-    characters in the sequence (or "10" in the case of 🔟), then go to step 8.
-    *   For example, "#⃣" would map to "Taste: #" in German.
-4.  …
-5.  If **sequence** contains any emoji modifiers or hair components, move them
-    (in order) into **suffix**, removing them from **sequence**.
-    *   For example, "👨🏿‍🦰" would map to "Mann: dunkle Hautfarbe, rotes Haar".
-6.  …
-7.  …
-8.  Transform **sequence** and append to **prefixName**, by successively getting
-    names for the longest subsequences, skipping any singleton ZWJ characters.
-    If there is more than one name, use the listPatterns for "unit-short" to
-    link them. This uses the patterns for "2", "start", "middle", and "end".
-9.  …
-10. …
+> 1.  If **sequence** is an **emoji flag sequence**, look up the territory name
+      in CLDR for the corresponding ASCII characters. Set **suffixName** to
+      that, and **prefixName** to the characterLabel for "flag", and go to step
+      10.
+>     *   For example, "🇵🇫" has the regional indicator symbols **PF** and would
+          map to “Flagge: Französisch-Polynesien” in German.
+> 2.  If **sequence** is an **emoji tag sequence**, look up the subdivision name
+      in CLDR for the corresponding ASCII characters and compose as for **emoji
+      flag sequence**.
+>     *   For example, "🏴󠁧󠁢󠁳󠁣󠁴󠁿" has TAG characters **gbsct** and would map to
+          “Flagge: Schottland” in German.
+> 3.  If **sequence** is a keycap sequence or 🔟, use the characterLabel for
+      "keycap" as the **prefixName** and set the **suffix** to be the ASCII
+      characters in the sequence (or "10" in the case of 🔟), then go to step 8.
+>     *   For example, "#⃣" would map to "Taste: #" in German.
+> 4.  …
+> 5.  If **sequence** contains any emoji modifiers or hair components, move them
+      (in order) into **suffix**, removing them from **sequence**.
+>     *   For example, "👨🏿‍🦰" would map to "Mann: dunkle Hautfarbe, rotes Haar".
+> 6.  …
+> 7.  …
+> 8.  Transform **sequence** and append to **prefixName**, by successively
+      getting names for the longest subsequences, skipping any singleton ZWJ
+      characters. If there is more than one name, use the listPatterns for
+      "unit-short" to link them. This uses the patterns for "2", "start",
+      "middle", and "end".
+> 9.  …
+> 10. …
 
-The /annotationsDerived/ folder has the available composed names, pre-built.
+> The /annotationsDerived/ folder has the available composed names, pre-built.
 
-…
+> …
 
 ## Migration
 

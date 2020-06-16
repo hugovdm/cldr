@@ -1,5 +1,7 @@
 # Picking the Right Language Identifier
 
+[TOC]
+
 Within programs and structured data, languages are indicated with stable
 identifiers of the form
 [en](http://unicode.org/cldr/utility/languageid.jsp?a=en),
@@ -109,9 +111,9 @@ as we have to double check before any addition. The links will be of the form:
 
 ### Canonical Form
 
-Unicode language and locale IDs are based on BCP 47, but differ in a few ways.
-The canonical form is produced by using the canonicalization based on BCP47
-(thus changing iw → he, and zh-yue → yue), plus a few other steps:
+> Unicode language and locale IDs are based on BCP 47, but differ in a few ways.
+> The canonical form is produced by using the canonicalization based on BCP47
+> (thus changing iw → he, and zh-yue → yue), plus a few other steps:
 
     1.  Replacing the most prominent encompassed subtag by the macrolanguage
         (cmn → zh)
@@ -123,23 +125,23 @@ The canonical form is produced by using the canonicalization based on BCP47
         When there are multiple variant subtags, the canonical format for
         Unicode language identifiers puts them in alphabetical order.
 
-Note that the CLDR likely subtag data is used to minimize scripts and regions,
-*not* the IANA Suppress-Script. The latter had a much more constrained design
-goal, and is more limited.
+> Note that the CLDR likely subtag data is used to minimize scripts and regions,
+> *not* the IANA Suppress-Script. The latter had a much more constrained design
+> goal, and is more limited.
 
-In some cases, systems (or companies) may have different conventions than the
-Preferred-Values in BCP 47 -- such as those in the Replacement column in the the
-[online language identifier](http://unicode.org/cldr/utility/languageid.jsp)
-demo. For example, for backwards compatibility, "iw" is used with Java instead
-of "he" (Hebrew). When picking the right subtags, be aware of these
-compatibility issues. *If a target system uses a different canonical form for
-locale IDs than CLDR, the CLDR data needs to be processed by remapping its IDs
-to the target system's.*
-For compatibility, it is strongly recommended that all implementations accept
-both the preferred values and their alternates: for example, both "iw" and "he".
-Although BCP 47 itself only allows "-" as a separator; for compatibility,
-Unicode language identifiers allows both "-" and "_". Implementations should
-also accept both.
+> In some cases, systems (or companies) may have different conventions than the
+> Preferred-Values in BCP 47 -- such as those in the Replacement column in the
+> the [online language
+> identifier](http://unicode.org/cldr/utility/languageid.jsp) demo. For example,
+> for backwards compatibility, "iw" is used with Java instead of "he" (Hebrew).
+> When picking the right subtags, be aware of these compatibility issues. *If a
+> target system uses a different canonical form for locale IDs than CLDR, the
+> CLDR data needs to be processed by remapping its IDs to the target system's.*
+> For compatibility, it is strongly recommended that all implementations accept
+> both the preferred values and their alternates: for example, both "iw" and
+> "he". Although BCP 47 itself only allows "-" as a separator; for
+> compatibility, Unicode language identifiers allows both "-" and "_".
+> Implementations should also accept both.
 
 ### Macrolanguages
 

@@ -1,5 +1,7 @@
 # Specifying text break variants in locale IDs
 
+[TOC]
+
 Author Peter Edberg Date 2014-11-11, last update 2016-10-20 Status Proposal
 Feedback to pedberg (at) apple (dot) com Bugs See list below
 

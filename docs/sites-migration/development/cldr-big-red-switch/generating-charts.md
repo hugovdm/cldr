@@ -2,6 +2,8 @@
 
 ## Generate
 
+[TOC]
+
 1.  Make sure the version is right in ToolConstants (eg 30).
     1.  Make sure the *last* number (eg 29.0) is in CLDR_VERSIONS
     2.  When updating that, also add a new folder with that number (eg 30) in
@@ -43,7 +45,7 @@
         5.  total   702800
     2.  Add those new figures to the release page (*except skip "unchanged"*).
 
-### *Start/End of Release*
+> ### *Start/End of Release*
 
 1.  At the end of the release
     1.  Generate with -DCHART_STATUS=trunk

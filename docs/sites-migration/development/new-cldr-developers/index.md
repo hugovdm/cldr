@@ -62,7 +62,7 @@ ldml2icu_locale.txt<http://cldr.unicode.org/development/coding-cldr-tools/newldm
 work<http://cldr.unicode.org/development/perf-testing>survey tool database
 work<http://cldr.unicode.org/development/running-survey-tool/cldr-properties/db>
 
-Other useful pages are under [CLDR Development Site](../_index.md); you can also
+Other useful pages are under [CLDR Development Site](../index.md); you can also
 use the search box.
 
 [UTS #35: Unicode Locale Data Markup Language

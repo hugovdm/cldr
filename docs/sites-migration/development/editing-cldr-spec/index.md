@@ -1,5 +1,7 @@
 # Editing the CLDR Spec
 
+[TOC]
+
 *This is a basic guide to editing the spec. We'll add to this over time.*
 
 ## Location

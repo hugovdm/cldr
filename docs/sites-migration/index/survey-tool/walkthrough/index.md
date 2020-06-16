@@ -1,5 +1,7 @@
 # Walkthrough
 
+[TOC]
+
 This page has been deprecated. Please see:
 
 1.  [Survey Tool Overview](http://unicode.org/cldr/survey_tool.html) - this also

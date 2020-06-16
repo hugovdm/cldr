@@ -3,7 +3,7 @@
 *   [Cleaning up the spec](cleaning-up-the-spec/index.md)
 *   [Spec Diffs](cleaning-up-the-spec/spec-diffs.md)
 *   [Core Specification](core-spec.md)
-*   [CLDR Development Site](development/_index.md)
+*   [CLDR Development Site](development/index.md)
 *   [Adding a new locale to CLDR](development/adding-locales.md)
 *   [Adding a new territory to CLDR](development/adding-new-territory.md)
 *   [Adding
@@ -52,7 +52,8 @@
 *   [Survey Tool
     Internals](development/coding-cldr-tools/survey-tool-internals.md)
 *   [Constructing Bulk Uploads](development/constructing-bulk-uploads.md)
-*   [Handling Tickets (bugs/enhancements)](development/index.md)
+*   [Handling Tickets
+    (bugs/enhancements)](development/development-process_index.md)
 *   [Design
     Proposals](development/development-process/design-proposals/index.md)
 *   [Alternate Time
@@ -360,7 +361,7 @@
 *   [Ldml2JsonConverter](tools/ldml2json.md)
 *   [CLDRModify](tools/modify.md)
 *   [XMLValidator](tools/validate.md)
-*   [Information Hub for Linguists](translation/index.md)
+*   [Information Hub for Linguists](translation/_index.md)
 *   [Core Data](translation/-core-data/index.md)
 *   [Alphabetic Information](translation/-core-data/characters/index.md)
 *   [Exemplar Characters](translation/-core-data/exemplars.md)
@@ -371,22 +372,23 @@
     Keywords](translation/characters-emoji-symbols/short-names-and-keywords/index.md)
 *   [Typographic
     Names](translation/characters-emoji-symbols/typographic-names/index.md)
-*   [Currency Names](translation/currency-names_index.md)
+*   [Currency Names](translation/index.md)
 *   [Currency Symbols](translation/currency-names/currency-names/index.md)
 *   [Date & Time](translation/date-time-1/index.md)
 *   [Date/Time Symbols](translation/date-time-1/date-time.md)
 *   [Date/Time Names](translation/date-time-1/date-time-names/index.md)
 *   [Date/Time Patterns](translation/date-time-1/date-time-patterns/index.md)
+*   [Date & Time terminology](translation/date-time-1/date-time-terminology.md)
 *   [Displaynames](translation/displaynames/index.md)
 *   [Country/Region (Territory)
     Names](translation/displaynames/country-names.md)
 *   [Locale Option Names (Key)](translation/displaynames/key-names.md)
-*   [Language/Locale Names](translation/displaynames/language-names.md)
+*   [Language/Locale Names](translation/displaynames/language-names/index.md)
 *   [Language/Locale Name Patterns](translation/displaynames/localepattern.md)
 *   [Script Names](translation/displaynames/script-names.md)
 *   [@Getting Started](translation/getting-started/index.md)
 *   [Data stability](translation/getting-started/data-stabli.md)
-*   [Empty Cache](translation/getting-started/empty-cache.md)
+*   [Empty Cache](translation/getting-started/empty-cache/index.md)
 *   [Handling Errors and
     Warnings](translation/getting-started/errors-and-warnings/index.md)
 *   [Survey Tool Guide](translation/getting-started/guide/index.md)
@@ -398,6 +400,7 @@
     stages](translation/getting-started/survey-tool-phases/index.md)
 *   [Survey Tool: Vetting
     stage](translation/getting-started/vetting-view/index.md)
+*   [Grammatical Inflection](translation/grammatical-inflection.md)
 *   [Δ - Language Specific Guidance](translation/language-specific/index.md)
 *   [Lakota](translation/language-specific/lakota.md)
 *   [Odia](translation/language-specific/odia.md)
@@ -406,7 +409,7 @@
 *   [Number & Currency formats](translation/numbers-currency/index.md)
 *   [Other Patterns](translation/numbers-currency/misc-patterns.md)
 *   [Number and currency
-    patterns](translation/numbers-currency/number-patterns.md)
+    patterns](translation/numbers-currency/number-patterns/index.md)
 *   [Number Symbols](translation/numbers-currency/number-symbols/index.md)
 *   [Time Zones and City names](translation/timezones.md)
 *   [Transforms](translation/transforms.md)
@@ -416,7 +419,7 @@
 *   [References](translation/translation-guide-general/references.md)
 *   [Units](translation/units-1/index.md)
 *   [Measurement systems](translation/units-1/misc.md)
-*   [Names and Patterns](translation/units-1/units.md)
+*   [Unit Names and Patterns](translation/units-1/units.md)
 *   [Unicode Utilities](unicode-utilities/index.md)
 *   [bidi - Unicode Bidi Algorithm (UBA) Demo](unicode-utilities/bidi.md)
 *   [bnf-regex - Simplified regex generation](unicode-utilities/bnf.md)

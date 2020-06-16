@@ -12,9 +12,10 @@ Unicode CLDR 22.1 contains data for 215 languages and 227 territories—654
 locales in all. Version 22.1 is an update release, with several important fixes
 to CLDR 22.0.
 
-The table above points to the files for this release. For a description of their
-purpose and format, see the [Key](index.md); for more details see [CLDR Releases
-(Downloads)](index.md); for a full list of changes, see the Delta link above.
+> The table above points to the files for this release. For a description of
+> their purpose and format, see the [Key](index.md); for more details see [CLDR
+> Releases (Downloads)](index.md); for a full list of changes, see the Delta
+> link above.
 
 The fixes include:
 

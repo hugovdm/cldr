@@ -16,6 +16,8 @@ focused on improvements to the LDML structure and tools, and consistency of
 data. Approximately 10,000 data items were removed, and 15,000 added (change in
 value counts as a removal plus an addition).
 
+[TOC]
+
 ## ****Features****
 
 The main features include the following (see the Delta link above for a full

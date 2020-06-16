@@ -1,5 +1,7 @@
 # TestAttributeValues
 
+[TOC]
+
 This test checks the elements, attributes, and attribute values for validity,
 using the DtdData.
 

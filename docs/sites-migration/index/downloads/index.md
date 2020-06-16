@@ -1,12 +1,24 @@
 # CLDR Releases/Downloads
 
-*Each release of the Unicode CLDR is a stable release and may be used as
-reference material or cited as a normative reference by other specifications.
-Each version, once published, is absolutely stable and will never change.
-Implementations may also apply [CLDR
-Corrigenda](http://unicode.org/cldr/corrigenda.html) to a release. Bug reports
-and feature requests for subsequent versions may be filed at [Bug
-Reports](http://cldr.unicode.org/index/bug-reports).*
+> *Contents*
+
+> 1.  *[**1** Downloads](#Downloads)*
+>     1.  *[**1.1** Key to Header Links](#TOC-Key-to-Header-Links)*
+> 2.  *[**2** JSON Data](#TOC-JSON-Data)*
+> 3.  *[**3** Repository Access](#latest_draft_version)*
+>     1.  *[**3.1** Simple Browsing](#TOC-Simple-Browsing)*
+>     2.  *[**3.2** Advanced Git Access](#TOC-Advanced-Git-Access)*
+> 4.  *[**4** Repository Organization](#Repository_Organization)*
+> 5.  *[**5** POSIX Data](#POSIX_Data)*
+> 6.  *[**6** CLDR 1.0 Release](#TOC-CLDR-1.0-Release)*
+
+> *Each release of the Unicode CLDR is a stable release and may be used as
+> reference material or cited as a normative reference by other specifications.
+> Each version, once published, is absolutely stable and will never change.
+> Implementations may also apply [CLDR
+> Corrigenda](http://unicode.org/cldr/corrigenda.html) to a release. Bug reports
+> and feature requests for subsequent versions may be filed at [Bug
+> Reports](http://cldr.unicode.org/index/bug-reports).*
 
 ## Downloads
 

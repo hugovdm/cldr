@@ -1,5 +1,7 @@
 # Keyboards
 
+[TOC]
+
 CLDR v22 adds an XML specification for keyboard layouts, and over 370 new files
 of XML keyboard mappings
 ([latest](http://www.unicode.org/repos/cldr/tags/latest/keyboards/) /

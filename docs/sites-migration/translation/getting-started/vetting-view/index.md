@@ -1,5 +1,7 @@
 # Survey Tool: Vetting stage
 
+[TOC]
+
 ## Dashboard
 
 Once you have finished entering data, you will need to review the items for
@@ -135,21 +137,21 @@ through the items, so you won’t have to reload very often.
 In the Priority view, you can see the important issues for your language. At the
 top is a summary for each kind of issue, looking something like the following:
 
-Summary
+> Summary
 
-**For instructions, see [Priority
-Items](http://cldr.unicode.org/translation/vetting-view).**
+> **For instructions, see [Priority
+> Items](http://cldr.unicode.org/translation/vetting-view).**
 
-**Count Abbr. Description 0 ☐ Error\* The Survey Tool detected an error in the
-winning value. 411 ☐ Losing\* The value that your organization chose (overall)
-is either not the winning value, or doesn't have enough votes to be approved. 4
-☐ Disputed\* There is a dispute between other organizations that needs your help
-in resolving to the best value. 0 ☐ Warning\* The Survey Tool detected a warning
-about the winning value. 265 ☐ Unsync’d\* The English value changed at some
-point in CLDR, but the corresponding value for your language didn’t. 130 ☐ New\*
-The winning value was altered from the last-released CLDR value. 36 ☐ Missing\*
-Your current coverage level requires the item to be present, but it is
-missing.**
+> **Count Abbr. Description 0 ☐ Error\* The Survey Tool detected an error in the
+> winning value. 411 ☐ Losing\* The value that your organization chose (overall)
+> is either not the winning value, or doesn't have enough votes to be approved.
+> 4 ☐ Disputed\* There is a dispute between other organizations that needs your
+> help in resolving to the best value. 0 ☐ Warning\* The Survey Tool detected a
+> warning about the winning value. 265 ☐ Unsync’d\* The English value changed at
+> some point in CLDR, but the corresponding value for your language didn’t. 130
+> ☐ New\* The winning value was altered from the last-released CLDR value. 36 ☐
+> Missing\* Your current coverage level requires the item to be present, but it
+> is missing.**
 
 It is followed by a list of issues, categorized by type.
 
@@ -181,6 +183,10 @@ Committee member, or email
 *Go through the summary list, clicking the checkbox (☑) to show the issues of
 type you're working on.* You can click several at once if you find that easier.
 That will then expose the issues of that type below the summary.
+
+After the data submission phase, any differences in the submitted data will be
+resolved according to the [data resolution
+process](http://cldr.unicode.org/index/process#TOC-Data--Resolution).
 
 ### How to Handle
 

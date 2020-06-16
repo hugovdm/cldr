@@ -17,6 +17,8 @@ No. Date Rel. Note Data Charts Spec Delta Tickets SVN Tag **DTD Δs** 35.1
 
 ## Overview
 
+[TOC]
+
 Unicode CLDR 35 provides an update to the key building blocks for software
 supporting the world's languages. CLDR data is used by all [major software
 systems](http://cldr.unicode.org/index#TOC-Who-uses-CLDR-) for their software

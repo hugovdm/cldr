@@ -9,6 +9,8 @@ Bugs](known-bugs.md)**
 
 ---
 
+[TOC]
+
 ## Introduction
 
 CLDR provides key building blocks for software to support the world's languages,

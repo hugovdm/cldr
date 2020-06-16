@@ -1,5 +1,7 @@
 # Proposed Collation Additions
 
+[TOC]
+
 Author Mark Davis, Markus Scherer, Michael Fairley Date 2009-06-23
 Status Proposal Bugs
 *insert linked bug numbers here*

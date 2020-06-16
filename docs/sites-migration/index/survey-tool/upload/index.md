@@ -40,34 +40,34 @@ format](http://unicode.org/reports/tr35/) to use this method.
 
 ### Example XML:
 
-```none
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">  <!-- Not important. Latest DTD will be used. -->
-<ldml>
-  <identity>
-    <version number="$Revision: 6546 $"/> <!-- ignored -->
-    <generation date="$Date: 2012-02-07 10:32:35 -0800 (Tue, 07 Feb 2012) $"/> <!-- ignored -->
-    <!-- CRITICAL: you must supply a valid identity block specifying language,
-          and if part of the identity, the script, region, variant, etc. -->
-    <language type="aa"/>  <!-- Required -->
-  </identity>
-  <localeDisplayNames>
-    <scripts>
-      <!-- The draft attribute and alt=proposed value are ignored. Comments are ignored.  -->
-      <script alt="proposed-ABCDEF" type="Latn" draft="unconfirmed">Latin</script>  <!-- OK. -->
-      <!-- The rest indicate errors people might have. -->
-      <script alt="proposed-ABCDEF" type="Mong" draft="unconfirmed">Latin</script> <!-- ERR: duplicate -->
-      <script alt="proposed-ABCDEF" type="Brai" draft="unconfirmed">Latin</script> <!-- ERR: duplicate -->
-      <script alt="proposed-ABCDEF" type="Hant" draft="unconfirmed">Latin</script> <!-- ERR: duplicate -->
-      <script alt="proposed-ABCDEF" type="Deva" draft="unconfirmed">Latin</script> <!-- ERR: duplicate -->
-      <script alt="proposed-ABCDEF" type="0" draft="unconfirmed">Latin</script>    <!-- ERR: bad 'type' -->
-    </scripts>            
-  </localeDisplayNames>
-  <numbers>
-    <defaultNumberingSystem>brai</defaultNumberingSystem>  <!-- ERR: can't change via survey tool -->
-  </numbers>
-</ldml>
-```
+<pre><code>
+&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd"&gt;  &lt;!-- Not important. Latest DTD will be used. --&gt;
+&lt;ldml&gt;
+  &lt;identity&gt;
+    &lt;version number="$Revision: 6546 $"/&gt; &lt;!-- ignored --&gt;
+    &lt;generation date="$Date: 2012-02-07 10:32:35 -0800 (Tue, 07 Feb 2012) $"/&gt; &lt;!-- ignored --&gt;
+    &lt;!-- <b>CRITICAL</b>: you must supply a valid identity block specifying language,
+          and if part of the identity, the script, region, variant, etc. --&gt;
+    <b>&lt;language type="aa"/&gt;</b>  <b>&lt;!-- Required --&gt;</b>
+  &lt;/identity&gt;
+  &lt;localeDisplayNames&gt;
+    &lt;scripts&gt;
+      &lt;!-- The draft attribute and alt=proposed value are ignored. Comments are ignored.  --&gt;
+      <b>&lt;script alt="proposed-ABCDEF" type="Latn" draft="unconfirmed"&gt;Latin&lt;/script&gt;  &lt;!-- OK. --&gt;</b>
+      &lt;!-- The rest indicate errors people might have. --&gt;
+      &lt;script alt="proposed-ABCDEF" type="Mong" draft="unconfirmed"&gt;Latin&lt;/script&gt; &lt;!-- ERR: duplicate --&gt;
+      &lt;script alt="proposed-ABCDEF" type="Brai" draft="unconfirmed"&gt;Latin&lt;/script&gt; &lt;!-- ERR: duplicate --&gt;
+      &lt;script alt="proposed-ABCDEF" type="Hant" draft="unconfirmed"&gt;Latin&lt;/script&gt; &lt;!-- ERR: duplicate --&gt;
+      &lt;script alt="proposed-ABCDEF" type="Deva" draft="unconfirmed"&gt;Latin&lt;/script&gt; &lt;!-- ERR: duplicate --&gt;
+      &lt;script alt="proposed-ABCDEF" type="0" draft="unconfirmed"&gt;Latin&lt;/script&gt;    &lt;!-- ERR: bad 'type' --&gt;
+    &lt;/scripts&gt;            
+  &lt;/localeDisplayNames&gt;
+  &lt;numbers&gt;
+    &lt;defaultNumberingSystem&gt;brai&lt;/defaultNumberingSystem&gt;  &lt;!-- ERR: can't change via survey tool --&gt;
+  &lt;/numbers&gt;
+&lt;/ldml&gt;
+</code></pre>
 
 Note: the filename of the XML file doesn't matter
 

@@ -1,11 +1,14 @@
 # CLDR Charts
 
+[TOC]
+
 The Unicode CLDR Charts provide different ways to view the Common Locale Data
 Repository data.
 
-**Version** **Link** Description latest <http://unicode.org/cldr/charts/latest>
-The latest release version dev <http://unicode.org/cldr/charts/dev> A snapshot
-of data under development previous [CLDR
+**Version** **Link** Description latest
+<https://unicode-org.github.io/cldr-staging/charts/>
+The latest release version dev <http://unicode.org/cldr/charts/dev (TODO: broken
+link)> A snapshot of data under development previous [CLDR
 Releases/Downloads](../downloads/index.md)
 Previous available charts (back to CLDR v22.1)
 
@@ -69,29 +72,29 @@ Shows the Unicode BCP47 extension data in IANA registry-style files:
 Shows other data that is not part of the locale hierarchy but is still part of
 CLDR. Includes:
 
-### Locale Coverage
+> ### Locale Coverage
 
-### Language Plural Rules
+> ### Language Plural Rules
 
-### Likely Subtags
+> ### Likely Subtags
 
-### Territory-Language Information
+> ### Territory-Language Information
 
-### Language-Territory Information
+> ### Language-Territory Information
 
-### Detailed Territory-Currency Information
+> ### Detailed Territory-Currency Information
 
-### Languages and Scripts
+> ### Languages and Scripts
 
-### Scripts and Languages
+> ### Scripts and Languages
 
-### Scripts, Languages, and Territories
+> ### Scripts, Languages, and Territories
 
-### Territory Containment (UN M.49)
+> ### Territory Containment (UN M.49)
 
-### Zone → Tzid
+> ### Zone → Tzid
 
-### Aliases
+> ### Aliases
 
 For more details on the locale data collection process, please see the [CLDR
 process](http://www.unicode.org/cldr/process.html). For filing or viewing bug

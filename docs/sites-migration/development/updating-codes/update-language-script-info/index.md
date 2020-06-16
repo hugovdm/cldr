@@ -1,5 +1,7 @@
 # Update Language Script Info
 
+[TOC]
+
 ## Main
 
 1.  Rick should have checked in spreadsheets in

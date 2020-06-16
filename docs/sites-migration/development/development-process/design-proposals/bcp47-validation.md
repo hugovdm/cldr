@@ -1,5 +1,7 @@
 # BCP47 Validation and Canonicalization
 
+[TOC]
+
 The proposal is to add two tables of precomputed values to CLDR for each
 release, plus a table of language code mappings.
 
