@@ -1,0 +1,429 @@
+001	Etc/GMT	UTC	NL
+001	Etc/GMT+1	UTCW01	NL
+001	Etc/GMT+10	UTCW10	NL
+001	Etc/GMT+11	UTCW11	NL
+001	Etc/GMT+12	UTCW12	NL
+001	Etc/GMT+2	UTCW02	NL
+001	Etc/GMT+3	UTCW03	NL
+001	Etc/GMT+4	UTCW04	NL
+001	Etc/GMT+5	UTCW05	NL
+001	Etc/GMT+6	UTCW06	NL
+001	Etc/GMT+7	UTCW07	NL
+001	Etc/GMT+8	UTCW08	NL
+001	Etc/GMT+9	UTCW09	NL
+001	Etc/GMT-1	UTCE01	NL
+001	Etc/GMT-10	UTCE10	NL
+001	Etc/GMT-11	UTCE11	NL
+001	Etc/GMT-12	UTCE12	NL		
+001	Etc/GMT-13	UTCE13	NL		
+001	Etc/GMT-14	UTCE14	NL		
+001	Etc/GMT-2	UTCE02	NL		
+001	Etc/GMT-3	UTCE03	NL		
+001	Etc/GMT-4	UTCE04	NL		
+001	Etc/GMT-5	UTCE05	NL		
+001	Etc/GMT-6	UTCE06	NL		
+001	Etc/GMT-7	UTCE07	NL		
+001	Etc/GMT-8	UTCE08	NL		
+001	Etc/GMT-9	UTCE09	NL		
+001	Etc/Unknown	UNK	NL		
+AD	Europe/Andorra	ADALV			Andorra la Vella
+AE	Asia/Dubai	AEDXB			
+AF	Asia/Kabul	AFKBL			
+AG	America/Antigua	AGANU			
+AI	America/Anguilla	AIAXA			
+AL	Europe/Tirane	ALTIA			Tirana
+AM	Asia/Yerevan	AMEVN			
+AN	America/Curacao	ANCUR			
+AO	Africa/Luanda	AOLAD			
+AQ	Antarctica/Casey	AQCAS			
+AQ	Antarctica/Davis	AQDAV			
+AQ	Antarctica/DumontDUrville	AQDDU			Dumont d'Urveille
+AQ	Antarctica/Mawson	AQMAW			
+AQ	Antarctica/McMurdo	AQMCM			
+AQ	Antarctica/Palmer	AQPLM			
+AQ	Antarctica/Rothera	AQROT			
+AQ	Antarctica/South_Pole	AQAMS			Amundsen-Scott
+AQ	Antarctica/Syowa	AQSYW			
+AQ	Antarctica/Vostok	AQVOS			
+AR	America/Argentina/La_Rioja	ARIRJ			
+AR	America/Argentina/Rio_Gallegos	ARRGL			
+AR	America/Argentina/Salta	ARSLA			
+AR	America/Argentina/San_Juan	ARUAQ			
+AR	America/Argentina/San_Luis	ARLUQ			
+AR	America/Argentina/Tucuman	ARTUC			
+AR	America/Argentina/Ushuaia	ARUSH			
+AR	America/Buenos_Aires	ARBUE			
+AR	America/Catamarca	ARCTC			
+AR	America/Cordoba	ARCOR			
+AR	America/Jujuy	ARJUJ			
+AR	America/Mendoza	ARMDZ			
+AS	Pacific/Pago_Pago	ASPPG			
+AT	Europe/Vienna	ATVIE			Wien
+AU	Australia/Adelaide	AUADL			
+AU	Australia/Brisbane	AUBNE			
+AU	Australia/Broken_Hill	AUBHQ			
+AU	Australia/Currie	AUKNS			King Is
+AU	Australia/Darwin	AUDRW			
+AU	Australia/Eucla	AUEUC			
+AU	Australia/Hobart	AUHBA			
+AU	Australia/Lindeman	AULDC			Lindeman Island
+AU	Australia/Lord_Howe	AULDH			Lord Howe Is
+AU	Australia/Melbourne	AUMEL			
+AU	Australia/Perth	AUPER			
+AU	Australia/Sydney	AUSYD			
+AW	America/Aruba	AWAUA			
+AX	Europe/Mariehamn	FIMHQ		FI	Mariehamn (Maarianhamina)
+AZ	Asia/Baku	AZBAK			
+BA	Europe/Sarajevo	BASJJ			
+BB	America/Barbados	BBBGI			Bridgetown
+BD	Asia/Dhaka	BDDAC			
+BE	Europe/Brussels	BEBRU			Bruxelles (Brussel)
+BF	Africa/Ouagadougou	BFOUA			
+BG	Europe/Sofia	BGSOF			
+BH	Asia/Bahrain	BHBAH			
+BI	Africa/Bujumbura	BIBJM			
+BJ	Africa/Porto-Novo	BJPTN			
+BL	America/St_Barthelemy	GPSBH		GP	
+BM	Atlantic/Bermuda	BMBDA			Hamilton
+BN	Asia/Brunei	BNBWN			Bandar Seri Begawan
+BO	America/La_Paz	BOLPB			
+BR	America/Araguaina	BRAUX			
+BR	America/Bahia	BRSSA			Salvador
+BR	America/Belem	BRBEL			
+BR	America/Boa_Vista	BRBVB			
+BR	America/Campo_Grande	BRCGR			
+BR	America/Cuiaba	BRCGB			
+BR	America/Eirunepe	BRERN			
+BR	America/Fortaleza	BRFOR			
+BR	America/Maceio	BRMCZ			
+BR	America/Manaus	BRMAO			
+BR	America/Noronha	BRFEN			Fernando de Noronha
+BR	America/Porto_Velho	BRPVH			
+BR	America/Recife	BRREC			
+BR	America/Rio_Branco	BRRBR			
+BR	America/Santarem	BRSTM			
+BR	America/Sao_Paulo	BRSAO			
+BS	America/Nassau	BSNAS			
+BT	Asia/Thimphu	BTTHI			Thimbu
+BW	Africa/Gaborone	BWGBE			
+BY	Europe/Minsk	BYMSQ			
+BZ	America/Belize	BZBZE			Belize City
+CA	America/Blanc-Sablon	CAYBX			
+CA	America/Cambridge_Bay	CAYCB			
+CA	America/Coral_Harbour	CAYZS			
+CA	America/Dawson	CAYDA			Dawson City
+CA	America/Dawson_Creek	CAYDQ			
+CA	America/Edmonton	CAEDM			
+CA	America/Glace_Bay	CAGLB			
+CA	America/Goose_Bay	CAGOO			
+CA	America/Halifax	CAHAL			
+CA	America/Inuvik	CAYEV			
+CA	America/Iqaluit	CAIQL			
+CA	America/Moncton	CAMON			Monkton
+CA	America/Montreal	CAMTR			
+CA	America/Nipigon	CATHU			Thunder Bay
+CA	America/Pangnirtung	CAPNT			
+CA	America/Rainy_River	CAFFS			Fort Frances
+CA	America/Rankin_Inlet	CAYEK			Arviat
+CA	America/Regina	CAREG			
+CA	America/Resolute	CAREB			Resolute Bay
+CA	America/St_Johns	CASJF			St John's
+CA	America/Swift_Current	CAYYN			
+CA	America/Thunder_Bay	CATHU			
+CA	America/Toronto	CATOR			
+CA	America/Vancouver	CAVAN			
+CA	America/Whitehorse	CAYXY			
+CA	America/Winnipeg	CAWNP			
+CA	America/Yellowknife	CAYZF			
+CC	Indian/Cocos	CCCCK			Cocos Islands
+CD	Africa/Kinshasa	CDFIH			
+CD	Africa/Lubumbashi	CDFBM			
+CF	Africa/Bangui	CFBGF			
+CG	Africa/Brazzaville	CGBZV			
+CH	Europe/Zurich	CHZRH			
+CI	Africa/Abidjan	CIABJ			
+CK	Pacific/Rarotonga	CKRAR			
+CL	America/Santiago	CLSCL			
+CL	Pacific/Easter	CLIPC			Isla de Pascua
+CM	Africa/Douala	CMDLA			
+CN	Asia/Chongqing	CNCKG			
+CN	Asia/Harbin	CNHRB			
+CN	Asia/Kashgar	CNKHG			Kashi
+CN	Asia/Shanghai	CNSHA			
+CN	Asia/Urumqi	CNURC			
+CO	America/Bogota	COBOG			
+CR	America/Costa_Rica	CRSJO			San Jose
+CU	America/Havana	CUHAV			La Habana
+CV	Atlantic/Cape_Verde	CVRAI			Praia
+CX	Indian/Christmas	CXXCH			Christmas Island
+CY	Asia/Nicosia	CYNIC			
+CZ	Europe/Prague	CZPRG			Praha
+DE	Europe/Berlin	DEBER			
+DJ	Africa/Djibouti	DJJIB			
+DK	Europe/Copenhagen	DKCPH			Kobenhavn
+DM	America/Dominica	DMDOM			
+DO	America/Santo_Domingo	DOSDQ			
+DZ	Africa/Algiers	DZALG			Alger (Algiers)
+EC	America/Guayaquil	ECGYE			
+EC	Pacific/Galapagos	ECGPS			Galapagos Islands
+EE	Europe/Tallinn	EETLL			
+EG	Africa/Cairo	EGCAI			El Qahira (= Cairo)
+EH	Africa/El_Aaiun	EHEAI			Ejbei Uad el Aabd
+ER	Africa/Asmera	ERASM			Asmara
+ES	Africa/Ceuta	ESCEU			
+ES	Atlantic/Canary	ESLPA			Las Palmas
+ES	Europe/Madrid	ESMAD			
+ET	Africa/Addis_Ababa	ETADD			
+FI	Europe/Helsinki	FIHEL			Helsinki (Helsingfors)
+FJ	Pacific/Fiji	FJSUV			Suva
+FK	Atlantic/Stanley	FKPSY			Port Stanley
+FM	Pacific/Kosrae	FMKSA			Kosrae (ex Kusaie)
+FM	Pacific/Ponape	FMPNI			Pohnpei (ex Ponape)
+FM	Pacific/Truk	FMTKK			Chuuk (ex Truk)
+FO	Atlantic/Faeroe	FOTHO			Thorshavn
+FR	Europe/Paris	FRPAR			
+GA	Africa/Libreville	GALBV			
+GB	Europe/London	GBLON			
+GD	America/Grenada	GDGND			
+GE	Asia/Tbilisi	GETBS			
+GF	America/Cayenne	GFCAY			
+GG	Europe/Guernsey	GGGCI			
+GH	Africa/Accra	GHACC			
+GI	Europe/Gibraltar	GIGIB			
+GL	America/Danmarkshavn	GLDKSHVN	NL		
+GL	America/Godthab	GLGOH			Nuuk (Godthaab)
+GL	America/Scoresbysund	GLOBY			Illorqortoormiut (Scoresbysund)
+GL	America/Thule	GLTHU			Pituffik
+GM	Africa/Banjul	GMBJL			
+GN	Africa/Conakry	GNCKY			
+GP	America/Guadeloupe	GPBBR			Basse-Terre
+GQ	Africa/Malabo	GQSSG			
+GR	Europe/Athens	GRATH			Athinai
+GS	Atlantic/South_Georgia	GSGRV			Grytviken
+GT	America/Guatemala	GTGUA			Guatemala City
+GU	Pacific/Guam	GUGUM			
+GW	Africa/Bissau	GWOXB			
+GY	America/Guyana	GYGEO			Georgetown
+HK	Asia/Hong_Kong	HKHKG			
+HN	America/Tegucigalpa	HNTGU			
+HR	Europe/Zagreb	HRZAG			
+HT	America/Port-au-Prince	HTPAP			
+HU	Europe/Budapest	HUBUD			
+ID	Asia/Jakarta	IDJKT			"Jakarta, Java"
+ID	Asia/Jayapura	IDDJJ			"Jayapura, Irian Jaya"
+ID	Asia/Makassar	IDMAK			
+ID	Asia/Pontianak	IDPNK			"Pontianak, Kalimantan"
+IE	Europe/Dublin	IEDUB			
+IL	Asia/Jerusalem	JERUSLM	NL		
+IM	Europe/Isle_of_Man	IMDGS			Douglas
+IN	Asia/Calcutta	INCCU			Kolkata (ex Calcutta)
+IO	Indian/Chagos	IODGA			Diego Garcia
+IQ	Asia/Baghdad	IQBGW			
+IR	Asia/Tehran	IRTHR			
+IS	Atlantic/Reykjavik	ISREY			
+IT	Europe/Rome	ITROM			Roma
+JE	Europe/Jersey	JESTH			St Helier
+JM	America/Jamaica	JMKIN			Kingston
+JO	Asia/Amman	JOAMM			
+JP	Asia/Tokyo	JPTYO			
+KE	Africa/Nairobi	KENBO			
+KG	Asia/Bishkek	KGFRU			Bishkek (ex Frunze)
+KH	Asia/Phnom_Penh	KHPNH			
+KI	Pacific/Enderbury	KIPHO			Phoenix Islands
+KI	Pacific/Kiritimati	KICXI			Christmas Island
+KI	Pacific/Tarawa	KITRW			
+KM	Indian/Comoro	KMYVA			Moroni
+KN	America/St_Kitts	KNBAS			"Basseterre, St Kitts"
+KP	Asia/Pyongyang	KPFNJ			
+KR	Asia/Seoul	KRSEL			
+KW	Asia/Kuwait	KWKWI			
+KY	America/Cayman	KYGEC			"Georgetown, Grand Cayman"
+KZ	Asia/Almaty	KZALA			
+KZ	Asia/Aqtau	KZAAU			Aktau
+KZ	Asia/Aqtobe	KZAKX			Aqtobe (Aktyubinsk)
+KZ	Asia/Oral	KZURA			Uralsk
+KZ	Asia/Qyzylorda	KZKZO			Kzyl-Orda
+LA	Asia/Vientiane	LAVTE			
+LB	Asia/Beirut	LBBEY			
+LC	America/St_Lucia	LCCAS			Castries
+LI	Europe/Vaduz	LIVDZ			
+LK	Asia/Colombo	LKCMB			
+LR	Africa/Monrovia	LRMLW			
+LS	Africa/Maseru	LSMSU			
+LT	Europe/Vilnius	LTVNO			
+LU	Europe/Luxembourg	LULUX			
+LV	Europe/Riga	LVRIX			
+LY	Africa/Tripoli	LYTIP			
+MA	Africa/Casablanca	MACAS			
+MC	Europe/Monaco	MCMON			
+MD	Europe/Chisinau	MDKIV			Chisinau (ex Kishinev)
+ME	Europe/Podgorica	METGD			
+MF	America/Marigot	GPMSB		GP	
+MG	Indian/Antananarivo	MGTNR			
+MH	Pacific/Kwajalein	MHKWA			
+MH	Pacific/Majuro	MHMAJ			
+MK	Europe/Skopje	MKSKP			
+ML	Africa/Bamako	MLBKO			
+MM	Asia/Rangoon	MMRGN			Yangon
+MN	Asia/Choibalsan	MNCOQ			
+MN	Asia/Hovd	MNHVD			Khovd
+MN	Asia/Ulaanbaatar	MNULN			
+MO	Asia/Macau	MOMFM			
+MP	Pacific/Saipan	MPSPN			
+MQ	America/Martinique	MQFDF			Fort-de-France
+MR	Africa/Nouakchott	MRNKC			
+MS	America/Montserrat	MSMNI			
+MT	Europe/Malta	MTMLA			Malta (Valletta)
+MU	Indian/Mauritius	MUPLU			Port Louis
+MV	Indian/Maldives	MVMLE			Male
+MW	Africa/Blantyre	MWBLZ			
+MX	America/Cancun	MXCUN			
+MX	America/Chihuahua	MXCHI			Chilpancingo
+MX	America/Hermosillo	MXHMO			
+MX	America/Mazatlan	MXMZT			
+MX	America/Merida	MXMID			
+MX	America/Mexico_City	MXMEX			
+MX	America/Monterrey	MXMTY			
+MX	America/Tijuana	MXTIJ			
+MY	Asia/Kuala_Lumpur	MYKUL			
+MY	Asia/Kuching	MYKCH			"Kuching, Sarawak"
+MZ	Africa/Maputo	MZMPM			
+NA	Africa/Windhoek	NAWDH			
+NC	Pacific/Noumea	NCNOU			
+NE	Africa/Niamey	NENIM			
+NF	Pacific/Norfolk	NFNLK			Norfolk Island
+NG	Africa/Lagos	NGLOS			
+NI	America/Managua	NIMGA			
+NL	Europe/Amsterdam	NLAMS			
+NO	Europe/Oslo	NOOSL			
+NP	Asia/Katmandu	NPKTM			Kathmandu
+NR	Pacific/Nauru	NRINU			Nauru Island
+NU	Pacific/Niue	NUIUE			Niue Island
+NZ	Pacific/Auckland	NZAKL			
+NZ	Pacific/Chatham	NZCHT			Chatham Island
+OM	Asia/Muscat	OMMCT			
+PA	America/Panama	PAPTY			"Panama, Ciudad de"
+PE	America/Lima	PELIM			
+PF	Pacific/Gambier	PFGMR			Iles Gambier
+PF	Pacific/Marquesas	PFNHV			Nuku Hiva
+PF	Pacific/Tahiti	PFPPT			Papeete
+PG	Pacific/Port_Moresby	PGPOM			
+PH	Asia/Manila	PHMNL			
+PK	Asia/Karachi	PKKHI			
+PL	Europe/Warsaw	PLWAW			Warszawa
+PM	America/Miquelon	PMMQC			
+PN	Pacific/Pitcairn	PNPCN			Pitcairn Is
+PR	America/Puerto_Rico	PRSJU			San Juan
+PS	Asia/Gaza	GAZA	NL		
+PT	Atlantic/Azores	PTPDL			Ponta Delgada
+PT	Atlantic/Madeira	PTFNC			"Funchal, Madeira"
+PT	Europe/Lisbon	PTLIS			Lisboa
+PW	Pacific/Palau	PWROR			Koror
+PY	America/Asuncion	PYASU			
+QA	Asia/Qatar	QADOH			Doha
+RE	Indian/Reunion	REREU			
+RO	Europe/Bucharest	ROBUH			Bucuresti
+RS	Europe/Belgrade	RSBEG			Belgrade (Beograd)
+RU	Asia/Anadyr	RUDYR			
+RU	Asia/Irkutsk	RUIKT			
+RU	Asia/Kamchatka	RUPKC			Petropavlovsk-Kamchatskiy
+RU	Asia/Krasnoyarsk	RUKRA			
+RU	Asia/Magadan	RUGDX			
+RU	Asia/Novosibirsk	RUOVB			
+RU	Asia/Omsk	RUOMS			
+RU	Asia/Sakhalin	RUUUS			Yuzhno-Sakhalinsk
+RU	Asia/Vladivostok	RUVVO			
+RU	Asia/Yakutsk	RUYKS			
+RU	Asia/Yekaterinburg	RUYEK			Yekaterinburg (Ekaterinburg)
+RU	Europe/Kaliningrad	RUKGD			
+RU	Europe/Moscow	RUMOW			Moskva
+RU	Europe/Samara	RUKUF			
+RU	Europe/Volgograd	RUVOG			
+RW	Africa/Kigali	RWKGL			
+SA	Asia/Riyadh	SARUH			
+SB	Pacific/Guadalcanal	SBHIR			"Honiara, Guadalcanal Is"
+SC	Indian/Mahe	SCMAW			
+SD	Africa/Khartoum	SDKRT			
+SE	Europe/Stockholm	SESTO			
+SG	Asia/Singapore	SGSIN			
+SH	Atlantic/St_Helena	SHSHN			Jamestown
+SI	Europe/Ljubljana	SILJU			
+SJ	Arctic/Longyearbyen	SJLYR			
+SK	Europe/Bratislava	SKBTS			
+SL	Africa/Freetown	SLFNA			
+SM	Europe/San_Marino	SMSAI			
+SN	Africa/Dakar	SNDKR			
+SO	Africa/Mogadishu	SOMGQ			
+SR	America/Paramaribo	SRPBM			
+ST	Africa/Sao_Tome	STTMS			Sao Tome Island
+SV	America/El_Salvador	SVSAL			San Salvador
+SY	Asia/Damascus	SYDAM			Damascus (Damas)
+SZ	Africa/Mbabane	SZQMN			
+TC	America/Grand_Turk	TCGDT			Grand Turk Island
+TD	Africa/Ndjamena	TDNDJ			N'Djamena
+TF	Indian/Kerguelen	TFPFR			Port-aux-Francais
+TG	Africa/Lome	TGLFW			
+TH	Asia/Bangkok	THBKK			
+TJ	Asia/Dushanbe	TJDYU			
+TK	Pacific/Fakaofo	TKFKO			
+TL	Asia/Dili	TLDIL			
+TM	Asia/Ashgabat	TMASB			Ashkhabad
+TN	Africa/Tunis	TNTUN			
+TO	Pacific/Tongatapu	TOTBU			Nuku'alofa
+TR	Europe/Istanbul	TRIST			
+TT	America/Port_of_Spain	TTPOS			Port-of-Spain
+TV	Pacific/Funafuti	TVFUN			
+TW	Asia/Taipei	TWTPE			
+TZ	Africa/Dar_es_Salaam	TZDAR			
+UA	Europe/Kiev	UAIEV			
+UA	Europe/Simferopol	UASIP			
+UA	Europe/Uzhgorod	UAUZH			
+UA	Europe/Zaporozhye	UAOZH			
+UG	Africa/Kampala	UGKLA			
+UM	Pacific/Johnston	UMJON			Johnston Atoll
+UM	Pacific/Midway	UMMDY			Midway Islands
+UM	Pacific/Wake	UMAWK			Wake Island
+US	America/Adak	USADK			Adak Island/Adak Apt
+US	America/Anchorage	USANC			
+US	America/Boise	USBOI			
+US	America/Chicago	USCHI			
+US	America/Denver	USDEN			
+US	America/Detroit	USDET			
+US	America/Indiana/Knox	USKNX			
+US	America/Indiana/Marengo	USAEG			
+US	America/Indiana/Petersburg	USWSQ			Washington
+US	America/Indiana/Tell_City	USTEL			
+US	America/Indiana/Vevay	USINVEV	NL		
+US	America/Indiana/Vincennes	USOEA			
+US	America/Indiana/Winamac	USWLZ			
+US	America/Indianapolis	USIND			
+US	America/Juneau	USJNU			
+US	America/Kentucky/Monticello	USMOC			
+US	America/Los_Angeles	USLAX			
+US	America/Louisville	USLUI			
+US	America/Menominee	USMNM			
+US	America/New_York	USNYC			
+US	America/Nome	USOME			
+US	America/North_Dakota/Center	USNDCNT	NL		
+US	America/North_Dakota/New_Salem	USNDNSL	NL		
+US	America/Phoenix	USPHX			
+US	America/Shiprock	USNAVAJO	NL		
+US	America/Yakutat	USYAK			
+US	Pacific/Honolulu	USHNL			
+UY	America/Montevideo	UYMVD			
+UZ	Asia/Samarkand	UZSKD			
+UZ	Asia/Tashkent	UZTAS			
+VA	Europe/Vatican	VAVAT			Vatican City
+VC	America/St_Vincent	VCSVD			
+VE	America/Caracas	VECCS			
+VG	America/Tortola	VGTOV			
+VI	America/St_Thomas	VISTT			Saint Thomas
+VN	Asia/Saigon	VNSGN			Ho Chi Minh City
+VU	Pacific/Efate	VUVLI			Port Vila
+WF	Pacific/Wallis	WFMAU			Mata'utu
+WS	Pacific/Apia	WSAPW			
+YE	Asia/Aden	YEADE			
+YT	Indian/Mayotte	YTMAM			Mamoudzou
+ZA	Africa/Johannesburg	ZAJNB			
+ZM	Africa/Lusaka	ZMLUN			
+ZW	Africa/Harare	ZWHRE			
