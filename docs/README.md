@@ -1,3 +1,14 @@
+**This master branch will be force-pushed regularly.**
+
+This is a hacked-up master branch for the sake of migrating from
+http://cldr.unicode.org/ to MarkDown files on GitHub, in a manner potentially
+servable from GitHub Pages. (Currently GH Pages breakage is caused by Jekyll
+trying to interpret what isn't its to interpret.)
+
+- See sites-migration/index/index.md for the "front page"
+- See https://github.com/hugovdm/cldr/commits/master for the commits to this
+  branch.
+
 # CLDR Docs
 
 CLDR main page: [https://unicode.org/cldr](unicode.org/cldr)
